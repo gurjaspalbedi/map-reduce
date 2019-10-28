@@ -1,0 +1,10 @@
+get slkfj slfkjs lfkjsd lkfjslfk jslkfj sfsd
+get sdfsdf
+set name 1024
+My name is Jassi
+get name
+get t
+set t
+get hello
+set hello 455
+sdffsdfsfsf

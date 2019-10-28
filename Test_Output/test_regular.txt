@@ -1,0 +1,24 @@
+Operations you can do
+ 1. set <key> <size>
+ <pyaload>
+ 2. get <KEY>
+
+GET COMMAND SHOULD BE OF FORMAT
+get <key>
+KEY NOT FOUND
+
+STORED
+VALUE name 1024
+My name is Jassi
+
+END
+KEY NOT FOUND
+SET COMMAND SHOULD BE OF FORMAT
+set <key> <size>
+<payload>
+VALUE hello 455
+sdffsdfsfsf
+
+END
+
+STORED

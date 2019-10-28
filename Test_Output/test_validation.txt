@@ -1,0 +1,13 @@
+Operations you can do
+ 1. set <key> <size>
+ <pyaload>
+ 2. get <KEY>
+
+COMMAND FORMAT NOT CORRECT
+COMMAND FORMAT NOT CORRECT
+GET COMMAND SHOULD BE OF FORMAT
+get <key>
+SET COMMAND SHOULD BE OF FORMAT
+set <key> <size>
+<payload>
+KEY NOT FOUND
