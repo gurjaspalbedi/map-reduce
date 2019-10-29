@@ -14,10 +14,10 @@ class GetSetStub(object):
     Args:
       channel: A grpc.Channel.
     """
-    self.Operation = channel.unary_unary(
-        '/GetSet/Operation',
-        request_serializer=calculator__pb2.Command.SerializeToString,
-        response_deserializer=calculator__pb2.Command.FromString,
+    self.operation = channel.unary_unary(
+        '/GetSet/operation',
+        request_serializer=calculator__pb2.Input.SerializeToString,
+        response_deserializer=calculator__pb2.Input.FromString,
         )
 
 
@@ -25,7 +25,7 @@ class GetSetServicer(object):
   # missing associated documentation comment in .proto file
   pass
 
-  def Operation(self, request, context):
+  def operation(self, request, context):
     # missing associated documentation comment in .proto file
     pass
     context.set_code(grpc.StatusCode.UNIMPLEMENTED)
@@ -35,10 +35,10 @@ class GetSetServicer(object):
 
 def add_GetSetServicer_to_server(servicer, server):
   rpc_method_handlers = {
-      'Operation': grpc.unary_unary_rpc_method_handler(
-          servicer.Operation,
-          request_deserializer=calculator__pb2.Command.FromString,
-          response_serializer=calculator__pb2.Command.SerializeToString,
+      'operation': grpc.unary_unary_rpc_method_handler(
+          servicer.operation,
+          request_deserializer=calculator__pb2.Input.FromString,
+          response_serializer=calculator__pb2.Input.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(

@@ -13,7 +13,6 @@ import calculator_pb2_grpc
 
 # import the original calculator.py
 import calculator
-
 # create a class to define the server functions, derived from
 # calculator_pb2_grpc.CalculatorServicer
 class KeyValueService(calculator_pb2_grpc.GetSetServicer):
@@ -21,9 +20,9 @@ class KeyValueService(calculator_pb2_grpc.GetSetServicer):
     # calculator.square_root is exposed here
     # the request and response are of the data type
     # calculator_pb2.Number
-    def Operation(self, request, context):
-        print('Client request: {request.value}')
-        response = calculator_pb2.Operation()
+    def operation(self, request, context):
+        print(f'Client request: {request.value}')
+        response = calculator_pb2.Input()
         response.value = calculator.operation(request.value)
         return response
 

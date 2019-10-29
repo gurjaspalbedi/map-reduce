@@ -1,9 +1,9 @@
 syntax = "proto3";
 
-message Command {
-    string value = 2;
+message Input {
+    string value = 1;
 }
 
 service GetSet {
-    rpc Operation(Command) returns (Command) {}
+    rpc operation(Input) returns (Input) {}
 }

@@ -20,22 +20,22 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x10\x63\x61lculator.proto\"\x18\n\x07\x43ommand\x12\r\n\x05value\x18\x02 \x01(\t2+\n\x06GetSet\x12!\n\tOperation\x12\x08.Command\x1a\x08.Command\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x10\x63\x61lculator.proto\"\x16\n\x05Input\x12\r\n\x05value\x18\x01 \x01(\t2\'\n\x06GetSet\x12\x1d\n\toperation\x12\x06.Input\x1a\x06.Input\"\x00\x62\x06proto3')
 )
 
 
 
 
-_COMMAND = _descriptor.Descriptor(
-  name='Command',
-  full_name='Command',
+_INPUT = _descriptor.Descriptor(
+  name='Input',
+  full_name='Input',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='value', full_name='Command.value', index=0,
-      number=2, type=9, cpp_type=9, label=1,
+      name='value', full_name='Input.value', index=0,
+      number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -53,18 +53,18 @@ _COMMAND = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=20,
-  serialized_end=44,
+  serialized_end=42,
 )
 
-DESCRIPTOR.message_types_by_name['Command'] = _COMMAND
+DESCRIPTOR.message_types_by_name['Input'] = _INPUT
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-Command = _reflection.GeneratedProtocolMessageType('Command', (_message.Message,), {
-  'DESCRIPTOR' : _COMMAND,
+Input = _reflection.GeneratedProtocolMessageType('Input', (_message.Message,), {
+  'DESCRIPTOR' : _INPUT,
   '__module__' : 'calculator_pb2'
-  # @@protoc_insertion_point(class_scope:Command)
+  # @@protoc_insertion_point(class_scope:Input)
   })
-_sym_db.RegisterMessage(Command)
+_sym_db.RegisterMessage(Input)
 
 
 
@@ -74,16 +74,16 @@ _GETSET = _descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=46,
-  serialized_end=89,
+  serialized_start=44,
+  serialized_end=83,
   methods=[
   _descriptor.MethodDescriptor(
-    name='Operation',
-    full_name='GetSet.Operation',
+    name='operation',
+    full_name='GetSet.operation',
     index=0,
     containing_service=None,
-    input_type=_COMMAND,
-    output_type=_COMMAND,
+    input_type=_INPUT,
+    output_type=_INPUT,
     serialized_options=None,
   ),
 ])

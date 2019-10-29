@@ -15,10 +15,10 @@ stub = calculator_pb2_grpc.GetSetStub(channel)
 # create a valid request message
 while True:
     value = input()
-    number = calculator_pb2.Command(value=value)
+    number = calculator_pb2.Input(value=value)
 
 # make the call
-    response = stub.Operation(number)
+    response = stub.operation(number)
 
 # et voilà
     print(response.value)
