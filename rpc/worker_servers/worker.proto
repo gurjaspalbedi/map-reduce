@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message mapper_request {
+    repeated string lines = 1;
+}
+
+message mapper_response {
+    map<string, string> result = 1;
+}
+
+service Worker {
+
+    rpc worker_map(mapper_request) returns (mapper_response) {}
+}

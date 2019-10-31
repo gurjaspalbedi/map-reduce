@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Input {
+    string value = 3;
+}
+
+service WelcomeMessageService {
+    rpc init(Input) returns (Input) {}
+}
