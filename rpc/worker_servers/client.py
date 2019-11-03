@@ -3,21 +3,23 @@
 import grpc
 
 import worker_pb2_grpc
-import worker_pb2
+#import worker_pb2
 
-def run():
-    with grpc.insecure_channel('localhost:50051') as channel:
-
-        stub = worker_pb2_grpc.WorkerStub(channel)
-        with open('dummy.txt', "r") as reader:
+def run(ip, port):
+    channel = grpc.insecure_channel(f'{ip}:{port}')
+        
+    stub = worker_pb2_grpc.WorkerStub(channel)
     
-            mappers = []
-            for lines in reader.readlines():
-                mappers.append(lines)
-        request = worker_pb2.mapper_request()
-        request.lines.extend(mappers)
-        response = stub.worker_map(request)
-        print(response.result)
+    return stub
+#        with open('dummy.txt', "r") as reader:
+#    
+#            mappers = []
+#            for lines in reader.readlines():
+#                mappers.append(lines)
+#        request = worker_pb2.mapper_request()
+#        request.lines.extend(mappers)
+#        response = stub.worker_map(request)
+#        print(response.result)
 #    print("Greeter client received: " + response)
 
 

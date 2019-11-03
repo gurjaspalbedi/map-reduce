@@ -4,11 +4,35 @@ message mapper_request {
     repeated string lines = 1;
 }
 
+message tuple {
+    string key = 1;
+    string value = 2;
+}
+
+
 message mapper_response {
-    map<string, string> result = 1;
+    repeated tuple result = 1;
+}
+
+message ping_request {
+    string data = 1;
+}
+
+message ping_response {
+    string data = 1;
+}
+
+message reducer_response {
+    map<string, string> data = 1;
+}
+
+message reducer_request {
+    map<string, string> data = 1;
 }
 
 service Worker {
 
+    rpc ping(ping_request) returns (ping_response) {} 
     rpc worker_map(mapper_request) returns (mapper_response) {}
+    rpc worker_reducer(reducer_request) returns (reducer_response) {}
 }
