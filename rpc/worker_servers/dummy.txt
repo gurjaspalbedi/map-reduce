@@ -1,3 +1,5 @@
 This is the dummy text
 this will test if the mapper is working fine or not this
 What do you think, will the mapper work fine?
+Hello how are you
+I am doing good

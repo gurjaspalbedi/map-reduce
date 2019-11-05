@@ -23,11 +23,11 @@ message ping_response {
 }
 
 message reducer_response {
-    map<string, string> data = 1;
+    repeated tuple result = 1;
 }
 
 message reducer_request {
-    map<string, string> data = 1;
+    repeated tuple result = 1;
 }
 
 service Worker {

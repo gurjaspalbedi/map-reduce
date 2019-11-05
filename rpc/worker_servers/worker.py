@@ -8,43 +8,14 @@ import collections
 import ast
 import threading
 from client import run
+from worker_servicer import WokerServicer 
+from configuration import reducer_count, worker_list
+import math
+import itertools
 
 clusters = collections.defaultdict(list)
 threads = collections.defaultdict(list)
 stubs = collections.defaultdict(list)
-
-class WokerServicer(worker_pb2_grpc.WorkerServicer):
-    
-    def worker_map(self, request, context):
-        word_list = []
-        for line in request.lines:
-            for word in line.split():
-                word_list.append((word, '1'))
-
-       
-        print('insider worker map')
-        response = worker_pb2.mapper_response()
-        reponse_list = []
-        tup = worker_pb2.tuple()
-        for key,value in word_list:
-            tup = worker_pb2.tuple()
-            tup.key = key
-            tup.value = value
-            reponse_list.append(tup)
-        response.result.extend(reponse_list)
-#        response.result['hello'] = '1'
-        return response
-    
-    def worker_reducer(self, request, context):
-        count = len(request.data.keys())
-        response = worker_pb2.reducer_response()
-        response.data[request.data.keys()[0]] = count
-        return response
-    
-    def ping(self, request, context):
-        response = worker_pb2.ping_response()
-        response.data = f"Yes I am listening at port {request.data}"
-        return response
 
 
 def serve(port):
@@ -75,11 +46,9 @@ def init_cluster(addresses):
 
     print(f'Cluster Initialized with id {cluster_id}')
     
-    
 
 def kill(ip, port):
     print(f'Stopping worker at {ip}:{port}');
-    
     
 def destroy(cluster_id):
     global clusters
@@ -90,24 +59,100 @@ def destroy(cluster_id):
 def read_lines():
     reader = open('dummy.txt', "r")
     return reader
+
+def filter_by_keys(tup, key_sequence):
+    def seq_filter(tup):
+        if tup[0] in key_sequence:
+            return True
+        else:
+            return False
+    return seq_filter
+    
+    
+def combined_for_reducer(data):
+    combined = []
+    reducer_data = []
+    unique_keys = set()
+    for l in data:
+        for item in l:
+            unique_keys.add(item.key)
+            combined.append((item.key, item.value))
+            
+    combined.sort(key = lambda x: x[0])
+    unique_keys = list(unique_keys)
+    divisions = math.ceil(len(unique_keys) / reducer_count)
+    print('unique keys', len(unique_keys))
+    print('divisions', divisions)
+    i=0
+    for r in range(reducer_count):
+        try:
+            reducer_keys = unique_keys[i:i+divisions]
+        except:
+            reducer_keys = unique_keys[i:]   
+        i += divisions
+        
+        func = filter_by_keys(combined, reducer_keys)
+        reducer_data.append(list(filter(func, combined)))
+    
+    print('reducer data lenght', len(reducer_data))
+    return reducer_data
     
     
 def run_map_red(cluster_id):
-    print('inside map red running', cluster_id)
+    
     global stubs
-    print(stubs)
+    stub_list = stubs.get(int(cluster_id), 0)
+    data = run_map(cluster_id)
+    for_reducer = combined_for_reducer(data)
+    
+    for t in range(len(for_reducer)):
+        stub_list[-t-1].worker_reducer(for_reducer[t])
+        
+            
+        
+
+    
+    
+def run_map(cluster_id):
+    mapper_output = []
+    
+    print('inside map red running', cluster_id)
+    global stubs, threads
     stub_list = stubs.get(int(cluster_id), 0)
     if stub_list and len(stub_list)>1:
         r = read_lines()
-        for stub in stub_list[:-1]:
-            mappers = []
-            for lines in r.readlines(10):
-                mappers.append(lines)
-            print('mappers_ready')
-            request = worker_pb2.mapper_request()
-            request.lines.extend(mappers)
-            response = stub.worker_map(request)
-            print(list(response.result))
+        lines = r.readlines()
+        divide_among = (len(threads[0]) - reducer_count)
+        print(f'Number of mappers we have {divide_among}')
+        print(f'Number of Reducers {reducer_count}')
+        if divide_among:
+            seek = math.ceil(len(lines) / divide_among)
+            print(f'seek {seek}')
+            i = 0
+            count = 1
+            for stub in stub_list[:-reducer_count]:
+                print(f'Data to mapper{count}')
+                count += 1
+                try:
+                    mappers = lines[i:i+seek]
+                except:
+                    mappers = lines[i:]
+                i += seek
+                request = worker_pb2.mapper_request()
+                request.lines.extend(mappers)
+                response = stub.worker_map(request)
+                result = list(response.result)
+                mapper_output.append(result)
+                print(result)
+        else:
+            print(f'Nodes in cluster count not enough')
+            print(f'Total nodes initialized: {len(stub_list)}')
+            print(f'Reducers Count {reducer_count}')
+            raise Exception('Number of initialized nodes are not correct')
+            result = -1
+    return mapper_output
+    
+            
         
 #        stub_list[-1].worker_reducer()
     
@@ -118,7 +163,7 @@ if __name__ == '__main__':
     command_destory = 'destory('
     command_run = 'run('
     while True:
-        print('init_cluster([(\'127.0.0.1\', 50051), (\'127.0.0.1\', 50052)])')
+        print(repr(worker_list))
         command = input()
         if command.startswith(command_init):
             command = command.replace(command_init,'')
@@ -145,7 +190,7 @@ if __name__ == '__main__':
 #            except:
 #                print('Wrong run command')
         elif command == '1':
-            init_cluster([('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053)])
+            init_cluster(worker_list)
             
                 
         
