@@ -10,7 +10,6 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
             for word in line.split():
                 word_list.append((word, '1'))
 
-       
         print('insider worker map')
         response = worker_pb2.mapper_response()
         reponse_list = []
@@ -25,9 +24,12 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
         return response
     
     def worker_reducer(self, request, context):
-        count = len(request.data.keys())
+        
+        count = len(request.result)
+        print('count', count)
         response = worker_pb2.reducer_response()
-        response.data[request.data.keys()[0]] = count
+        for tup in request.result:
+            response.result.add(key = tup.key, value= tup.value)
         return response
     
     def ping(self, request, context):

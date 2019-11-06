@@ -26,7 +26,7 @@ class WorkerStub(object):
         )
     self.worker_reducer = channel.unary_unary(
         '/Worker/worker_reducer',
-        request_serializer=worker__pb2.reducer_request.SerializeToString,
+        request_serializer=worker__pb2.tuple_list.SerializeToString,
         response_deserializer=worker__pb2.reducer_response.FromString,
         )
 
@@ -71,7 +71,7 @@ def add_WorkerServicer_to_server(servicer, server):
       ),
       'worker_reducer': grpc.unary_unary_rpc_method_handler(
           servicer.worker_reducer,
-          request_deserializer=worker__pb2.reducer_request.FromString,
+          request_deserializer=worker__pb2.tuple_list.FromString,
           response_serializer=worker__pb2.reducer_response.SerializeToString,
       ),
   }

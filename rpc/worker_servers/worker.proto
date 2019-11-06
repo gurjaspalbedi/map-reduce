@@ -9,6 +9,9 @@ message tuple {
     string value = 2;
 }
 
+message tuple_list {
+    repeated tuple result =1;
+}
 
 message mapper_response {
     repeated tuple result = 1;
@@ -34,5 +37,5 @@ service Worker {
 
     rpc ping(ping_request) returns (ping_response) {} 
     rpc worker_map(mapper_request) returns (mapper_response) {}
-    rpc worker_reducer(reducer_request) returns (reducer_response) {}
+    rpc worker_reducer(tuple_list) returns (reducer_response) {}
 }

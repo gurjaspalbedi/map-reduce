@@ -11,7 +11,6 @@ from client import run
 from worker_servicer import WokerServicer 
 from configuration import reducer_count, worker_list
 import math
-import itertools
 
 clusters = collections.defaultdict(list)
 threads = collections.defaultdict(list)
@@ -96,7 +95,20 @@ def combined_for_reducer(data):
     
     print('reducer data lenght', len(reducer_data))
     return reducer_data
+
+
+def convert_to_proto_format(list_of_tuples):
     
+    response = worker_pb2.tuple_list()
+    reponse_list = []
+    tup = worker_pb2.tuple()
+    for key,value in list_of_tuples:
+        tup = worker_pb2.tuple()
+        tup.key = key
+        tup.value = value
+        reponse_list.append(tup)
+    response.result.extend(reponse_list)
+    return response
     
 def run_map_red(cluster_id):
     
@@ -105,13 +117,13 @@ def run_map_red(cluster_id):
     data = run_map(cluster_id)
     for_reducer = combined_for_reducer(data)
     
+#    print(for_reducer)
     for t in range(len(for_reducer)):
-        stub_list[-t-1].worker_reducer(for_reducer[t])
-        
-            
-        
-
+#        print(for_reducer[t])
+        print(stub_list[-t-1].worker_reducer(convert_to_proto_format(for_reducer[t])))
     
+    
+        
     
 def run_map(cluster_id):
     mapper_output = []
