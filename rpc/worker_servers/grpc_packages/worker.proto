@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package worker_servers.grpc_packages;
+
 message mapper_request {
     repeated string lines = 1;
 }

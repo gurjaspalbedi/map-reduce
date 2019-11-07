@@ -15,17 +15,17 @@ class WorkerStub(object):
       channel: A grpc.Channel.
     """
     self.ping = channel.unary_unary(
-        '/Worker/ping',
+        '/worker_servers.grpc_packages.Worker/ping',
         request_serializer=worker__pb2.ping_request.SerializeToString,
         response_deserializer=worker__pb2.ping_response.FromString,
         )
     self.worker_map = channel.unary_unary(
-        '/Worker/worker_map',
+        '/worker_servers.grpc_packages.Worker/worker_map',
         request_serializer=worker__pb2.mapper_request.SerializeToString,
         response_deserializer=worker__pb2.mapper_response.FromString,
         )
     self.worker_reducer = channel.unary_unary(
-        '/Worker/worker_reducer',
+        '/worker_servers.grpc_packages.Worker/worker_reducer',
         request_serializer=worker__pb2.tuple_list.SerializeToString,
         response_deserializer=worker__pb2.reducer_response.FromString,
         )
@@ -76,5 +76,5 @@ def add_WorkerServicer_to_server(servicer, server):
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(
-      'Worker', rpc_method_handlers)
+      'worker_servers.grpc_packages.Worker', rpc_method_handlers)
   server.add_generic_rpc_handlers((generic_handler,))

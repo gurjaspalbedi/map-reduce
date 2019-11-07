@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-import rpc_constants
-from database import Database
+from data_store import rpc_constants
+from data_store.database import Database
 
 db = Database()
 

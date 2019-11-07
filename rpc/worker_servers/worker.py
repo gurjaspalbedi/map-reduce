@@ -1,17 +1,20 @@
 # -*- coding: utf-8 -*-
+
+
+
 from concurrent import futures
-import worker_pb2_grpc
-import worker_pb2
+from .grpc_packages import worker_pb2_grpc
+from .grpc_packages import worker_pb2
 import grpc
 import time
 import collections
 import ast
 import threading
-from client import run
-from worker_servicer import WokerServicer 
-from configuration import reducer_count, worker_list
+from worker_servers.client import run
+from worker_servers.worker_servicer import WokerServicer 
+from worker_servers.configuration import reducer_count, worker_list
 import math
-from ..data_store.server import init_data_store
+from data_store.server import init_data_store
 
 clusters = collections.defaultdict(list)
 threads = collections.defaultdict(list)
@@ -47,6 +50,7 @@ def init_cluster(addresses):
     print(f'Cluster Initialized with id {cluster_id}')
 
 def init_store(cluster_id = 0):
+    print('init  dat store')
     init_data_store(cluster_id)
     
     
@@ -60,7 +64,7 @@ def destroy(cluster_id):
         kill(port)
         
 def read_lines():
-    reader = open('dummy.txt', "r")
+    reader = open('worker_servers/dummy.txt', "r")
     return reader
 
 def filter_by_keys(tup, key_sequence):
@@ -172,11 +176,13 @@ def run_map(cluster_id):
         
 #        stub_list[-1].worker_reducer()
     
+def main():
            
-if __name__ == '__main__':
+#if __name__ == '__main__':
     
-    init_store(0)
-    
+    print('threading for the store')
+    store_thread = threading.Thread(target = init_store, args=(0,))
+    store_thread.start()
     command_init = 'init_cluster('
     command_destory = 'destory('
     command_run = 'run('
@@ -211,12 +217,7 @@ if __name__ == '__main__':
             init_cluster(worker_list)
             run_map_red(0)
             
-            
-                
-        
-    
-#    serve()
-          
+
     
     
     

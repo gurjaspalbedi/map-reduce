@@ -17,10 +17,10 @@ _sym_db = _symbol_database.Default()
 
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='worker.proto',
-  package='',
+  package='worker_servers.grpc_packages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x0cworker.proto\"\x1f\n\x0emapper_request\x12\r\n\x05lines\x18\x01 \x03(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"$\n\ntuple_list\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\")\n\x0fmapper_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\"\x1c\n\x0cping_request\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"\x1d\n\rping_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"*\n\x10reducer_response\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple\")\n\x0freducer_request\x12\x16\n\x06result\x18\x01 \x03(\x0b\x32\x06.tuple2\x98\x01\n\x06Worker\x12\'\n\x04ping\x12\r.ping_request\x1a\x0e.ping_response\"\x00\x12\x31\n\nworker_map\x12\x0f.mapper_request\x1a\x10.mapper_response\"\x00\x12\x32\n\x0eworker_reducer\x12\x0b.tuple_list\x1a\x11.reducer_response\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x0cworker.proto\x12\x1cworker_servers.grpc_packages\"\x1f\n\x0emapper_request\x12\r\n\x05lines\x18\x01 \x03(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"A\n\ntuple_list\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"F\n\x0fmapper_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"\x1c\n\x0cping_request\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"\x1d\n\rping_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"G\n\x10reducer_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"F\n\x0freducer_request\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple2\xc6\x02\n\x06Worker\x12\x61\n\x04ping\x12*.worker_servers.grpc_packages.ping_request\x1a+.worker_servers.grpc_packages.ping_response\"\x00\x12k\n\nworker_map\x12,.worker_servers.grpc_packages.mapper_request\x1a-.worker_servers.grpc_packages.mapper_response\"\x00\x12l\n\x0eworker_reducer\x12(.worker_servers.grpc_packages.tuple_list\x1a..worker_servers.grpc_packages.reducer_response\"\x00\x62\x06proto3')
 )
 
 
@@ -28,13 +28,13 @@ DESCRIPTOR = _descriptor.FileDescriptor(
 
 _MAPPER_REQUEST = _descriptor.Descriptor(
   name='mapper_request',
-  full_name='mapper_request',
+  full_name='worker_servers.grpc_packages.mapper_request',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='lines', full_name='mapper_request.lines', index=0,
+      name='lines', full_name='worker_servers.grpc_packages.mapper_request.lines', index=0,
       number=1, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -52,27 +52,27 @@ _MAPPER_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=16,
-  serialized_end=47,
+  serialized_start=46,
+  serialized_end=77,
 )
 
 
 _TUPLE = _descriptor.Descriptor(
   name='tuple',
-  full_name='tuple',
+  full_name='worker_servers.grpc_packages.tuple',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='key', full_name='tuple.key', index=0,
+      name='key', full_name='worker_servers.grpc_packages.tuple.key', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='value', full_name='tuple.value', index=1,
+      name='value', full_name='worker_servers.grpc_packages.tuple.value', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -90,20 +90,20 @@ _TUPLE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=49,
-  serialized_end=84,
+  serialized_start=79,
+  serialized_end=114,
 )
 
 
 _TUPLE_LIST = _descriptor.Descriptor(
   name='tuple_list',
-  full_name='tuple_list',
+  full_name='worker_servers.grpc_packages.tuple_list',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='tuple_list.result', index=0,
+      name='result', full_name='worker_servers.grpc_packages.tuple_list.result', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -121,20 +121,20 @@ _TUPLE_LIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=86,
-  serialized_end=122,
+  serialized_start=116,
+  serialized_end=181,
 )
 
 
 _MAPPER_RESPONSE = _descriptor.Descriptor(
   name='mapper_response',
-  full_name='mapper_response',
+  full_name='worker_servers.grpc_packages.mapper_response',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='mapper_response.result', index=0,
+      name='result', full_name='worker_servers.grpc_packages.mapper_response.result', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -152,20 +152,20 @@ _MAPPER_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=124,
-  serialized_end=165,
+  serialized_start=183,
+  serialized_end=253,
 )
 
 
 _PING_REQUEST = _descriptor.Descriptor(
   name='ping_request',
-  full_name='ping_request',
+  full_name='worker_servers.grpc_packages.ping_request',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='data', full_name='ping_request.data', index=0,
+      name='data', full_name='worker_servers.grpc_packages.ping_request.data', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -183,20 +183,20 @@ _PING_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=167,
-  serialized_end=195,
+  serialized_start=255,
+  serialized_end=283,
 )
 
 
 _PING_RESPONSE = _descriptor.Descriptor(
   name='ping_response',
-  full_name='ping_response',
+  full_name='worker_servers.grpc_packages.ping_response',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='data', full_name='ping_response.data', index=0,
+      name='data', full_name='worker_servers.grpc_packages.ping_response.data', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -214,20 +214,20 @@ _PING_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=197,
-  serialized_end=226,
+  serialized_start=285,
+  serialized_end=314,
 )
 
 
 _REDUCER_RESPONSE = _descriptor.Descriptor(
   name='reducer_response',
-  full_name='reducer_response',
+  full_name='worker_servers.grpc_packages.reducer_response',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='reducer_response.result', index=0,
+      name='result', full_name='worker_servers.grpc_packages.reducer_response.result', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -245,20 +245,20 @@ _REDUCER_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=228,
-  serialized_end=270,
+  serialized_start=316,
+  serialized_end=387,
 )
 
 
 _REDUCER_REQUEST = _descriptor.Descriptor(
   name='reducer_request',
-  full_name='reducer_request',
+  full_name='worker_servers.grpc_packages.reducer_request',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='reducer_request.result', index=0,
+      name='result', full_name='worker_servers.grpc_packages.reducer_request.result', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -276,8 +276,8 @@ _REDUCER_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=272,
-  serialized_end=313,
+  serialized_start=389,
+  serialized_end=459,
 )
 
 _TUPLE_LIST.fields_by_name['result'].message_type = _TUPLE
@@ -297,56 +297,56 @@ _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 mapper_request = _reflection.GeneratedProtocolMessageType('mapper_request', (_message.Message,), {
   'DESCRIPTOR' : _MAPPER_REQUEST,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:mapper_request)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.mapper_request)
   })
 _sym_db.RegisterMessage(mapper_request)
 
 tuple = _reflection.GeneratedProtocolMessageType('tuple', (_message.Message,), {
   'DESCRIPTOR' : _TUPLE,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:tuple)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.tuple)
   })
 _sym_db.RegisterMessage(tuple)
 
 tuple_list = _reflection.GeneratedProtocolMessageType('tuple_list', (_message.Message,), {
   'DESCRIPTOR' : _TUPLE_LIST,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:tuple_list)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.tuple_list)
   })
 _sym_db.RegisterMessage(tuple_list)
 
 mapper_response = _reflection.GeneratedProtocolMessageType('mapper_response', (_message.Message,), {
   'DESCRIPTOR' : _MAPPER_RESPONSE,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:mapper_response)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.mapper_response)
   })
 _sym_db.RegisterMessage(mapper_response)
 
 ping_request = _reflection.GeneratedProtocolMessageType('ping_request', (_message.Message,), {
   'DESCRIPTOR' : _PING_REQUEST,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:ping_request)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.ping_request)
   })
 _sym_db.RegisterMessage(ping_request)
 
 ping_response = _reflection.GeneratedProtocolMessageType('ping_response', (_message.Message,), {
   'DESCRIPTOR' : _PING_RESPONSE,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:ping_response)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.ping_response)
   })
 _sym_db.RegisterMessage(ping_response)
 
 reducer_response = _reflection.GeneratedProtocolMessageType('reducer_response', (_message.Message,), {
   'DESCRIPTOR' : _REDUCER_RESPONSE,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:reducer_response)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.reducer_response)
   })
 _sym_db.RegisterMessage(reducer_response)
 
 reducer_request = _reflection.GeneratedProtocolMessageType('reducer_request', (_message.Message,), {
   'DESCRIPTOR' : _REDUCER_REQUEST,
   '__module__' : 'worker_pb2'
-  # @@protoc_insertion_point(class_scope:reducer_request)
+  # @@protoc_insertion_point(class_scope:worker_servers.grpc_packages.reducer_request)
   })
 _sym_db.RegisterMessage(reducer_request)
 
@@ -354,16 +354,16 @@ _sym_db.RegisterMessage(reducer_request)
 
 _WORKER = _descriptor.ServiceDescriptor(
   name='Worker',
-  full_name='Worker',
+  full_name='worker_servers.grpc_packages.Worker',
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=316,
-  serialized_end=468,
+  serialized_start=462,
+  serialized_end=788,
   methods=[
   _descriptor.MethodDescriptor(
     name='ping',
-    full_name='Worker.ping',
+    full_name='worker_servers.grpc_packages.Worker.ping',
     index=0,
     containing_service=None,
     input_type=_PING_REQUEST,
@@ -372,7 +372,7 @@ _WORKER = _descriptor.ServiceDescriptor(
   ),
   _descriptor.MethodDescriptor(
     name='worker_map',
-    full_name='Worker.worker_map',
+    full_name='worker_servers.grpc_packages.Worker.worker_map',
     index=1,
     containing_service=None,
     input_type=_MAPPER_REQUEST,
@@ -381,7 +381,7 @@ _WORKER = _descriptor.ServiceDescriptor(
   ),
   _descriptor.MethodDescriptor(
     name='worker_reducer',
-    full_name='Worker.worker_reducer',
+    full_name='worker_servers.grpc_packages.Worker.worker_reducer',
     index=2,
     containing_service=None,
     input_type=_TUPLE_LIST,

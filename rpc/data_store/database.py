@@ -41,11 +41,3 @@ class Database:
                 if row['key'] == key:
                     return row['value'], row['size']
         return None, None
-
-if __name__ == "__main__":
-    d = Database()
-    d.set_value("height","100","1024")
-    d.set_value("height","1003","1024")
-    print(d.get_value("height"))
-    d.file.close()
-#    d.file_reader.close()

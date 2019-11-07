@@ -5,13 +5,14 @@
 # For loggin used the following blog post
 #import logging # ref: https://realpython.com/python-logging/
 
+
 import grpc
 from concurrent import futures
 import time
-import store_pb2
-import store_pb2_grpc
-import store
-from configuration import data_store_address
+from .store_packages import store_pb2
+from .store_packages import store_pb2_grpc
+from data_store import store
+from data_store.configuration import data_store_address
 
 class KeyValueService(store_pb2_grpc.GetSetServicer):
 
@@ -29,7 +30,7 @@ def init_data_store(cluster_id = 0):
             KeyValueService(), server)
     
     
-    print(f'Starting server. Listening on port {data_store_address["port"]}.')
+    print(f'Starting Data Store. Listening on port {data_store_address["port"]}.')
     server.add_insecure_port(f'[::]:{data_store_address["port"]}')
     server.start()
 

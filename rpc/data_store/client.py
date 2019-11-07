@@ -3,8 +3,8 @@
 import grpc
 
 # import the generated classes
-import store_pb2
-import store_pb2_grpc
+from .store_packages import store_pb2
+from .store_pacakges import store_pb2_grpc
 from configuration import data_store_address
 # open a gRPC channel
 channel = grpc.insecure_channel(f'127.0.0.1:{data_store_address["port"]}')
