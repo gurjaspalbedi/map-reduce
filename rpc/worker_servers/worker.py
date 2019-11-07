@@ -11,6 +11,7 @@ from client import run
 from worker_servicer import WokerServicer 
 from configuration import reducer_count, worker_list
 import math
+from ..data_store.server import init_data_store
 
 clusters = collections.defaultdict(list)
 threads = collections.defaultdict(list)
@@ -44,8 +45,11 @@ def init_cluster(addresses):
         stubs[cluster_id].append(run(ip,port))
 
     print(f'Cluster Initialized with id {cluster_id}')
-    
 
+def init_store(cluster_id = 0):
+    init_data_store(cluster_id)
+    
+    
 def kill(ip, port):
     print(f'Stopping worker at {ip}:{port}');
     
@@ -171,6 +175,8 @@ def run_map(cluster_id):
            
 if __name__ == '__main__':
     
+    init_store(0)
+    
     command_init = 'init_cluster('
     command_destory = 'destory('
     command_run = 'run('
@@ -203,6 +209,8 @@ if __name__ == '__main__':
 #                print('Wrong run command')
         elif command == '1':
             init_cluster(worker_list)
+            run_map_red(0)
+            
             
                 
         

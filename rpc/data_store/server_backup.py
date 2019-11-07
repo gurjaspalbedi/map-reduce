@@ -13,8 +13,7 @@ import calculator_pb2_grpc
 
 # import the original calculator.py
 import calculator
-# create a class to define the server functions, derived from
-# calculator_pb2_grpc.CalculatorServicer
+
 class KeyValueService(calculator_pb2_grpc.GetSetServicer):
 
     # calculator.square_root is exposed here

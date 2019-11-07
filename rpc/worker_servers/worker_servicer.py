@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import worker_pb2
 import worker_pb2_grpc
+import collections
 
 class WokerServicer(worker_pb2_grpc.WorkerServicer):
     
@@ -20,19 +21,20 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
             tup.value = value
             reponse_list.append(tup)
         response.result.extend(reponse_list)
-#        response.result['hello'] = '1'
         return response
     
     def worker_reducer(self, request, context):
-        
-        count = len(request.result)
-        print('count', count)
+
         response = worker_pb2.reducer_response()
+        py_counter = collections.defaultdict(int)
         for tup in request.result:
-            response.result.add(key = tup.key, value= tup.value)
+            py_counter[tup.key] += 1
+        
+        for value, key in py_counter.items():
+            response.result.add(key = str(value), value= str(key))
         return response
     
     def ping(self, request, context):
         response = worker_pb2.ping_response()
-        response.data = f"Yes I am listening at port {request.data}"
+        response.data = f"Yes I am listening on port {request.data}"
         return response
