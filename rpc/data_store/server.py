@@ -13,14 +13,30 @@ from .store_packages import store_pb2
 from .store_packages import store_pb2_grpc
 from data_store import store
 from data_store.configuration import data_store_address
+from map_reduce_logging.logger import log
+stub = None
+
 
 class KeyValueService(store_pb2_grpc.GetSetServicer):
 
     def operation(self, request, context):
-        print(f'Client request: {request.value}')
+        log.write(f'Store request data for value: {request.value}')
         response = store_pb2.Input()
         response.value = store.operation(request.value)
         return response
+ 
+ 
+def connect_datastore():
+    global stub
+    channel = grpc.insecure_channel(f'127.0.0.1:{data_store_address["port"]}')
+    stub =  store_pb2_grpc.GetSetStub(channel)
+    
+def command_to_store(value):
+    log.write('Making RPC call to store')
+    global stub
+    number = store_pb2.Input(value=value)
+    response = stub.operation(number)
+    return response.value
 
 def init_data_store(cluster_id = 0):
     
@@ -29,8 +45,7 @@ def init_data_store(cluster_id = 0):
     store_pb2_grpc.add_GetSetServicer_to_server(
             KeyValueService(), server)
     
-    
-    print(f'Starting Data Store. Listening on port {data_store_address["port"]}.')
+    log.write(f'Starting Data Store. Listening on port {data_store_address["port"]}.')
     server.add_insecure_port(f'[::]:{data_store_address["port"]}')
     server.start()
 

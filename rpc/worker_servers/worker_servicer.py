@@ -11,7 +11,6 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
             for word in line.split():
                 word_list.append((word, '1'))
 
-        print('insider worker map')
         response = worker_pb2.mapper_response()
         reponse_list = []
         tup = worker_pb2.tuple()

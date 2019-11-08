@@ -1,0 +1,789 @@
+root - CRITICAL - Started from main in main.py
+root - INFO - =====================================BEGIN MAP REDUCE =========================================
+root - INFO - Started from main in main.py
+2019-11-07 15:52:14,053 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 15:52:14,053 - root - INFO - Started from main in main.py
+2019-11-07 15:56:48,479 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 15:56:48,479 - root - INFO - Started from main in main.py
+2019-11-07 15:57:24,472 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 15:57:24,475 - root - CRITICAL - Started from main in main.py
+2019-11-07 15:59:12,088 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 15:59:12,089 - root - CRITICAL - Started from main in main.py
+2019-11-07 16:04:58,367 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:04:58,367 - root - INFO - Started from main in main.py
+2019-11-07 16:04:58,368 - root - INFO - Starting thread for store
+2019-11-07 16:40:09,085 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:40:09,085 - root - INFO - Started from main in main.py
+2019-11-07 16:40:09,085 - root - INFO - Starting thread for store
+2019-11-07 16:40:09,737 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:40:09,737 - root - INFO - Started from main in main.py
+2019-11-07 16:40:09,737 - root - INFO - Starting thread for store
+2019-11-07 16:53:29,119 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:53:29,120 - root - INFO - Started from main in main.py
+2019-11-07 16:53:29,120 - root - INFO - Starting thread for store
+2019-11-07 16:53:29,744 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:53:29,744 - root - INFO - Started from main in main.py
+2019-11-07 16:53:29,744 - root - INFO - Starting thread for store
+2019-11-07 16:55:44,611 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:44,612 - root - INFO - Started from main in main.py
+2019-11-07 16:55:44,614 - root - INFO - Starting thread for store
+2019-11-07 16:55:45,245 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:45,245 - root - INFO - Started from main in main.py
+2019-11-07 16:55:50,958 - root - INFO - Starting map
+2019-11-07 16:55:51,692 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:51,692 - root - INFO - Started from main in main.py
+2019-11-07 16:55:51,697 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:51,698 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:51,705 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:55:51,706 - root - INFO - Started from main in main.py
+2019-11-07 16:55:51,707 - root - INFO - Started from main in main.py
+2019-11-07 16:55:51,707 - root - INFO - Started from main in main.py
+2019-11-07 16:55:51,707 - root - INFO - Started from main in main.py
+2019-11-07 16:57:11,853 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:11,856 - root - INFO - Started from main in main.py
+2019-11-07 16:57:11,856 - root - INFO - Starting thread for store
+2019-11-07 16:57:12,466 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:12,467 - root - INFO - Started from main in main.py
+2019-11-07 16:57:14,579 - root - INFO - Starting map
+2019-11-07 16:57:14,580 - root - INFO - Number of mappers we have 3
+2019-11-07 16:57:14,580 - root - INFO - Number of Reducers 2
+2019-11-07 16:57:14,581 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 16:57:14,582 - root - INFO - Making request to the mapper
+2019-11-07 16:57:14,582 - root - INFO - Making request to the mapper
+2019-11-07 16:57:15,305 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:15,306 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:15,307 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:15,308 - root - INFO - Started from main in main.py
+2019-11-07 16:57:15,308 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:15,308 - root - INFO - Started from main in main.py
+2019-11-07 16:57:15,309 - root - INFO - Started from main in main.py
+2019-11-07 16:57:15,309 - root - INFO - Started from main in main.py
+2019-11-07 16:57:15,320 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:15,322 - root - INFO - Started from main in main.py
+2019-11-07 16:57:15,598 - root - INFO - Data divided among mapper2 mappers
+2019-11-07 16:57:15,600 - root - INFO - Making request to the mapper
+2019-11-07 16:57:15,602 - root - INFO - Making request to the mapper
+2019-11-07 16:57:15,617 - root - INFO - Data divided among mapper3 mappers
+2019-11-07 16:57:15,625 - root - INFO - Making request to the mapper
+2019-11-07 16:57:15,627 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,580 - root - INFO - Starting map
+2019-11-07 16:57:27,581 - root - INFO - Number of mappers we have 3
+2019-11-07 16:57:27,582 - root - INFO - Number of Reducers 2
+2019-11-07 16:57:27,582 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 16:57:27,583 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,584 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,588 - root - INFO - Data divided among mapper2 mappers
+2019-11-07 16:57:27,588 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,589 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,595 - root - INFO - Data divided among mapper3 mappers
+2019-11-07 16:57:27,596 - root - INFO - Making request to the mapper
+2019-11-07 16:57:27,596 - root - INFO - Making request to the mapper
+2019-11-07 16:57:28,311 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:28,312 - root - INFO - Started from main in main.py
+2019-11-07 16:57:28,324 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:28,325 - root - INFO - Started from main in main.py
+2019-11-07 16:57:28,331 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:28,332 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:28,332 - root - INFO - Started from main in main.py
+2019-11-07 16:57:28,333 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:57:28,341 - root - INFO - Started from main in main.py
+2019-11-07 16:57:28,342 - root - INFO - Started from main in main.py
+2019-11-07 16:58:48,083 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:48,083 - root - INFO - Started from main in main.py
+2019-11-07 16:58:48,084 - root - INFO - Starting thread for store
+2019-11-07 16:58:48,693 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:48,693 - root - INFO - Started from main in main.py
+2019-11-07 16:58:51,096 - root - INFO - Starting map
+2019-11-07 16:58:51,097 - root - INFO - Number of mappers we have 3
+2019-11-07 16:58:51,097 - root - INFO - Number of Reducers 2
+2019-11-07 16:58:51,097 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 16:58:51,097 - root - INFO - Making request to the mapper
+2019-11-07 16:58:51,097 - root - INFO - Making request to the mapper
+2019-11-07 16:58:51,817 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:51,817 - root - INFO - Started from main in main.py
+2019-11-07 16:58:51,830 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:51,830 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:51,830 - root - INFO - Started from main in main.py
+2019-11-07 16:58:51,830 - root - INFO - Started from main in main.py
+2019-11-07 16:58:51,833 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:51,833 - root - INFO - Started from main in main.py
+2019-11-07 16:58:51,838 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 16:58:51,840 - root - INFO - Started from main in main.py
+2019-11-07 16:58:52,105 - root - INFO - Making request to the mapper
+2019-11-07 16:58:52,105 - root - INFO - Making request to the mapper
+2019-11-07 16:58:52,109 - root - INFO - Making request to the mapper
+2019-11-07 16:58:52,109 - root - INFO - Making request to the mapper
+2019-11-07 17:04:43,209 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:43,209 - root - INFO - Started from main in main.py
+2019-11-07 17:04:43,209 - root - INFO - Starting thread for store
+2019-11-07 17:04:43,810 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:43,810 - root - INFO - Started from main in main.py
+2019-11-07 17:04:46,535 - root - INFO - Starting map
+2019-11-07 17:04:46,535 - root - INFO - Number of mappers we have 3
+2019-11-07 17:04:46,535 - root - INFO - Number of Reducers 2
+2019-11-07 17:04:46,536 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 17:04:46,536 - root - INFO - Making request to the mapper
+2019-11-07 17:04:46,536 - root - INFO - Making request to the mapper
+2019-11-07 17:04:47,255 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:47,255 - root - INFO - Started from main in main.py
+2019-11-07 17:04:47,259 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:47,259 - root - INFO - Started from main in main.py
+2019-11-07 17:04:47,271 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:47,271 - root - INFO - Started from main in main.py
+2019-11-07 17:04:47,274 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:47,275 - root - INFO - Started from main in main.py
+2019-11-07 17:04:47,289 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:04:47,289 - root - INFO - Started from main in main.py
+2019-11-07 17:04:47,543 - root - INFO - Making request to the mapper
+2019-11-07 17:04:47,544 - root - INFO - Making request to the mapper
+2019-11-07 17:04:47,556 - root - INFO - Making request to the mapper
+2019-11-07 17:04:47,558 - root - INFO - Making request to the mapper
+2019-11-07 17:04:50,981 - root - INFO - Killing all workers in cluster 0
+2019-11-07 17:04:50,982 - root - INFO - Killing process <Process(Process-2, started)>
+2019-11-07 17:04:50,983 - root - INFO - Killing process <Process(Process-3, started)>
+2019-11-07 17:04:50,984 - root - INFO - Killing process <Process(Process-4, started)>
+2019-11-07 17:04:50,985 - root - INFO - Killing process <Process(Process-5, started)>
+2019-11-07 17:04:50,986 - root - INFO - Killing process <Process(Process-6, started)>
+2019-11-07 17:16:21,974 - root - INFO - Unable to ping to 127.0.0.1:50
+2019-11-07 17:17:02,615 - root - INFO - Unable to ping to 127.0.0.1:50051
+2019-11-07 17:17:30,851 - root - INFO - Starting map
+2019-11-07 17:17:30,851 - root - INFO - Number of mappers we have 3
+2019-11-07 17:17:30,852 - root - INFO - Number of Reducers 2
+2019-11-07 17:17:30,853 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 17:17:30,853 - root - INFO - Making request to the mapper
+2019-11-07 17:17:30,854 - root - INFO - Making request to the mapper
+2019-11-07 17:17:31,597 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:17:31,598 - root - INFO - Started from main in main.py
+2019-11-07 17:17:31,612 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:17:31,614 - root - INFO - Started from main in main.py
+2019-11-07 17:17:31,616 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:17:31,617 - root - INFO - Started from main in main.py
+2019-11-07 17:17:31,627 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:17:31,628 - root - INFO - Started from main in main.py
+2019-11-07 17:17:31,628 - root - INFO - Started from main in main.py
+2019-11-07 17:17:31,869 - root - INFO - Making request to the mapper
+2019-11-07 17:17:31,871 - root - INFO - Making request to the mapper
+2019-11-07 17:17:31,883 - root - INFO - Making request to the mapper
+2019-11-07 17:17:31,884 - root - INFO - Making request to the mapper
+2019-11-07 17:17:49,875 - root - INFO - Yes I am listening on port 50051
+2019-11-07 17:18:00,932 - root - INFO - Killing all workers in cluster 0
+2019-11-07 17:18:00,933 - root - INFO - Killing process <Process(Process-2, stopped[SIGTERM])>
+2019-11-07 17:18:00,933 - root - INFO - Killing process <Process(Process-3, stopped[SIGTERM])>
+2019-11-07 17:18:00,933 - root - INFO - Killing process <Process(Process-4, stopped[SIGTERM])>
+2019-11-07 17:18:00,934 - root - INFO - Killing process <Process(Process-5, stopped[SIGTERM])>
+2019-11-07 17:18:00,934 - root - INFO - Killing process <Process(Process-6, stopped[SIGTERM])>
+2019-11-07 17:18:13,106 - root - INFO - Yes I am listening on port 50052
+2019-11-07 17:18:25,544 - root - INFO - Starting map
+2019-11-07 17:18:25,544 - root - INFO - Number of mappers we have 3
+2019-11-07 17:18:25,545 - root - INFO - Number of Reducers 2
+2019-11-07 17:18:25,545 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 17:18:25,546 - root - INFO - Making request to the mapper
+2019-11-07 17:18:25,546 - root - INFO - Making request to the mapper
+2019-11-07 17:18:25,549 - root - INFO - Making request to the mapper
+2019-11-07 17:18:25,549 - root - INFO - Making request to the mapper
+2019-11-07 17:18:25,552 - root - INFO - Making request to the mapper
+2019-11-07 17:18:25,558 - root - INFO - Making request to the mapper
+2019-11-07 17:18:26,268 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:18:26,268 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:18:26,270 - root - INFO - Started from main in main.py
+2019-11-07 17:18:26,270 - root - INFO - Started from main in main.py
+2019-11-07 17:18:26,281 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:18:26,281 - root - INFO - Started from main in main.py
+2019-11-07 17:18:26,285 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:18:26,285 - root - INFO - Started from main in main.py
+2019-11-07 17:18:26,287 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 17:18:26,288 - root - INFO - Started from main in main.py
+2019-11-07 18:52:34,745 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:34,745 - root - INFO - Started from main in main.py
+2019-11-07 18:52:34,745 - root - INFO - Starting thread for store
+2019-11-07 18:52:34,754 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 18:52:35,358 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:35,358 - root - INFO - Started from main in main.py
+2019-11-07 18:52:35,359 - root - INFO - Initializing  data store
+2019-11-07 18:52:35,371 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 18:52:45,793 - root - INFO - Starting map
+2019-11-07 18:52:45,794 - root - INFO - Number of mappers we have 3
+2019-11-07 18:52:45,794 - root - INFO - Number of Reducers 2
+2019-11-07 18:52:45,795 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 18:52:45,795 - root - INFO - Making request to the mapper
+2019-11-07 18:52:45,796 - root - INFO - Making request to the mapper
+2019-11-07 18:52:46,522 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:46,523 - root - INFO - Started from main in main.py
+2019-11-07 18:52:46,539 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:46,540 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:46,540 - root - INFO - Started from main in main.py
+2019-11-07 18:52:46,540 - root - INFO - Started from main in main.py
+2019-11-07 18:52:46,543 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:46,544 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:52:46,544 - root - INFO - Started from main in main.py
+2019-11-07 18:52:46,552 - root - INFO - Started from main in main.py
+2019-11-07 18:52:46,811 - root - INFO - Making request to the mapper
+2019-11-07 18:52:46,813 - root - INFO - Making request to the mapper
+2019-11-07 18:52:46,832 - root - INFO - Making request to the mapper
+2019-11-07 18:52:46,834 - root - INFO - Making request to the mapper
+2019-11-07 18:52:46,855 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 18:59:25,911 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:25,911 - root - INFO - Started from main in main.py
+2019-11-07 18:59:25,911 - root - INFO - Starting thread for store
+2019-11-07 18:59:25,920 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 18:59:26,518 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:26,519 - root - INFO - Started from main in main.py
+2019-11-07 18:59:26,519 - root - INFO - Initializing  data store
+2019-11-07 18:59:26,524 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 18:59:27,837 - root - INFO - Starting map
+2019-11-07 18:59:27,837 - root - INFO - Number of mappers we have 3
+2019-11-07 18:59:27,837 - root - INFO - Number of Reducers 2
+2019-11-07 18:59:27,838 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 18:59:27,838 - root - INFO - Making request to the mapper
+2019-11-07 18:59:27,838 - root - INFO - Making request to the mapper
+2019-11-07 18:59:28,565 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:28,565 - root - INFO - Started from main in main.py
+2019-11-07 18:59:28,570 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:28,570 - root - INFO - Started from main in main.py
+2019-11-07 18:59:28,581 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:28,581 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:28,581 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 18:59:28,582 - root - INFO - Started from main in main.py
+2019-11-07 18:59:28,582 - root - INFO - Started from main in main.py
+2019-11-07 18:59:28,582 - root - INFO - Started from main in main.py
+2019-11-07 19:05:49,542 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:49,542 - root - INFO - Started from main in main.py
+2019-11-07 19:05:49,542 - root - INFO - Starting thread for store
+2019-11-07 19:05:49,551 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:05:50,174 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:50,175 - root - INFO - Started from main in main.py
+2019-11-07 19:05:50,175 - root - INFO - Initializing  data store
+2019-11-07 19:05:50,187 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:05:50,370 - root - INFO - Starting map
+2019-11-07 19:05:50,371 - root - INFO - Number of mappers we have 3
+2019-11-07 19:05:50,371 - root - INFO - Number of Reducers 2
+2019-11-07 19:05:50,372 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:05:50,372 - root - INFO - Trying to store initial data
+2019-11-07 19:05:50,373 - root - INFO - Making RPC call to store
+2019-11-07 19:05:50,375 - root - INFO - Store request data for value: set mapper 2 ['this this\n', 'hello hello\n']
+2019-11-07 19:05:50,376 - grpc._server - ERROR - Exception calling application: None has type NoneType, but expected one of: bytes, unicode
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    response.value = store.operation(request.value)
+TypeError: None has type NoneType, but expected one of: bytes, unicode
+2019-11-07 19:05:51,212 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:51,214 - root - INFO - Started from main in main.py
+2019-11-07 19:05:51,229 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:51,230 - root - INFO - Started from main in main.py
+2019-11-07 19:05:51,236 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:51,236 - root - INFO - Started from main in main.py
+2019-11-07 19:05:51,251 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:51,251 - root - INFO - Started from main in main.py
+2019-11-07 19:05:51,256 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:05:51,265 - root - INFO - Started from main in main.py
+2019-11-07 19:07:18,070 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:18,071 - root - INFO - Started from main in main.py
+2019-11-07 19:07:18,073 - root - INFO - Starting thread for store
+2019-11-07 19:07:18,083 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:07:18,686 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:18,686 - root - INFO - Started from main in main.py
+2019-11-07 19:07:18,688 - root - INFO - Initializing  data store
+2019-11-07 19:07:18,694 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:07:18,861 - root - INFO - Starting map
+2019-11-07 19:07:18,862 - root - INFO - Number of mappers we have 3
+2019-11-07 19:07:18,862 - root - INFO - Number of Reducers 2
+2019-11-07 19:07:18,863 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:07:18,863 - root - INFO - Trying to store initial data
+2019-11-07 19:07:18,864 - root - INFO - Making RPC call to store
+2019-11-07 19:07:18,866 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:07:18,867 - grpc._server - ERROR - Exception calling application: None has type NoneType, but expected one of: bytes, unicode
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    response.value = store.operation(request.value)
+TypeError: None has type NoneType, but expected one of: bytes, unicode
+2019-11-07 19:07:19,594 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:19,596 - root - INFO - Started from main in main.py
+2019-11-07 19:07:19,610 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:19,610 - root - INFO - Started from main in main.py
+2019-11-07 19:07:19,615 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:19,616 - root - INFO - Started from main in main.py
+2019-11-07 19:07:19,617 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:19,618 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:07:19,619 - root - INFO - Started from main in main.py
+2019-11-07 19:07:19,627 - root - INFO - Started from main in main.py
+2019-11-07 19:15:57,642 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:15:57,643 - root - INFO - Started from main in main.py
+2019-11-07 19:15:57,645 - root - INFO - Starting thread for store
+2019-11-07 19:15:57,654 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:15:58,254 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:15:58,254 - root - INFO - Started from main in main.py
+2019-11-07 19:15:58,256 - root - INFO - Initializing  data store
+2019-11-07 19:15:58,267 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:16:00,962 - root - INFO - Starting map
+2019-11-07 19:16:00,962 - root - INFO - Number of mappers we have 3
+2019-11-07 19:16:00,963 - root - INFO - Number of Reducers 2
+2019-11-07 19:16:00,963 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:16:00,964 - root - INFO - Trying to store initial data
+2019-11-07 19:16:00,965 - root - INFO - Making RPC call to store
+2019-11-07 19:16:00,967 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:16:00,967 - grpc._server - ERROR - Exception calling application: 'str' object has no attribute 'starswith'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    response.value = store.operation(request.value)
+  File "G:\Git\map-reduce\rpc\data_store\store.py", line 53, in operation
+    command = 'set' if first.starswith('set') else 'get'
+AttributeError: 'str' object has no attribute 'starswith'
+2019-11-07 19:16:01,699 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:01,701 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:01,701 - root - INFO - Started from main in main.py
+2019-11-07 19:16:01,712 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:01,713 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:01,713 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:01,714 - root - INFO - Started from main in main.py
+2019-11-07 19:16:01,715 - root - INFO - Started from main in main.py
+2019-11-07 19:16:22,862 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:22,862 - root - INFO - Started from main in main.py
+2019-11-07 19:16:22,864 - root - INFO - Starting thread for store
+2019-11-07 19:16:22,873 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:16:23,472 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:23,472 - root - INFO - Started from main in main.py
+2019-11-07 19:16:23,474 - root - INFO - Initializing  data store
+2019-11-07 19:16:23,479 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:16:35,044 - root - INFO - Starting map
+2019-11-07 19:16:35,044 - root - INFO - Number of mappers we have 3
+2019-11-07 19:16:35,045 - root - INFO - Number of Reducers 2
+2019-11-07 19:16:35,045 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:16:35,046 - root - INFO - Trying to store initial data
+2019-11-07 19:16:35,046 - root - INFO - Making RPC call to store
+2019-11-07 19:16:35,049 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:16:35,049 - grpc._server - ERROR - Exception calling application: too many values to unpack (expected 3)
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    response.value = store.operation(request.value)
+  File "G:\Git\map-reduce\rpc\data_store\store.py", line 57, in operation
+    operation, key, value = first.split(" ", 3)
+ValueError: too many values to unpack (expected 3)
+2019-11-07 19:16:35,790 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:35,790 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:35,792 - root - INFO - Started from main in main.py
+2019-11-07 19:16:35,792 - root - INFO - Started from main in main.py
+2019-11-07 19:16:35,803 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:35,804 - root - INFO - Started from main in main.py
+2019-11-07 19:16:35,806 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:35,807 - root - INFO - Started from main in main.py
+2019-11-07 19:16:35,809 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:16:35,810 - root - INFO - Started from main in main.py
+2019-11-07 19:18:29,775 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:29,775 - root - INFO - Started from main in main.py
+2019-11-07 19:18:29,776 - root - INFO - Starting thread for store
+2019-11-07 19:18:29,785 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:18:30,388 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:30,389 - root - INFO - Started from main in main.py
+2019-11-07 19:18:30,391 - root - INFO - Initializing  data store
+2019-11-07 19:18:30,402 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:18:31,400 - root - INFO - Starting map
+2019-11-07 19:18:31,402 - root - INFO - Number of mappers we have 3
+2019-11-07 19:18:31,403 - root - INFO - Number of Reducers 2
+2019-11-07 19:18:31,404 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:18:31,406 - root - INFO - Trying to store initial data
+2019-11-07 19:18:31,406 - root - INFO - Making RPC call to store
+2019-11-07 19:18:31,407 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:18:31,412 - root - INFO - Making request to the mapper
+2019-11-07 19:18:32,116 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:32,116 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:32,118 - root - INFO - Started from main in main.py
+2019-11-07 19:18:32,129 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:32,129 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:32,130 - root - INFO - Started from main in main.py
+2019-11-07 19:18:32,130 - root - INFO - Started from main in main.py
+2019-11-07 19:18:32,134 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:18:32,135 - root - INFO - Started from main in main.py
+2019-11-07 19:18:32,426 - root - INFO - Trying to store initial data
+2019-11-07 19:18:32,428 - root - INFO - Making RPC call to store
+2019-11-07 19:18:32,436 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:18:32,442 - root - INFO - Making request to the mapper
+2019-11-07 19:18:32,452 - root - INFO - Trying to store initial data
+2019-11-07 19:18:32,453 - root - INFO - Making RPC call to store
+2019-11-07 19:18:32,455 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:18:32,460 - root - INFO - Making request to the mapper
+2019-11-07 19:18:32,476 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:24:15,666 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:24:15,667 - root - INFO - Started from main in main.py
+2019-11-07 19:24:15,667 - root - INFO - Starting thread for store
+2019-11-07 19:24:15,677 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:24:16,280 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:24:16,280 - root - INFO - Started from main in main.py
+2019-11-07 19:24:16,282 - root - INFO - Initializing  data store
+2019-11-07 19:24:16,294 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:25:16,390 - root - INFO - Starting map
+2019-11-07 19:25:16,391 - root - INFO - Number of mappers we have 3
+2019-11-07 19:25:16,391 - root - INFO - Number of Reducers 2
+2019-11-07 19:25:16,392 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:25:16,392 - root - INFO - Trying to store initial data
+2019-11-07 19:25:16,393 - root - INFO - Making RPC call to store
+2019-11-07 19:25:16,396 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:25:16,397 - root - INFO - Making request to the mapper
+2019-11-07 19:25:17,190 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:25:17,191 - root - INFO - Started from main in main.py
+2019-11-07 19:25:17,204 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:25:17,204 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:25:17,206 - root - INFO - Started from main in main.py
+2019-11-07 19:25:17,206 - root - INFO - Started from main in main.py
+2019-11-07 19:25:17,211 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:25:17,211 - root - INFO - Started from main in main.py
+2019-11-07 19:25:17,231 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:25:17,231 - root - INFO - Started from main in main.py
+2019-11-07 19:25:17,412 - root - INFO - Trying to store initial data
+2019-11-07 19:25:17,414 - root - INFO - Making RPC call to store
+2019-11-07 19:25:17,424 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:25:17,430 - root - INFO - Making request to the mapper
+2019-11-07 19:25:17,440 - root - INFO - Trying to store initial data
+2019-11-07 19:25:17,441 - root - INFO - Making RPC call to store
+2019-11-07 19:25:17,443 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:25:17,446 - root - INFO - Making request to the mapper
+2019-11-07 19:25:17,459 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:27:56,965 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:27:56,965 - root - INFO - Started from main in main.py
+2019-11-07 19:27:56,968 - root - INFO - Starting thread for store
+2019-11-07 19:27:56,980 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:27:57,582 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:27:57,582 - root - INFO - Started from main in main.py
+2019-11-07 19:27:57,584 - root - INFO - Initializing  data store
+2019-11-07 19:27:57,595 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:28:00,727 - root - INFO - Starting map
+2019-11-07 19:28:00,728 - root - INFO - Number of mappers we have 3
+2019-11-07 19:28:00,729 - root - INFO - Number of Reducers 2
+2019-11-07 19:28:00,729 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:28:00,730 - root - INFO - Trying to store initial data
+2019-11-07 19:28:00,731 - root - INFO - Making RPC call to store
+2019-11-07 19:28:00,733 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:28:00,738 - root - INFO - Making request to the mapper
+2019-11-07 19:28:01,546 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:28:01,547 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:28:01,549 - root - INFO - Started from main in main.py
+2019-11-07 19:28:01,550 - root - INFO - Started from main in main.py
+2019-11-07 19:28:01,566 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:28:01,566 - root - INFO - Started from main in main.py
+2019-11-07 19:28:01,582 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:28:01,583 - root - INFO - Started from main in main.py
+2019-11-07 19:28:01,588 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:28:01,588 - root - INFO - Started from main in main.py
+2019-11-07 19:28:01,746 - root - INFO - Trying to store initial data
+2019-11-07 19:28:01,746 - root - INFO - Making RPC call to store
+2019-11-07 19:28:01,747 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:28:01,749 - root - INFO - Making request to the mapper
+2019-11-07 19:28:01,757 - root - INFO - Trying to store initial data
+2019-11-07 19:28:01,758 - root - INFO - Making RPC call to store
+2019-11-07 19:28:01,758 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:28:01,760 - root - INFO - Making request to the mapper
+2019-11-07 19:28:01,775 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:33:29,781 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:29,782 - root - INFO - Started from main in main.py
+2019-11-07 19:33:29,784 - root - INFO - Starting thread for store
+2019-11-07 19:33:29,793 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:33:30,395 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:30,396 - root - INFO - Started from main in main.py
+2019-11-07 19:33:30,397 - root - INFO - Initializing  data store
+2019-11-07 19:33:30,403 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:33:32,025 - root - INFO - Starting map
+2019-11-07 19:33:32,026 - root - INFO - Number of mappers we have 3
+2019-11-07 19:33:32,027 - root - INFO - Number of Reducers 2
+2019-11-07 19:33:32,027 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:33:32,028 - root - INFO - Trying to store initial data
+2019-11-07 19:33:32,028 - root - INFO - Making RPC call to store
+2019-11-07 19:33:32,033 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:33:32,035 - root - INFO - Sucessfully Store data with key:{key}
+
+2019-11-07 19:33:32,035 - grpc._server - ERROR - Exception calling application: 1 has type int, but expected one of: bytes, unicode
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 25, in operation
+    response.value = store.operation(request.value)
+TypeError: 1 has type int, but expected one of: bytes, unicode
+2019-11-07 19:33:32,750 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:32,750 - root - INFO - Started from main in main.py
+2019-11-07 19:33:32,750 - root - INFO - Started from main in main.py
+2019-11-07 19:33:32,754 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:32,754 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:32,755 - root - INFO - Started from main in main.py
+2019-11-07 19:33:32,763 - root - INFO - Started from main in main.py
+2019-11-07 19:33:32,769 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:33:32,769 - root - INFO - Started from main in main.py
+2019-11-07 19:34:14,595 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:14,595 - root - INFO - Started from main in main.py
+2019-11-07 19:34:14,598 - root - INFO - Starting thread for store
+2019-11-07 19:34:14,615 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:34:15,218 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:15,219 - root - INFO - Started from main in main.py
+2019-11-07 19:34:15,221 - root - INFO - Initializing  data store
+2019-11-07 19:34:15,233 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:34:16,610 - root - INFO - Starting map
+2019-11-07 19:34:16,610 - root - INFO - Number of mappers we have 3
+2019-11-07 19:34:16,611 - root - INFO - Number of Reducers 2
+2019-11-07 19:34:16,611 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:34:16,612 - root - INFO - Trying to store initial data
+2019-11-07 19:34:16,613 - root - INFO - Making RPC call to store
+2019-11-07 19:34:16,615 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:34:16,616 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 19:34:16,617 - root - INFO - Making request to the mapper
+2019-11-07 19:34:17,358 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:17,359 - root - INFO - Started from main in main.py
+2019-11-07 19:34:17,382 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:17,382 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:17,383 - root - INFO - Started from main in main.py
+2019-11-07 19:34:17,393 - root - INFO - Started from main in main.py
+2019-11-07 19:34:17,398 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:17,398 - root - INFO - Started from main in main.py
+2019-11-07 19:34:17,411 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:34:17,411 - root - INFO - Started from main in main.py
+2019-11-07 19:34:17,625 - root - INFO - Trying to store initial data
+2019-11-07 19:34:17,626 - root - INFO - Making RPC call to store
+2019-11-07 19:34:17,626 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:34:17,627 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 19:34:17,628 - root - INFO - Making request to the mapper
+2019-11-07 19:34:17,631 - root - INFO - Trying to store initial data
+2019-11-07 19:34:17,631 - root - INFO - Making RPC call to store
+2019-11-07 19:34:17,635 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:34:17,637 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 19:34:17,637 - root - INFO - Making request to the mapper
+2019-11-07 19:34:17,649 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:37:49,572 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:49,573 - root - INFO - Started from main in main.py
+2019-11-07 19:37:49,573 - root - INFO - Starting thread for store
+2019-11-07 19:37:49,583 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:37:50,194 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:50,195 - root - INFO - Started from main in main.py
+2019-11-07 19:37:50,195 - root - INFO - Initializing  data store
+2019-11-07 19:37:50,206 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:37:51,352 - root - INFO - Starting map
+2019-11-07 19:37:51,353 - root - INFO - Number of mappers we have 3
+2019-11-07 19:37:51,353 - root - INFO - Number of Reducers 2
+2019-11-07 19:37:51,353 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:37:51,353 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:37:51,354 - root - INFO - Making RPC call to store
+2019-11-07 19:37:51,356 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:37:51,356 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 19:37:51,357 - root - INFO - Making request to the mapper
+2019-11-07 19:37:52,090 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:52,090 - root - INFO - Started from main in main.py
+2019-11-07 19:37:52,093 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:52,093 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:52,094 - root - INFO - Started from main in main.py
+2019-11-07 19:37:52,104 - root - INFO - Started from main in main.py
+2019-11-07 19:37:52,104 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:52,104 - root - INFO - Started from main in main.py
+2019-11-07 19:37:52,123 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:37:52,123 - root - INFO - Started from main in main.py
+2019-11-07 19:37:52,372 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:37:52,374 - root - INFO - Making RPC call to store
+2019-11-07 19:37:52,376 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:37:52,385 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 19:37:52,387 - root - INFO - Making request to the mapper
+2019-11-07 19:37:52,397 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:37:52,398 - root - INFO - Making RPC call to store
+2019-11-07 19:37:52,399 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:37:52,401 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 19:37:52,406 - root - INFO - Making request to the mapper
+2019-11-07 19:37:52,421 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:39:15,922 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:39:15,922 - root - INFO - Started from main in main.py
+2019-11-07 19:39:15,922 - root - INFO - Starting thread for store
+2019-11-07 19:39:15,931 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:39:16,526 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:39:16,526 - root - INFO - Started from main in main.py
+2019-11-07 19:39:16,527 - root - INFO - Initializing  data store
+2019-11-07 19:39:16,538 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:42:56,733 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:42:56,734 - root - INFO - Started from main in main.py
+2019-11-07 19:42:56,734 - root - INFO - Starting thread for store
+2019-11-07 19:42:57,337 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:42:57,337 - root - INFO - Started from main in main.py
+2019-11-07 19:42:57,337 - root - INFO - Initializing  data store
+2019-11-07 19:42:57,348 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:43:10,756 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:10,756 - root - INFO - Started from main in main.py
+2019-11-07 19:43:10,759 - root - INFO - Starting thread for store
+2019-11-07 19:43:11,370 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:11,370 - root - INFO - Started from main in main.py
+2019-11-07 19:43:11,372 - root - INFO - Initializing  data store
+2019-11-07 19:43:11,377 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:43:14,667 - root - INFO - Starting map
+2019-11-07 19:43:14,667 - root - INFO - Number of mappers we have 3
+2019-11-07 19:43:14,668 - root - INFO - Number of Reducers 2
+2019-11-07 19:43:14,668 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:43:14,669 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:43:14,670 - root - INFO - Making RPC call to store
+2019-11-07 19:43:14,672 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:43:14,673 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 19:43:14,674 - root - INFO - Making request to the mapper
+2019-11-07 19:43:15,385 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:15,386 - root - INFO - Started from main in main.py
+2019-11-07 19:43:15,390 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:15,400 - root - INFO - Started from main in main.py
+2019-11-07 19:43:15,419 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:15,419 - root - INFO - Started from main in main.py
+2019-11-07 19:43:15,425 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:15,425 - root - INFO - Started from main in main.py
+2019-11-07 19:43:15,435 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:43:15,435 - root - INFO - Started from main in main.py
+2019-11-07 19:43:15,689 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:43:15,691 - root - INFO - Making RPC call to store
+2019-11-07 19:43:15,693 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:43:15,701 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 19:43:15,703 - root - INFO - Making request to the mapper
+2019-11-07 19:43:15,716 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:43:15,718 - root - INFO - Making RPC call to store
+2019-11-07 19:43:15,720 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:43:15,728 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 19:43:15,729 - root - INFO - Making request to the mapper
+2019-11-07 19:44:16,947 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:44:16,947 - root - INFO - Started from main in main.py
+2019-11-07 19:44:16,947 - root - INFO - Starting thread for store
+2019-11-07 19:44:17,559 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:44:17,559 - root - INFO - Started from main in main.py
+2019-11-07 19:44:17,560 - root - INFO - Initializing  data store
+2019-11-07 19:44:17,571 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:45:43,859 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:45:43,860 - root - INFO - Started from main in main.py
+2019-11-07 19:45:43,860 - root - INFO - Starting Process for store
+2019-11-07 19:45:44,470 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:45:44,470 - root - INFO - Started from main in main.py
+2019-11-07 19:45:44,471 - root - INFO - Initializing  data store
+2019-11-07 19:45:44,476 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:45:59,575 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:45:59,575 - root - INFO - Started from main in main.py
+2019-11-07 19:45:59,575 - root - INFO - Starting Process for store
+2019-11-07 19:46:00,197 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:46:00,197 - root - INFO - Started from main in main.py
+2019-11-07 19:46:00,197 - root - INFO - Initializing  data store
+2019-11-07 19:46:00,208 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:47:53,781 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:47:53,781 - root - INFO - Started from main in main.py
+2019-11-07 19:47:53,781 - root - INFO - Starting Process for store
+2019-11-07 19:47:54,391 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:47:54,392 - root - INFO - Started from main in main.py
+2019-11-07 19:47:54,392 - root - INFO - Initializing  data store
+2019-11-07 19:47:54,404 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:49:05,035 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:49:05,036 - root - INFO - Started from main in main.py
+2019-11-07 19:49:05,036 - root - INFO - Starting Process for store
+2019-11-07 19:49:05,656 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:49:05,656 - root - INFO - Started from main in main.py
+2019-11-07 19:49:05,657 - root - INFO - Initializing  data store
+2019-11-07 19:49:05,663 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:49:22,959 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:49:22,959 - root - INFO - Started from main in main.py
+2019-11-07 19:49:22,961 - root - INFO - Starting Process for store
+2019-11-07 19:51:47,048 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:51:47,049 - root - INFO - Started from main in main.py
+2019-11-07 19:51:47,049 - root - INFO - Starting Process for store
+2019-11-07 19:51:47,661 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:51:47,662 - root - INFO - Started from main in main.py
+2019-11-07 19:51:47,663 - root - INFO - Initializing  data store
+2019-11-07 19:51:47,674 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:53:15,018 - root - INFO - Starting map
+2019-11-07 19:53:15,018 - root - INFO - Number of mappers we have 3
+2019-11-07 19:53:15,019 - root - INFO - Number of Reducers 2
+2019-11-07 19:53:15,019 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:53:15,020 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:53:15,020 - root - INFO - Making RPC call to store
+2019-11-07 19:53:15,732 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:53:15,733 - root - INFO - Started from main in main.py
+2019-11-07 19:53:15,746 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:53:15,747 - root - INFO - Started from main in main.py
+2019-11-07 19:53:15,752 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:53:15,752 - root - INFO - Started from main in main.py
+2019-11-07 19:53:15,754 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:53:15,754 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:53:15,755 - root - INFO - Started from main in main.py
+2019-11-07 19:53:15,763 - root - INFO - Started from main in main.py
+2019-11-07 19:54:03,566 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:03,566 - root - INFO - Started from main in main.py
+2019-11-07 19:54:03,566 - root - INFO - Starting Process for store
+2019-11-07 19:54:04,180 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:04,180 - root - INFO - Started from main in main.py
+2019-11-07 19:54:04,180 - root - INFO - Initializing  data store
+2019-11-07 19:54:04,185 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:54:06,580 - root - INFO - Starting map
+2019-11-07 19:54:06,581 - root - INFO - Number of mappers we have 3
+2019-11-07 19:54:06,581 - root - INFO - Number of Reducers 2
+2019-11-07 19:54:06,581 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:54:06,581 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:54:06,582 - root - INFO - Making RPC call to store
+2019-11-07 19:54:07,301 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:07,302 - root - INFO - Started from main in main.py
+2019-11-07 19:54:07,316 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:07,316 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:07,318 - root - INFO - Started from main in main.py
+2019-11-07 19:54:07,318 - root - INFO - Started from main in main.py
+2019-11-07 19:54:07,322 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:07,322 - root - INFO - Started from main in main.py
+2019-11-07 19:54:07,323 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:07,323 - root - INFO - Started from main in main.py
+2019-11-07 19:54:44,262 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:44,264 - root - INFO - Started from main in main.py
+2019-11-07 19:54:44,264 - root - INFO - Starting Process for store
+2019-11-07 19:54:44,871 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:54:44,872 - root - INFO - Started from main in main.py
+2019-11-07 19:54:44,873 - root - INFO - Initializing  data store
+2019-11-07 19:54:44,885 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:55:29,134 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:55:29,135 - root - INFO - Started from main in main.py
+2019-11-07 19:55:29,135 - root - INFO - Starting Process for store
+2019-11-07 19:55:29,741 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:55:29,741 - root - INFO - Started from main in main.py
+2019-11-07 19:55:29,743 - root - INFO - Initializing  data store
+2019-11-07 19:55:29,748 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:56:05,253 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:56:05,253 - root - INFO - Started from main in main.py
+2019-11-07 19:56:05,255 - root - INFO - Starting Process for store
+2019-11-07 19:56:05,864 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:56:05,865 - root - INFO - Started from main in main.py
+2019-11-07 19:56:05,866 - root - INFO - Initializing  data store
+2019-11-07 19:56:05,877 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:56:33,995 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:56:33,995 - root - INFO - Started from main in main.py
+2019-11-07 19:56:33,997 - root - INFO - Starting Process for store
+2019-11-07 19:56:34,603 - root - INFO - Initializing  data store
+2019-11-07 19:56:34,609 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:57:05,169 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:57:05,170 - root - INFO - Started from main in main.py
+2019-11-07 19:57:05,171 - root - INFO - Starting Process for store
+2019-11-07 19:57:05,789 - root - INFO - Initializing  data store
+2019-11-07 19:57:05,801 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 19:57:16,943 - root - INFO - Cluster Initialized with id 0
+2019-11-07 19:57:16,946 - root - INFO - Starting map
+2019-11-07 19:57:16,946 - root - INFO - Number of mappers we have 3
+2019-11-07 19:57:16,947 - root - INFO - Number of Reducers 2
+2019-11-07 19:57:16,947 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 19:57:16,948 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:57:16,948 - root - INFO - Making RPC call to store
+2019-11-07 19:57:16,951 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 19:57:16,952 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 19:57:16,953 - root - INFO - Making request to the mapper
+2019-11-07 19:57:17,958 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:57:17,958 - root - INFO - Making RPC call to store
+2019-11-07 19:57:17,959 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 19:57:17,960 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 19:57:17,960 - root - INFO - Making request to the mapper
+2019-11-07 19:57:17,963 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 19:57:17,963 - root - INFO - Making RPC call to store
+2019-11-07 19:57:17,964 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 19:57:17,965 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 19:57:17,965 - root - INFO - Making request to the mapper

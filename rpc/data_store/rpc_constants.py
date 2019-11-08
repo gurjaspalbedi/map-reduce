@@ -12,3 +12,8 @@ SET_COMMAND = "set"
 ENCODING = 'utf-8'
 
 INVALID_COMMAND = "INVALID_COMMAND"
+
+
+INITIAL_STAGE = 'initial'
+INTERMEDIATE_STAGE = 'intermediate'
+FINAL_STAGE = 'final'
