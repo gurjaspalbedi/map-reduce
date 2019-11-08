@@ -5,7 +5,6 @@
 
 
 def map_func(file_name, input_list):
-    print('hello')
     word_list = []
     for line in input_list:
         for word in line.split():

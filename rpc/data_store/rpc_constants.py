@@ -17,3 +17,7 @@ INVALID_COMMAND = "INVALID_COMMAND"
 INITIAL_STAGE = 'initial'
 INTERMEDIATE_STAGE = 'intermediate'
 FINAL_STAGE = 'final'
+
+
+TASK_WORD_COUNT = 'word_count'
+TASK_INVERTED_INDEX = 'inverted_index'

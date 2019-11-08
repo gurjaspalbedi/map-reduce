@@ -10,10 +10,15 @@ import ast
 from multiprocessing import Process
 from worker_servers.client import run
 from worker_servers.worker_servicer import WokerServicer 
-from worker_servers.configuration import reducer_count, worker_list, input_file_path
+from worker_servers.configuration import reducer_count, worker_list, inverted_index_path, word_count_path,\
+word_count_map, word_count_reducer, inverted_index_map, inverted_index_reducer, mapper_tasks_path, \
+reducer_task_path
 import math
+import os
+import pickle
 from data_store.server import init_data_store, connect_datastore, command_to_store
-from data_store.rpc_constants import INITIAL_STAGE, INTERMEDIATE_STAGE, FINAL_STAGE
+from data_store.rpc_constants import INITIAL_STAGE, \
+INTERMEDIATE_STAGE, FINAL_STAGE, TASK_INVERTED_INDEX, TASK_WORD_COUNT
 
 from map_reduce_logging.logger import log
 
@@ -75,9 +80,7 @@ def destroy_cluster(cluster_id):
         log.write(f'Killing process {process}')
         process.terminate()
         
-def read_lines():
-    reader = open(input_file_path, "r")
-    return reader
+
 
 def filter_by_keys(tup, key_sequence):
     def seq_filter(tup):
@@ -101,7 +104,7 @@ def save_final_data(key, data):
 
 def combined_for_reducer(data):
     combined = []
-    reducer_data = []
+    reducer_task_count = 0
     unique_keys = set()
     for l in data:
         for item in l:
@@ -110,22 +113,15 @@ def combined_for_reducer(data):
             
     combined.sort(key = lambda x: x[0])
     unique_keys = list(unique_keys)
-    divisions = math.ceil(len(unique_keys) / reducer_count)
-    print('unique keys', len(unique_keys))
-    print('divisions', divisions)
-    i=0
-    for r in range(reducer_count):
-        try:
-            reducer_keys = unique_keys[i:i+divisions]
-        except:
-            reducer_keys = unique_keys[i:]   
-        i += divisions
-        
-        func = filter_by_keys(combined, reducer_keys)
-        reducer_data.append(list(filter(func, combined)))
     
-    print('reducer data lenght', len(reducer_data))
-    return reducer_data
+    for key in unique_keys:
+        func = filter_by_keys(combined, key)
+        data_for_one_key = list(filter(func, combined))
+        print('here in reducer')
+        with open(f'{reducer_task_path}task{reducer_task_count}', 'wb') as task_file:    
+            pickle.dump((key, data_for_one_key), task_file)
+            reducer_task_count += 1
+    return reducer_task_count
 
 
 def convert_to_proto_format(list_of_tuples):
@@ -137,68 +133,83 @@ def convert_to_proto_format(list_of_tuples):
         tup.key = key
         tup.value = value
         response_list.append(tup)
-#    return response
+
     return response_list
     
-def run_map_red(cluster_id):
+def run_map_red(cluster_id, task_type):
     
     global stubs
     stub_list = stubs.get(int(cluster_id), 0)
-    data = run_map(cluster_id)
-    for_reducer = combined_for_reducer(data)
+    data = run_map_chunks(cluster_id, task_type)
+    reducer_task_count = combined_for_reducer(data)
     request = worker_pb2.reducer_request()
-    with open('worker_servers/word_count_reducer.py', "rb") as f:
-        
+    
+    reduce_func_path = word_count_reducer if task_type == TASK_WORD_COUNT else inverted_index_reducer
+    with open(reduce_func_path, "rb") as f:
         request.reducer_function = f.read()
-        for t in range(len(for_reducer)):
-            request.result.extend(convert_to_proto_format(for_reducer[t]))
-#            print(request)
-            print(stub_list[-t-1].worker_reducer(request))
+    for i in range(reducer_task_count):
+        selected_reducer = (i+1) % len(worker_list)  
+        with open(f'{reducer_task_path}task{i}', 'rb') as task_file:
+            current_task = pickle.load(task_file)
+            print('current_task', current_task)
+            request.result.extend(convert_to_proto_format(current_task[1]))
+            print(stub_list[selected_reducer].worker_reducer(request))
+            
+
+
+def create_mapper_data(path, task = TASK_WORD_COUNT):
     
-def run_map(cluster_id):
-    
-    mapper_output = []
-    log.write('Starting map')
-    
-    global stubs, processes
+    if not os.path.isfile(path) and task == TASK_WORD_COUNT:
+        log.write('The provided path is not a file', 'critical')
+        return -1
+    elif not os.path.isdir(path) and task == TASK_INVERTED_INDEX:
+        log.write('The provided path is not a directory', 'critical')
+        return -1
+    else:
+        files = [path] if task == TASK_WORD_COUNT else [ f'{path}/{file_name}' for file_name in os.listdir(path)]
+        task_count = 0
+        for file in files:
+            with open(file, 'r') as f:
+                not_done = True
+                while not_done:
+                    line = f.readlines(3)
+                    if len(line) > 0:
+                        print(os.getcwd())
+                        with open(f'{mapper_tasks_path}task{task_count}', 'wb') as task_file:
+                            pickle.dump((file, line), task_file)
+                        task_count +=1
+                    else:
+                        not_done = False
+        return task_count               
+
+
+def run_map_chunks(cluster_id, task_type = TASK_WORD_COUNT):
+    path  = word_count_path if task_type == TASK_WORD_COUNT else inverted_index_path
+    tasks_count = create_mapper_data(path, task_type)
     stub_list = stubs.get(int(cluster_id), 0)
-    if stub_list and len(stub_list)>1:
-        r = read_lines()
-        lines = r.readlines()
-        divide_among = (len(processes[0]) - reducer_count)
-        log.write(f'Number of mappers we have {divide_among}')
-        log.write(f'Number of Reducers {reducer_count}')
-        if divide_among:
-            seek = math.ceil(len(lines) / divide_among)
-            i = 0
-            count = 1
-            log.write(f'Data divided among mapper{count} mappers')
-            for stub in stub_list[:-reducer_count]:
-                count += 1
-                try:
-                    mappers = lines[i:i+seek]
-                except:
-                    mappers = lines[i:]
-                i += seek
-                save_initial_data(f'mapper{i}', mappers)
+    mapper_data = []
+    for i in range(tasks_count):
+        with open(f'{mapper_tasks_path}task{i}', 'rb') as task_file:
+            current_task = pickle.load(task_file)
+            selected_mapper = (i+1) % len(worker_list)  
+            if stub_list and len(stub_list)>1:
+                print(selected_mapper)
+                stub = stub_list[selected_mapper]
                 request = worker_pb2.mapper_request()
-                request.file_name = input_file_path
-                with open('worker_servers/word_count_map.py', "rb") as f:
+                log.write(f'Sending mapper task to node {selected_mapper}')
+                request.file_name = current_task[0]
+                func_path = word_count_map  if task_type == TASK_WORD_COUNT else inverted_index_map
+                # Reading the map function for the given task
+                with open(func_path, "rb") as f:
                     request.map_function = f.read()
-                request.lines.extend(mappers)
+                request.lines.extend(current_task[1])
                 log.write('Making request to the mapper')
                 response = stub.worker_map(request)
                 result = list(response.result)
-                mapper_output.append(result)
-                print(result)
-        else:
-            print(f'Nodes in cluster count not enough')
-            print(f'Total nodes initialized: {len(stub_list)}')
-            print(f'Reducers Count {reducer_count}')
-            log.write('Number of initialized nodes are not correct', 'critical')
-            result = -1
-    
-    return mapper_output
+                print('current_task', current_task)
+                print('mapper_result', result)
+                mapper_data.append(result)
+    return mapper_data
     
 def main():
     
@@ -239,7 +250,7 @@ def main():
 #                print('Wrong run command')
         elif command == '1':
             init_cluster(worker_list)
-            run_map_red(0)
+            run_map_red(0, TASK_WORD_COUNT)
         elif command == '2':
             destroy_cluster(0)
             

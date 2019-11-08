@@ -2,4 +2,21 @@
 
 reducer_count = 2
 worker_list = [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054),('127.0.0.1', 50055)]
-input_file_path = 'worker_servers/dummy.txt'
+word_count_path = 'worker_servers/dummy.txt'
+inverted_index_path = 'worker_servers/dummy'
+mapper_tasks_path = "worker_servers/tasks/mapper/"
+reducer_task_path = "worker_servers/tasks/reducer/"
+
+
+
+
+
+# ======================== MAP REDUCE FUNCTION PATHS ============================================
+map_reduce_base_function_path = 'worker_servers/map_reduce_functions/'
+
+word_count_map = f'{map_reduce_base_function_path}word_count_map.py'
+word_count_reducer = f'{map_reduce_base_function_path}word_count_reducer.py'
+inverted_index_map = f'{map_reduce_base_function_path}inverted_index_map.py'
+inverted_index_reducer = f'{map_reduce_base_function_path}inverted_index_reducer.py'
+# ======================== MPA REDUCE FUNCTION PATHS =============================================
+
