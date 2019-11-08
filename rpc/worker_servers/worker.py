@@ -10,7 +10,7 @@ import ast
 from multiprocessing import Process
 from worker_servers.client import run
 from worker_servers.worker_servicer import WokerServicer 
-from worker_servers.configuration import reducer_count, worker_list
+from worker_servers.configuration import reducer_count, worker_list, input_file_path
 import math
 from data_store.server import init_data_store, connect_datastore, command_to_store
 from data_store.rpc_constants import INITIAL_STAGE, INTERMEDIATE_STAGE, FINAL_STAGE
@@ -76,7 +76,7 @@ def destroy_cluster(cluster_id):
         process.terminate()
         
 def read_lines():
-    reader = open('worker_servers/dummy.txt', "r")
+    reader = open(input_file_path, "r")
     return reader
 
 def filter_by_keys(tup, key_sequence):
@@ -130,16 +130,15 @@ def combined_for_reducer(data):
 
 def convert_to_proto_format(list_of_tuples):
     
-    response = worker_pb2.tuple_list()
-    reponse_list = []
+    response_list = []
     tup = worker_pb2.tuple()
     for key,value in list_of_tuples:
         tup = worker_pb2.tuple()
         tup.key = key
         tup.value = value
-        reponse_list.append(tup)
-    response.result.extend(reponse_list)
-    return response
+        response_list.append(tup)
+#    return response
+    return response_list
     
 def run_map_red(cluster_id):
     
@@ -147,9 +146,14 @@ def run_map_red(cluster_id):
     stub_list = stubs.get(int(cluster_id), 0)
     data = run_map(cluster_id)
     for_reducer = combined_for_reducer(data)
-    
-    for t in range(len(for_reducer)):
-        print(stub_list[-t-1].worker_reducer(convert_to_proto_format(for_reducer[t])))
+    request = worker_pb2.reducer_request()
+    with open('worker_servers/word_count_reducer.py', "rb") as f:
+        
+        request.reducer_function = f.read()
+        for t in range(len(for_reducer)):
+            request.result.extend(convert_to_proto_format(for_reducer[t]))
+#            print(request)
+            print(stub_list[-t-1].worker_reducer(request))
     
 def run_map(cluster_id):
     
@@ -178,7 +182,9 @@ def run_map(cluster_id):
                 i += seek
                 save_initial_data(f'mapper{i}', mappers)
                 request = worker_pb2.mapper_request()
-                
+                request.file_name = input_file_path
+                with open('worker_servers/word_count_map.py', "rb") as f:
+                    request.map_function = f.read()
                 request.lines.extend(mappers)
                 log.write('Making request to the mapper')
                 response = stub.worker_map(request)
@@ -205,7 +211,7 @@ def main():
     command_run = 'run('
     store_stub = connect_store_client()
     while True:
-        log.write(f"Node in cluster {repr(worker_list)}")
+        log.write(f"Nodes in cluster {repr(worker_list)}")
         command = input()
         if command.startswith(command_init):
             command = command.replace(command_init,'')

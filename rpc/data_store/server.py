@@ -20,9 +20,9 @@ stub = None
 class KeyValueService(store_pb2_grpc.GetSetServicer):
 
     def operation(self, request, context):
-        log.write(f'Store request data for value: {request.value}')
-        response = store_pb2.Input()
-        response.value = store.operation(request.value)
+        log.write(f'Store request data for key: {request.operation}')
+        response = store_pb2.Response()
+        response.data = store.operation(request.operation , request.stage)
         return response
  
  
@@ -30,18 +30,21 @@ def connect_datastore():
     global stub
     channel = grpc.insecure_channel(f'127.0.0.1:{data_store_address["port"]}')
     stub =  store_pb2_grpc.GetSetStub(channel)
+    log.write('Client channel established with the store')
     
-def command_to_store(value):
+def command_to_store(value, stage):
     log.write('Making RPC call to store')
     global stub
-    number = store_pb2.Input(value=value)
-    response = stub.operation(number)
-    return response.value
+    request = store_pb2.Request()
+    print(value, stage)
+    request.operation = value
+    request.stage = stage 
+    response = stub.operation(request)
+    return response.data
 
 def init_data_store(cluster_id = 0):
     
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=1))
-    
     store_pb2_grpc.add_GetSetServicer_to_server(
             KeyValueService(), server)
     

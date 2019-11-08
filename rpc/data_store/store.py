@@ -6,9 +6,9 @@ from map_reduce_logging.logger import log
 
 db = Database()
 
-def store_data(key, value):
+def store_data(key, value, stage):
         try:
-            db.set_value(key,value)
+            db.set_value(key,value, stage)
             log.write(f"Sucessfully Store data with key:{key}\r\n")
             return '1'
         except:
@@ -16,7 +16,7 @@ def store_data(key, value):
             log.write("Unable to store the data with key {key}", 'critical')
             return '-1'
 
-def operation(command_line):
+def operation(command_line, stage):
     operation = "none"
     first = command_line
     value = ""
@@ -25,13 +25,11 @@ def operation(command_line):
         
         if command == rpc_constants.SET_COMMAND:
             operation, key, value = first.split(" ", 2)
-            return store_data(key, value)
-            
+            return store_data(key, value, stage)
         
         elif command == rpc_constants.GET_COMMAND:
-
             operation, key = first.split()
-            value, size = db.get_value(key)
+            value, size = db.get_value(key, stage)
             if value:
                 return '0'
             else:

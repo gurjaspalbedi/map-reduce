@@ -46,9 +46,9 @@ class Database:
         self.writer_final_data = csv.DictWriter(self.final_data_path, fieldnames=fieldnames)
         self.writer_final_data.writeheader()
         
-        self.reader_initial = csv.DictReader(self.file)
-        self.reader_intermediate = csv.DictReader(self.file)
-        self.reader_final = csv.DictReader(self.file)
+        self.reader_initial = csv.DictReader(self.initial_file)
+        self.reader_intermediate = csv.DictReader(self.intermediate_data_path)
+        self.reader_final = csv.DictReader(self.final_data_path)
             
     def set_value(self, key, value, data_stage):  
         

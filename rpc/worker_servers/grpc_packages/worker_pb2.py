@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='worker_servers.grpc_packages',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x0cworker.proto\x12\x1cworker_servers.grpc_packages\"\x1f\n\x0emapper_request\x12\r\n\x05lines\x18\x01 \x03(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"A\n\ntuple_list\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"F\n\x0fmapper_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"\x1c\n\x0cping_request\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"\x1d\n\rping_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"G\n\x10reducer_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"F\n\x0freducer_request\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple2\xc6\x02\n\x06Worker\x12\x61\n\x04ping\x12*.worker_servers.grpc_packages.ping_request\x1a+.worker_servers.grpc_packages.ping_response\"\x00\x12k\n\nworker_map\x12,.worker_servers.grpc_packages.mapper_request\x1a-.worker_servers.grpc_packages.mapper_response\"\x00\x12l\n\x0eworker_reducer\x12(.worker_servers.grpc_packages.tuple_list\x1a..worker_servers.grpc_packages.reducer_response\"\x00\x62\x06proto3')
+  serialized_pb=_b('\n\x0cworker.proto\x12\x1cworker_servers.grpc_packages\"H\n\x0emapper_request\x12\x11\n\tfile_name\x18\x01 \x01(\t\x12\r\n\x05lines\x18\x02 \x03(\t\x12\x14\n\x0cmap_function\x18\x03 \x01(\t\"#\n\x05tuple\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"A\n\ntuple_list\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"F\n\x0fmapper_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"\x1c\n\x0cping_request\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"\x1d\n\rping_response\x12\x0c\n\x04\x64\x61ta\x18\x01 \x01(\t\"G\n\x10reducer_response\x12\x33\n\x06result\x18\x01 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple\"`\n\x0freducer_request\x12\x18\n\x10reducer_function\x18\x01 \x01(\t\x12\x33\n\x06result\x18\x02 \x03(\x0b\x32#.worker_servers.grpc_packages.tuple2\xcb\x02\n\x06Worker\x12\x61\n\x04ping\x12*.worker_servers.grpc_packages.ping_request\x1a+.worker_servers.grpc_packages.ping_response\"\x00\x12k\n\nworker_map\x12,.worker_servers.grpc_packages.mapper_request\x1a-.worker_servers.grpc_packages.mapper_response\"\x00\x12q\n\x0eworker_reducer\x12-.worker_servers.grpc_packages.reducer_request\x1a..worker_servers.grpc_packages.reducer_response\"\x00\x62\x06proto3')
 )
 
 
@@ -34,9 +34,23 @@ _MAPPER_REQUEST = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='lines', full_name='worker_servers.grpc_packages.mapper_request.lines', index=0,
-      number=1, type=9, cpp_type=9, label=3,
+      name='file_name', full_name='worker_servers.grpc_packages.mapper_request.file_name', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lines', full_name='worker_servers.grpc_packages.mapper_request.lines', index=1,
+      number=2, type=9, cpp_type=9, label=3,
       has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='map_function', full_name='worker_servers.grpc_packages.mapper_request.map_function', index=2,
+      number=3, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
@@ -53,7 +67,7 @@ _MAPPER_REQUEST = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=46,
-  serialized_end=77,
+  serialized_end=118,
 )
 
 
@@ -90,8 +104,8 @@ _TUPLE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=79,
-  serialized_end=114,
+  serialized_start=120,
+  serialized_end=155,
 )
 
 
@@ -121,8 +135,8 @@ _TUPLE_LIST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=116,
-  serialized_end=181,
+  serialized_start=157,
+  serialized_end=222,
 )
 
 
@@ -152,8 +166,8 @@ _MAPPER_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=183,
-  serialized_end=253,
+  serialized_start=224,
+  serialized_end=294,
 )
 
 
@@ -183,8 +197,8 @@ _PING_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=255,
-  serialized_end=283,
+  serialized_start=296,
+  serialized_end=324,
 )
 
 
@@ -214,8 +228,8 @@ _PING_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=285,
-  serialized_end=314,
+  serialized_start=326,
+  serialized_end=355,
 )
 
 
@@ -245,8 +259,8 @@ _REDUCER_RESPONSE = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=316,
-  serialized_end=387,
+  serialized_start=357,
+  serialized_end=428,
 )
 
 
@@ -258,8 +272,15 @@ _REDUCER_REQUEST = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='worker_servers.grpc_packages.reducer_request.result', index=0,
-      number=1, type=11, cpp_type=10, label=3,
+      name='reducer_function', full_name='worker_servers.grpc_packages.reducer_request.reducer_function', index=0,
+      number=1, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='result', full_name='worker_servers.grpc_packages.reducer_request.result', index=1,
+      number=2, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -276,8 +297,8 @@ _REDUCER_REQUEST = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=389,
-  serialized_end=459,
+  serialized_start=430,
+  serialized_end=526,
 )
 
 _TUPLE_LIST.fields_by_name['result'].message_type = _TUPLE
@@ -358,8 +379,8 @@ _WORKER = _descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   serialized_options=None,
-  serialized_start=462,
-  serialized_end=788,
+  serialized_start=529,
+  serialized_end=860,
   methods=[
   _descriptor.MethodDescriptor(
     name='ping',
@@ -384,7 +405,7 @@ _WORKER = _descriptor.ServiceDescriptor(
     full_name='worker_servers.grpc_packages.Worker.worker_reducer',
     index=2,
     containing_service=None,
-    input_type=_TUPLE_LIST,
+    input_type=_REDUCER_REQUEST,
     output_type=_REDUCER_RESPONSE,
     serialized_options=None,
   ),

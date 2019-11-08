@@ -16,8 +16,8 @@ class GetSetStub(object):
     """
     self.operation = channel.unary_unary(
         '/GetSet/operation',
-        request_serializer=store__pb2.Input.SerializeToString,
-        response_deserializer=store__pb2.Input.FromString,
+        request_serializer=store__pb2.Request.SerializeToString,
+        response_deserializer=store__pb2.Response.FromString,
         )
 
 
@@ -37,8 +37,8 @@ def add_GetSetServicer_to_server(servicer, server):
   rpc_method_handlers = {
       'operation': grpc.unary_unary_rpc_method_handler(
           servicer.operation,
-          request_deserializer=store__pb2.Input.FromString,
-          response_serializer=store__pb2.Input.SerializeToString,
+          request_deserializer=store__pb2.Request.FromString,
+          response_serializer=store__pb2.Response.SerializeToString,
       ),
   }
   generic_handler = grpc.method_handlers_generic_handler(

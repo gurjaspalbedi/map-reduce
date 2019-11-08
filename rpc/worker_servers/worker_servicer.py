@@ -1,20 +1,21 @@
 # -*- coding: utf-8 -*-
 import worker_pb2
 import worker_pb2_grpc
-import collections
+from types import FunctionType
 
 class WokerServicer(worker_pb2_grpc.WorkerServicer):
     
     def worker_map(self, request, context):
-        word_list = []
-        for line in request.lines:
-            for word in line.split():
-                word_list.append((word, '1'))
-
+        
+        #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
+        execCode = compile(request.map_function, "<string>", 'exec')
+        print(execCode.co_consts[0])
+        map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+        result = map_func(request.file_name, request.lines)
         response = worker_pb2.mapper_response()
         reponse_list = []
         tup = worker_pb2.tuple()
-        for key,value in word_list:
+        for key,value in result:
             tup = worker_pb2.tuple()
             tup.key = key
             tup.value = value
@@ -25,11 +26,11 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
     def worker_reducer(self, request, context):
 
         response = worker_pb2.reducer_response()
-        py_counter = collections.defaultdict(int)
-        for tup in request.result:
-            py_counter[tup.key] += 1
-        
-        for value, key in py_counter.items():
+        #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
+        execCode2 = compile(request.reducer_function, "string", 'exec')
+        red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")   
+        result = red_func(list(request.result))
+        for value, key in result.items():
             response.result.add(key = str(value), value= str(key))
         return response
     

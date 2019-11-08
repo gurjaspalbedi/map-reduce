@@ -3,7 +3,9 @@ syntax = "proto3";
 package worker_servers.grpc_packages;
 
 message mapper_request {
-    repeated string lines = 1;
+    string file_name = 1;
+    repeated string lines = 2;
+    string map_function = 3;
 }
 
 message tuple {
@@ -32,12 +34,13 @@ message reducer_response {
 }
 
 message reducer_request {
-    repeated tuple result = 1;
+    string reducer_function = 1;
+    repeated tuple result = 2;
 }
 
 service Worker {
 
     rpc ping(ping_request) returns (ping_response) {} 
     rpc worker_map(mapper_request) returns (mapper_response) {}
-    rpc worker_reducer(tuple_list) returns (reducer_response) {}
+    rpc worker_reducer(reducer_request) returns (reducer_response) {}
 }

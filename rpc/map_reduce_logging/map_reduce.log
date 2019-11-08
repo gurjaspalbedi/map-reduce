@@ -495,7 +495,8 @@ ValueError: too many values to unpack (expected 3)
 2019-11-07 19:33:32,028 - root - INFO - Trying to store initial data
 2019-11-07 19:33:32,028 - root - INFO - Making RPC call to store
 2019-11-07 19:33:32,033 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
-2019-11-07 19:33:32,035 - root - INFO - Sucessfully Store data with key:{key}
+2019-11-07 19:33:32,035 - root - INFO - Sucessfully Store data with key:{key}
+
 
 2019-11-07 19:33:32,035 - grpc._server - ERROR - Exception calling application: 1 has type int, but expected one of: bytes, unicode
 Traceback (most recent call last):
@@ -528,7 +529,8 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:34:16,612 - root - INFO - Trying to store initial data
 2019-11-07 19:34:16,613 - root - INFO - Making RPC call to store
 2019-11-07 19:34:16,615 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
-2019-11-07 19:34:16,616 - root - INFO - Sucessfully Store data with key:mapper2
+2019-11-07 19:34:16,616 - root - INFO - Sucessfully Store data with key:mapper2
+
 
 2019-11-07 19:34:16,617 - root - INFO - Making request to the mapper
 2019-11-07 19:34:17,358 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
@@ -544,13 +546,15 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:34:17,625 - root - INFO - Trying to store initial data
 2019-11-07 19:34:17,626 - root - INFO - Making RPC call to store
 2019-11-07 19:34:17,626 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
-2019-11-07 19:34:17,627 - root - INFO - Sucessfully Store data with key:mapper4
+2019-11-07 19:34:17,627 - root - INFO - Sucessfully Store data with key:mapper4
+
 
 2019-11-07 19:34:17,628 - root - INFO - Making request to the mapper
 2019-11-07 19:34:17,631 - root - INFO - Trying to store initial data
 2019-11-07 19:34:17,631 - root - INFO - Making RPC call to store
 2019-11-07 19:34:17,635 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
-2019-11-07 19:34:17,637 - root - INFO - Sucessfully Store data with key:mapper6
+2019-11-07 19:34:17,637 - root - INFO - Sucessfully Store data with key:mapper6
+
 
 2019-11-07 19:34:17,637 - root - INFO - Making request to the mapper
 2019-11-07 19:34:17,649 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
@@ -569,7 +573,8 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:37:51,353 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:37:51,354 - root - INFO - Making RPC call to store
 2019-11-07 19:37:51,356 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
-2019-11-07 19:37:51,356 - root - INFO - Sucessfully Store data with key:mapper2
+2019-11-07 19:37:51,356 - root - INFO - Sucessfully Store data with key:mapper2
+
 
 2019-11-07 19:37:51,357 - root - INFO - Making request to the mapper
 2019-11-07 19:37:52,090 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
@@ -585,13 +590,15 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:37:52,372 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:37:52,374 - root - INFO - Making RPC call to store
 2019-11-07 19:37:52,376 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
-2019-11-07 19:37:52,385 - root - INFO - Sucessfully Store data with key:mapper4
+2019-11-07 19:37:52,385 - root - INFO - Sucessfully Store data with key:mapper4
+
 
 2019-11-07 19:37:52,387 - root - INFO - Making request to the mapper
 2019-11-07 19:37:52,397 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:37:52,398 - root - INFO - Making RPC call to store
 2019-11-07 19:37:52,399 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
-2019-11-07 19:37:52,401 - root - INFO - Sucessfully Store data with key:mapper6
+2019-11-07 19:37:52,401 - root - INFO - Sucessfully Store data with key:mapper6
+
 
 2019-11-07 19:37:52,406 - root - INFO - Making request to the mapper
 2019-11-07 19:37:52,421 - root - INFO - [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
@@ -624,7 +631,8 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:43:14,669 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:43:14,670 - root - INFO - Making RPC call to store
 2019-11-07 19:43:14,672 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
-2019-11-07 19:43:14,673 - root - INFO - Sucessfully Store data with key:mapper2
+2019-11-07 19:43:14,673 - root - INFO - Sucessfully Store data with key:mapper2
+
 
 2019-11-07 19:43:14,674 - root - INFO - Making request to the mapper
 2019-11-07 19:43:15,385 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
@@ -640,13 +648,15 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:43:15,689 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:43:15,691 - root - INFO - Making RPC call to store
 2019-11-07 19:43:15,693 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
-2019-11-07 19:43:15,701 - root - INFO - Sucessfully Store data with key:mapper4
+2019-11-07 19:43:15,701 - root - INFO - Sucessfully Store data with key:mapper4
+
 
 2019-11-07 19:43:15,703 - root - INFO - Making request to the mapper
 2019-11-07 19:43:15,716 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:43:15,718 - root - INFO - Making RPC call to store
 2019-11-07 19:43:15,720 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
-2019-11-07 19:43:15,728 - root - INFO - Sucessfully Store data with key:mapper6
+2019-11-07 19:43:15,728 - root - INFO - Sucessfully Store data with key:mapper6
+
 
 2019-11-07 19:43:15,729 - root - INFO - Making request to the mapper
 2019-11-07 19:44:16,947 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
@@ -772,18 +782,2399 @@ TypeError: 1 has type int, but expected one of: bytes, unicode
 2019-11-07 19:57:16,948 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:57:16,948 - root - INFO - Making RPC call to store
 2019-11-07 19:57:16,951 - root - INFO - Store request data for value: set mapper2 ['this this\n', 'hello hello\n']
-2019-11-07 19:57:16,952 - root - INFO - Sucessfully Store data with key:mapper2
+2019-11-07 19:57:16,952 - root - INFO - Sucessfully Store data with key:mapper2
+
 
 2019-11-07 19:57:16,953 - root - INFO - Making request to the mapper
 2019-11-07 19:57:17,958 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:57:17,958 - root - INFO - Making RPC call to store
 2019-11-07 19:57:17,959 - root - INFO - Store request data for value: set mapper4 ['good good\n', 'this this this\n']
-2019-11-07 19:57:17,960 - root - INFO - Sucessfully Store data with key:mapper4
+2019-11-07 19:57:17,960 - root - INFO - Sucessfully Store data with key:mapper4
+
 
 2019-11-07 19:57:17,960 - root - INFO - Making request to the mapper
 2019-11-07 19:57:17,963 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
 2019-11-07 19:57:17,963 - root - INFO - Making RPC call to store
 2019-11-07 19:57:17,964 - root - INFO - Store request data for value: set mapper6 ['what is this\n', 'this is this']
-2019-11-07 19:57:17,965 - root - INFO - Sucessfully Store data with key:mapper6
+2019-11-07 19:57:17,965 - root - INFO - Sucessfully Store data with key:mapper6
+
 
 2019-11-07 19:57:17,965 - root - INFO - Making request to the mapper
+2019-11-07 19:59:58,820 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 19:59:58,821 - root - INFO - Started from main in main.py
+2019-11-07 19:59:58,821 - root - INFO - Starting Process for store
+2019-11-07 19:59:58,830 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 19:59:59,429 - root - INFO - Initializing  data store
+2019-11-07 19:59:59,434 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:10:32,858 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:10:32,858 - root - INFO - Started from main in main.py
+2019-11-07 21:10:32,864 - root - INFO - Starting Process for store
+2019-11-07 21:10:32,882 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:10:33,566 - root - INFO - Initializing  data store
+2019-11-07 21:10:33,585 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:10:34,782 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:10:34,785 - root - INFO - Starting map
+2019-11-07 21:10:34,787 - root - INFO - Number of mappers we have 3
+2019-11-07 21:10:34,789 - root - INFO - Number of Reducers 2
+2019-11-07 21:10:34,789 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:10:34,790 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:10:34,791 - root - INFO - Making RPC call to store
+2019-11-07 21:10:34,808 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:14:07,320 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:14:07,321 - root - INFO - Started from main in main.py
+2019-11-07 21:14:07,327 - root - INFO - Starting Process for store
+2019-11-07 21:14:07,349 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:14:08,059 - root - INFO - Initializing  data store
+2019-11-07 21:14:08,075 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:14:09,206 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:14:09,208 - root - INFO - Starting map
+2019-11-07 21:14:09,211 - root - INFO - Number of mappers we have 3
+2019-11-07 21:14:09,212 - root - INFO - Number of Reducers 2
+2019-11-07 21:14:09,212 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:14:09,213 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:14:09,215 - root - INFO - Making RPC call to store
+2019-11-07 21:14:09,218 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:15:38,635 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:15:38,635 - root - INFO - Started from main in main.py
+2019-11-07 21:15:38,642 - root - INFO - Starting Process for store
+2019-11-07 21:15:38,663 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:15:39,333 - root - INFO - Initializing  data store
+2019-11-07 21:15:39,344 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:15:40,347 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:15:40,349 - root - INFO - Starting map
+2019-11-07 21:15:40,352 - root - INFO - Number of mappers we have 3
+2019-11-07 21:15:40,353 - root - INFO - Number of Reducers 2
+2019-11-07 21:15:40,353 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:15:40,354 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:15:40,356 - root - INFO - Making RPC call to store
+2019-11-07 21:15:40,362 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:16:01,303 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:16:01,303 - root - INFO - Started from main in main.py
+2019-11-07 21:16:01,309 - root - INFO - Starting Process for store
+2019-11-07 21:16:01,323 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:16:02,061 - root - INFO - Initializing  data store
+2019-11-07 21:16:02,073 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:16:03,244 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:16:03,247 - root - INFO - Starting map
+2019-11-07 21:16:03,249 - root - INFO - Number of mappers we have 3
+2019-11-07 21:16:03,250 - root - INFO - Number of Reducers 2
+2019-11-07 21:16:03,251 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:16:03,252 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:16:03,253 - root - INFO - Making RPC call to store
+2019-11-07 21:16:03,257 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:17:59,140 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:17:59,140 - root - INFO - Started from main in main.py
+2019-11-07 21:17:59,145 - root - INFO - Starting Process for store
+2019-11-07 21:17:59,162 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:17:59,858 - root - INFO - Initializing  data store
+2019-11-07 21:17:59,871 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:18:00,733 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:18:00,735 - root - INFO - Starting map
+2019-11-07 21:18:00,738 - root - INFO - Number of mappers we have 3
+2019-11-07 21:18:00,739 - root - INFO - Number of Reducers 2
+2019-11-07 21:18:00,739 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:18:00,740 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:18:00,741 - root - INFO - Making RPC call to store
+2019-11-07 21:18:00,746 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:20:27,164 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:20:27,164 - root - INFO - Started from main in main.py
+2019-11-07 21:20:27,170 - root - INFO - Starting Process for store
+2019-11-07 21:20:27,192 - root - INFO - Client channel established with the store
+2019-11-07 21:20:27,193 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:20:27,896 - root - INFO - Initializing  data store
+2019-11-07 21:20:27,914 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:20:30,550 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:20:30,553 - root - INFO - Starting map
+2019-11-07 21:20:30,555 - root - INFO - Number of mappers we have 3
+2019-11-07 21:20:30,556 - root - INFO - Number of Reducers 2
+2019-11-07 21:20:30,556 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:20:30,558 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:20:30,559 - root - INFO - Making RPC call to store
+2019-11-07 21:20:30,565 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:46:41,204 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:46:41,205 - root - INFO - Started from main in main.py
+2019-11-07 21:46:41,210 - root - INFO - Starting Process for store
+2019-11-07 21:46:41,220 - root - INFO - Client channel established with the store
+2019-11-07 21:46:41,221 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:46:41,803 - root - INFO - Initializing  data store
+2019-11-07 21:46:41,808 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:46:43,455 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:46:43,458 - root - INFO - Starting map
+2019-11-07 21:46:43,460 - root - INFO - Number of mappers we have 3
+2019-11-07 21:46:43,461 - root - INFO - Number of Reducers 2
+2019-11-07 21:46:43,461 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:46:43,462 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:46:43,465 - root - INFO - Making RPC call to store
+2019-11-07 21:46:43,471 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:49:32,826 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:49:32,827 - root - INFO - Started from main in main.py
+2019-11-07 21:49:32,832 - root - INFO - Starting Process for store
+2019-11-07 21:49:32,841 - root - INFO - Client channel established with the store
+2019-11-07 21:49:32,842 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:49:33,420 - root - INFO - Initializing  data store
+2019-11-07 21:49:33,426 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:49:35,009 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:49:35,012 - root - INFO - Starting map
+2019-11-07 21:49:35,014 - root - INFO - Number of mappers we have 3
+2019-11-07 21:49:35,015 - root - INFO - Number of Reducers 2
+2019-11-07 21:49:35,015 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:49:35,016 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:49:35,016 - root - INFO - Making RPC call to store
+2019-11-07 21:49:35,018 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:50:17,313 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:50:17,313 - root - INFO - Started from main in main.py
+2019-11-07 21:50:17,319 - root - INFO - Starting Process for store
+2019-11-07 21:50:17,334 - root - INFO - Client channel established with the store
+2019-11-07 21:50:17,336 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:50:17,922 - root - INFO - Initializing  data store
+2019-11-07 21:50:17,928 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:50:18,672 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:50:18,675 - root - INFO - Starting map
+2019-11-07 21:50:18,677 - root - INFO - Number of mappers we have 3
+2019-11-07 21:50:18,678 - root - INFO - Number of Reducers 2
+2019-11-07 21:50:18,678 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:50:18,678 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:50:18,679 - root - INFO - Making RPC call to store
+2019-11-07 21:50:49,313 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:50:49,314 - root - INFO - Started from main in main.py
+2019-11-07 21:50:49,319 - root - INFO - Starting Process for store
+2019-11-07 21:50:49,328 - root - INFO - Client channel established with the store
+2019-11-07 21:50:49,329 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:50:49,909 - root - INFO - Initializing  data store
+2019-11-07 21:50:49,919 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:50:50,766 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:50:50,768 - root - INFO - Starting map
+2019-11-07 21:50:50,770 - root - INFO - Number of mappers we have 3
+2019-11-07 21:50:50,771 - root - INFO - Number of Reducers 2
+2019-11-07 21:50:50,772 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:50:50,772 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:50:50,773 - root - INFO - Making RPC call to store
+2019-11-07 21:50:50,775 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 24, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:51:14,430 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:51:14,431 - root - INFO - Started from main in main.py
+2019-11-07 21:51:14,436 - root - INFO - Starting Process for store
+2019-11-07 21:51:14,445 - root - INFO - Client channel established with the store
+2019-11-07 21:51:14,446 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:51:15,029 - root - INFO - Initializing  data store
+2019-11-07 21:51:15,039 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:51:16,585 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:51:16,587 - root - INFO - Starting map
+2019-11-07 21:51:16,588 - root - INFO - Number of mappers we have 3
+2019-11-07 21:51:16,590 - root - INFO - Number of Reducers 2
+2019-11-07 21:51:16,591 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:51:16,591 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:51:16,592 - root - INFO - Making RPC call to store
+2019-11-07 21:51:16,594 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:51:45,236 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:51:45,236 - root - INFO - Started from main in main.py
+2019-11-07 21:51:45,242 - root - INFO - Starting Process for store
+2019-11-07 21:51:45,258 - root - INFO - Client channel established with the store
+2019-11-07 21:51:45,260 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:51:45,844 - root - INFO - Initializing  data store
+2019-11-07 21:51:45,849 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:51:46,853 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:51:46,855 - root - INFO - Starting map
+2019-11-07 21:51:46,857 - root - INFO - Number of mappers we have 3
+2019-11-07 21:51:46,858 - root - INFO - Number of Reducers 2
+2019-11-07 21:51:46,860 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:51:46,860 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:51:46,860 - root - INFO - Making RPC call to store
+2019-11-07 21:51:46,863 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:52:09,447 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:52:09,448 - root - INFO - Started from main in main.py
+2019-11-07 21:52:09,453 - root - INFO - Starting Process for store
+2019-11-07 21:52:09,464 - root - INFO - Client channel established with the store
+2019-11-07 21:52:09,465 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:52:10,048 - root - INFO - Initializing  data store
+2019-11-07 21:52:10,055 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:52:11,051 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:52:11,056 - root - INFO - Starting map
+2019-11-07 21:52:11,056 - root - INFO - Number of mappers we have 3
+2019-11-07 21:52:11,058 - root - INFO - Number of Reducers 2
+2019-11-07 21:52:11,059 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:52:11,059 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:52:11,060 - root - INFO - Making RPC call to store
+2019-11-07 21:52:11,065 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 24, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:52:21,299 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:52:21,300 - root - INFO - Started from main in main.py
+2019-11-07 21:52:21,305 - root - INFO - Starting Process for store
+2019-11-07 21:52:21,315 - root - INFO - Client channel established with the store
+2019-11-07 21:52:21,315 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:52:21,897 - root - INFO - Initializing  data store
+2019-11-07 21:52:21,902 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:52:23,546 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:52:23,548 - root - INFO - Starting map
+2019-11-07 21:52:23,550 - root - INFO - Number of mappers we have 3
+2019-11-07 21:52:23,550 - root - INFO - Number of Reducers 2
+2019-11-07 21:52:23,551 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:52:23,552 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:52:23,552 - root - INFO - Making RPC call to store
+2019-11-07 21:52:23,558 - grpc._server - ERROR - Exception calling application: value
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 24, in operation
+    log.write(f'Store request data for value: {request.value}')
+AttributeError: value
+2019-11-07 21:52:54,580 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:52:54,580 - root - INFO - Started from main in main.py
+2019-11-07 21:52:54,582 - root - INFO - Starting Process for store
+2019-11-07 21:52:54,599 - root - INFO - Client channel established with the store
+2019-11-07 21:52:54,601 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:52:55,183 - root - INFO - Initializing  data store
+2019-11-07 21:52:55,188 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:52:56,034 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:52:56,036 - root - INFO - Starting map
+2019-11-07 21:52:56,037 - root - INFO - Number of mappers we have 3
+2019-11-07 21:52:56,037 - root - INFO - Number of Reducers 2
+2019-11-07 21:52:56,038 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:52:56,039 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:52:56,039 - root - INFO - Making RPC call to store
+2019-11-07 21:52:56,041 - grpc._server - ERROR - Exception calling application: data
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 23, in operation
+    log.write(f'Store request data for value: {request.data}')
+AttributeError: data
+2019-11-07 21:53:27,740 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:53:27,741 - root - INFO - Started from main in main.py
+2019-11-07 21:53:27,742 - root - INFO - Starting Process for store
+2019-11-07 21:53:27,752 - root - INFO - Client channel established with the store
+2019-11-07 21:53:27,752 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:53:28,332 - root - INFO - Initializing  data store
+2019-11-07 21:53:28,338 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:53:29,361 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:53:29,363 - root - INFO - Starting map
+2019-11-07 21:53:29,364 - root - INFO - Number of mappers we have 3
+2019-11-07 21:53:29,364 - root - INFO - Number of Reducers 2
+2019-11-07 21:53:29,365 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:53:29,365 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:53:29,366 - root - INFO - Making RPC call to store
+2019-11-07 21:53:29,368 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 21:53:29,369 - grpc._server - ERROR - Exception calling application: operation() missing 1 required positional argument: 'stage'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\data_store\server.py", line 25, in operation
+    response.data = store.operation(request)
+TypeError: operation() missing 1 required positional argument: 'stage'
+2019-11-07 21:54:11,083 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 21:54:11,084 - root - INFO - Started from main in main.py
+2019-11-07 21:54:11,090 - root - INFO - Starting Process for store
+2019-11-07 21:54:11,107 - root - INFO - Client channel established with the store
+2019-11-07 21:54:11,108 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 21:54:11,690 - root - INFO - Initializing  data store
+2019-11-07 21:54:11,697 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 21:54:12,398 - root - INFO - Cluster Initialized with id 0
+2019-11-07 21:54:12,401 - root - INFO - Starting map
+2019-11-07 21:54:12,403 - root - INFO - Number of mappers we have 3
+2019-11-07 21:54:12,403 - root - INFO - Number of Reducers 2
+2019-11-07 21:54:12,404 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 21:54:12,404 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:54:12,405 - root - INFO - Making RPC call to store
+2019-11-07 21:54:12,408 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 21:54:12,408 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 21:54:12,412 - root - INFO - Making request to the mapper
+2019-11-07 21:54:13,428 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:54:13,430 - root - INFO - Making RPC call to store
+2019-11-07 21:54:13,433 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 21:54:13,441 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 21:54:13,444 - root - INFO - Making request to the mapper
+2019-11-07 21:54:13,461 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 21:54:13,469 - root - INFO - Making RPC call to store
+2019-11-07 21:54:13,473 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 21:54:13,477 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 21:54:13,481 - root - INFO - Making request to the mapper
+2019-11-07 21:54:13,513 - root - INFO - Node in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:22:39,467 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:22:39,468 - root - INFO - Started from main in main.py
+2019-11-07 22:22:39,473 - root - INFO - Starting Process for store
+2019-11-07 22:22:39,483 - root - INFO - Client channel established with the store
+2019-11-07 22:22:39,484 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:22:40,066 - root - INFO - Initializing  data store
+2019-11-07 22:22:40,078 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:22:41,309 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:22:41,312 - root - INFO - Starting map
+2019-11-07 22:23:38,315 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:23:38,316 - root - INFO - Started from main in main.py
+2019-11-07 22:23:38,321 - root - INFO - Starting Process for store
+2019-11-07 22:23:38,331 - root - INFO - Client channel established with the store
+2019-11-07 22:23:38,331 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:23:38,914 - root - INFO - Initializing  data store
+2019-11-07 22:23:38,924 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:23:40,221 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:23:40,221 - root - INFO - Starting map
+2019-11-07 22:26:13,585 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:26:13,586 - root - INFO - Started from main in main.py
+2019-11-07 22:26:13,592 - root - INFO - Starting Process for store
+2019-11-07 22:26:13,602 - root - INFO - Client channel established with the store
+2019-11-07 22:26:13,603 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:26:14,185 - root - INFO - Initializing  data store
+2019-11-07 22:26:14,190 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:26:15,080 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:26:15,086 - root - INFO - Starting map
+2019-11-07 22:26:15,087 - root - INFO - Number of mappers we have 3
+2019-11-07 22:26:15,087 - root - INFO - Number of Reducers 2
+2019-11-07 22:26:15,088 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:26:15,088 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:26:15,089 - root - INFO - Making RPC call to store
+2019-11-07 22:26:15,094 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:26:15,096 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:26:15,097 - root - INFO - Making request to the mapper
+2019-11-07 22:26:16,115 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:26:16,117 - root - INFO - Making RPC call to store
+2019-11-07 22:26:16,124 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-07 22:26:16,128 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-07 22:26:16,130 - root - INFO - Making request to the mapper
+2019-11-07 22:26:16,143 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:26:16,145 - root - INFO - Making RPC call to store
+2019-11-07 22:26:16,153 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-07 22:26:16,156 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-07 22:26:16,157 - root - INFO - Making request to the mapper
+2019-11-07 22:26:16,181 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:49:33,031 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:49:33,031 - root - INFO - Started from main in main.py
+2019-11-07 22:49:33,031 - root - INFO - Starting Process for store
+2019-11-07 22:49:33,040 - root - INFO - Client channel established with the store
+2019-11-07 22:49:33,040 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:49:33,634 - root - INFO - Initializing  data store
+2019-11-07 22:49:33,643 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:49:34,907 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:49:34,909 - root - INFO - Starting map
+2019-11-07 22:49:34,912 - root - INFO - Number of mappers we have 3
+2019-11-07 22:49:34,912 - root - INFO - Number of Reducers 2
+2019-11-07 22:49:34,912 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:49:34,913 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:49:34,913 - root - INFO - Making RPC call to store
+2019-11-07 22:49:34,916 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:49:34,917 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:49:34,917 - root - INFO - Making request to the mapper
+2019-11-07 22:49:35,928 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 11, in worker_map
+    map_function = request.map_function()
+TypeError: 'str' object is not callable
+2019-11-07 22:50:05,671 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:50:05,675 - root - INFO - Started from main in main.py
+2019-11-07 22:50:05,676 - root - INFO - Starting Process for store
+2019-11-07 22:50:05,685 - root - INFO - Client channel established with the store
+2019-11-07 22:50:05,686 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:50:06,273 - root - INFO - Initializing  data store
+2019-11-07 22:50:06,279 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:50:07,030 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:50:07,032 - root - INFO - Starting map
+2019-11-07 22:50:07,034 - root - INFO - Number of mappers we have 3
+2019-11-07 22:50:07,035 - root - INFO - Number of Reducers 2
+2019-11-07 22:50:07,035 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:50:07,036 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:50:07,036 - root - INFO - Making RPC call to store
+2019-11-07 22:50:07,043 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:50:07,045 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:50:07,046 - root - INFO - Making request to the mapper
+2019-11-07 22:50:08,058 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 12, in worker_map
+    map_function = request.map_function()
+TypeError: 'str' object is not callable
+2019-11-07 22:51:05,000 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:51:05,000 - root - INFO - Started from main in main.py
+2019-11-07 22:51:05,006 - root - INFO - Starting Process for store
+2019-11-07 22:51:05,023 - root - INFO - Client channel established with the store
+2019-11-07 22:51:05,024 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:51:05,612 - root - INFO - Initializing  data store
+2019-11-07 22:51:05,617 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:51:06,478 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:51:06,481 - root - INFO - Starting map
+2019-11-07 22:51:06,484 - root - INFO - Number of mappers we have 3
+2019-11-07 22:51:06,484 - root - INFO - Number of Reducers 2
+2019-11-07 22:51:06,485 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:51:06,485 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:51:06,486 - root - INFO - Making RPC call to store
+2019-11-07 22:51:06,488 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:51:06,492 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:51:06,494 - root - INFO - Making request to the mapper
+2019-11-07 22:51:07,498 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 12, in worker_map
+    map_function = request.map_function()
+TypeError: 'str' object is not callable
+2019-11-07 22:53:21,456 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:53:21,456 - root - INFO - Started from main in main.py
+2019-11-07 22:53:21,462 - root - INFO - Starting Process for store
+2019-11-07 22:53:21,479 - root - INFO - Client channel established with the store
+2019-11-07 22:53:21,481 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:53:22,068 - root - INFO - Initializing  data store
+2019-11-07 22:53:22,078 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:53:22,928 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:53:22,934 - root - INFO - Starting map
+2019-11-07 22:53:22,935 - root - INFO - Number of mappers we have 3
+2019-11-07 22:53:22,936 - root - INFO - Number of Reducers 2
+2019-11-07 22:53:22,936 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:53:22,937 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:53:22,937 - root - INFO - Making RPC call to store
+2019-11-07 22:53:22,941 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:53:22,944 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:53:32,410 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:53:32,417 - root - INFO - Started from main in main.py
+2019-11-07 22:53:32,418 - root - INFO - Starting Process for store
+2019-11-07 22:53:32,430 - root - INFO - Client channel established with the store
+2019-11-07 22:53:32,432 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:53:33,014 - root - INFO - Initializing  data store
+2019-11-07 22:53:33,019 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:53:33,880 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:53:33,882 - root - INFO - Starting map
+2019-11-07 22:53:33,884 - root - INFO - Number of mappers we have 3
+2019-11-07 22:53:33,885 - root - INFO - Number of Reducers 2
+2019-11-07 22:53:33,885 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:53:33,886 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:53:33,886 - root - INFO - Making RPC call to store
+2019-11-07 22:53:33,889 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:53:33,890 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:53:33,893 - root - INFO - Making request to the mapper
+2019-11-07 22:53:34,898 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 12, in worker_map
+    map_function = request.map_function()
+TypeError: 'str' object is not callable
+2019-11-07 22:53:47,964 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 22:53:47,965 - root - INFO - Started from main in main.py
+2019-11-07 22:53:47,970 - root - INFO - Starting Process for store
+2019-11-07 22:53:47,980 - root - INFO - Client channel established with the store
+2019-11-07 22:53:47,980 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 22:53:48,566 - root - INFO - Initializing  data store
+2019-11-07 22:53:48,576 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 22:53:50,032 - root - INFO - Cluster Initialized with id 0
+2019-11-07 22:53:50,035 - root - INFO - Starting map
+2019-11-07 22:53:50,037 - root - INFO - Number of mappers we have 3
+2019-11-07 22:53:50,037 - root - INFO - Number of Reducers 2
+2019-11-07 22:53:50,037 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 22:53:50,038 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 22:53:50,038 - root - INFO - Making RPC call to store
+2019-11-07 22:53:50,041 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 22:53:50,042 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 22:53:50,043 - root - INFO - Making request to the mapper
+2019-11-07 22:53:51,061 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 12, in worker_map
+    map_function = request.map_function()
+TypeError: 'str' object is not callable
+2019-11-07 23:08:12,379 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:08:12,379 - root - INFO - Started from main in main.py
+2019-11-07 23:08:12,382 - root - INFO - Starting Process for store
+2019-11-07 23:08:12,391 - root - INFO - Client channel established with the store
+2019-11-07 23:08:12,392 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:08:12,973 - root - INFO - Initializing  data store
+2019-11-07 23:08:12,979 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:08:13,728 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:08:13,730 - root - INFO - Starting map
+2019-11-07 23:08:13,731 - root - INFO - Number of mappers we have 3
+2019-11-07 23:08:13,732 - root - INFO - Number of Reducers 2
+2019-11-07 23:08:13,733 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:08:13,733 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:08:13,734 - root - INFO - Making RPC call to store
+2019-11-07 23:08:13,736 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:08:13,737 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:08:13,741 - root - INFO - Making request to the mapper
+2019-11-07 23:08:14,755 - grpc._server - ERROR - Exception calling application: 'str' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 14, in worker_map
+    result = exec(map_function(request.file_name, request.lines))
+TypeError: 'str' object is not callable
+2019-11-07 23:09:06,226 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:09:06,227 - root - INFO - Started from main in main.py
+2019-11-07 23:09:06,232 - root - INFO - Starting Process for store
+2019-11-07 23:09:06,242 - root - INFO - Client channel established with the store
+2019-11-07 23:09:06,243 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:09:06,822 - root - INFO - Initializing  data store
+2019-11-07 23:09:06,833 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:09:07,427 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:09:07,430 - root - INFO - Starting map
+2019-11-07 23:09:07,432 - root - INFO - Number of mappers we have 3
+2019-11-07 23:09:07,433 - root - INFO - Number of Reducers 2
+2019-11-07 23:09:07,433 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:09:07,434 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:09:07,434 - root - INFO - Making RPC call to store
+2019-11-07 23:09:07,437 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:09:07,437 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:09:07,441 - root - INFO - Making request to the mapper
+2019-11-07 23:09:08,457 - grpc._server - ERROR - Exception calling application: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 14, in worker_map
+    result = exec(map_function)(request.file_name, request.lines)
+TypeError: 'NoneType' object is not callable
+2019-11-07 23:14:19,387 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:14:19,387 - root - INFO - Started from main in main.py
+2019-11-07 23:14:19,393 - root - INFO - Starting Process for store
+2019-11-07 23:14:19,410 - root - INFO - Client channel established with the store
+2019-11-07 23:14:19,411 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:14:19,998 - root - INFO - Initializing  data store
+2019-11-07 23:14:20,003 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:14:20,690 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:14:20,693 - root - INFO - Starting map
+2019-11-07 23:14:20,695 - root - INFO - Number of mappers we have 3
+2019-11-07 23:14:20,695 - root - INFO - Number of Reducers 2
+2019-11-07 23:14:20,696 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:14:20,696 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:14:20,697 - root - INFO - Making RPC call to store
+2019-11-07 23:14:20,699 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:14:20,700 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:14:20,703 - root - INFO - Making request to the mapper
+2019-11-07 23:14:21,709 - grpc._server - ERROR - Exception calling application: invalid syntax (<string>, line 7)
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    eval(request.map_function, globals, locals)
+  File "<string>", line 7
+    def map_func(file_name, input_list):
+      ^
+SyntaxError: invalid syntax
+2019-11-07 23:14:42,217 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:14:42,218 - root - INFO - Started from main in main.py
+2019-11-07 23:14:42,223 - root - INFO - Starting Process for store
+2019-11-07 23:14:42,232 - root - INFO - Client channel established with the store
+2019-11-07 23:14:42,232 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:14:42,819 - root - INFO - Initializing  data store
+2019-11-07 23:14:42,830 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:14:43,830 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:14:43,832 - root - INFO - Starting map
+2019-11-07 23:14:43,834 - root - INFO - Number of mappers we have 3
+2019-11-07 23:14:43,835 - root - INFO - Number of Reducers 2
+2019-11-07 23:14:43,835 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:14:43,836 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:14:43,838 - root - INFO - Making RPC call to store
+2019-11-07 23:14:43,840 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:14:43,846 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:14:43,846 - root - INFO - Making request to the mapper
+2019-11-07 23:14:44,850 - grpc._server - ERROR - Exception calling application: invalid syntax (<string>, line 7)
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = eval(request.map_function, globals, locals)
+  File "<string>", line 7
+    def map_func(file_name, input_list):
+      ^
+SyntaxError: invalid syntax
+2019-11-07 23:15:17,524 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:15:17,524 - root - INFO - Started from main in main.py
+2019-11-07 23:15:17,526 - root - INFO - Starting Process for store
+2019-11-07 23:15:17,535 - root - INFO - Client channel established with the store
+2019-11-07 23:15:17,536 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:15:18,122 - root - INFO - Initializing  data store
+2019-11-07 23:15:18,128 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:15:18,802 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:15:18,804 - root - INFO - Starting map
+2019-11-07 23:15:18,806 - root - INFO - Number of mappers we have 3
+2019-11-07 23:15:18,806 - root - INFO - Number of Reducers 2
+2019-11-07 23:15:18,807 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:15:18,807 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:15:18,808 - root - INFO - Making RPC call to store
+2019-11-07 23:15:18,810 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:15:18,811 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:15:18,815 - root - INFO - Making request to the mapper
+2019-11-07 23:15:19,820 - grpc._server - ERROR - Exception calling application: invalid syntax (<string>, line 7)
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = eval(request.map_function)
+  File "<string>", line 7
+    def map_func(file_name, input_list):
+      ^
+SyntaxError: invalid syntax
+2019-11-07 23:15:56,514 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:15:56,514 - root - INFO - Started from main in main.py
+2019-11-07 23:15:56,520 - root - INFO - Starting Process for store
+2019-11-07 23:15:56,533 - root - INFO - Client channel established with the store
+2019-11-07 23:15:56,533 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:15:57,113 - root - INFO - Initializing  data store
+2019-11-07 23:15:57,123 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:15:58,358 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:15:58,362 - root - INFO - Starting map
+2019-11-07 23:15:58,363 - root - INFO - Number of mappers we have 3
+2019-11-07 23:15:58,364 - root - INFO - Number of Reducers 2
+2019-11-07 23:15:58,365 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:15:58,365 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:15:58,366 - root - INFO - Making RPC call to store
+2019-11-07 23:15:58,368 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:15:58,373 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:15:58,374 - root - INFO - Making request to the mapper
+2019-11-07 23:15:59,388 - grpc._server - ERROR - Exception calling application: name 'result' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 27, in worker_map
+    for key,value in result:
+NameError: name 'result' is not defined
+2019-11-07 23:44:54,725 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:44:54,726 - root - INFO - Started from main in main.py
+2019-11-07 23:44:54,731 - root - INFO - Starting Process for store
+2019-11-07 23:44:54,741 - root - INFO - Client channel established with the store
+2019-11-07 23:44:54,741 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:44:55,340 - root - INFO - Initializing  data store
+2019-11-07 23:44:55,350 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:44:56,032 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:44:56,034 - root - INFO - Starting map
+2019-11-07 23:44:56,036 - root - INFO - Number of mappers we have 3
+2019-11-07 23:44:56,037 - root - INFO - Number of Reducers 2
+2019-11-07 23:44:56,038 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:44:56,038 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:44:56,039 - root - INFO - Making RPC call to store
+2019-11-07 23:44:56,042 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:44:56,045 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:44:56,048 - root - INFO - Making request to the mapper
+2019-11-07 23:44:57,053 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 17, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-07 23:45:39,276 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:45:39,276 - root - INFO - Started from main in main.py
+2019-11-07 23:45:39,282 - root - INFO - Starting Process for store
+2019-11-07 23:45:39,292 - root - INFO - Client channel established with the store
+2019-11-07 23:45:39,293 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:45:39,875 - root - INFO - Initializing  data store
+2019-11-07 23:45:39,880 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:45:40,479 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:45:40,482 - root - INFO - Starting map
+2019-11-07 23:45:40,484 - root - INFO - Number of mappers we have 3
+2019-11-07 23:45:40,485 - root - INFO - Number of Reducers 2
+2019-11-07 23:45:40,485 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:45:40,486 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:45:40,486 - root - INFO - Making RPC call to store
+2019-11-07 23:45:40,489 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:45:40,490 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:45:40,496 - root - INFO - Making request to the mapper
+2019-11-07 23:45:41,502 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 17, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-07 23:48:29,936 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:48:29,939 - root - INFO - Started from main in main.py
+2019-11-07 23:48:29,939 - root - INFO - Starting Process for store
+2019-11-07 23:48:29,948 - root - INFO - Client channel established with the store
+2019-11-07 23:48:29,949 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:48:30,539 - root - INFO - Initializing  data store
+2019-11-07 23:48:30,544 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:48:31,234 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:48:31,237 - root - INFO - Starting map
+2019-11-07 23:48:31,239 - root - INFO - Number of mappers we have 3
+2019-11-07 23:48:31,240 - root - INFO - Number of Reducers 2
+2019-11-07 23:48:31,240 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:48:31,240 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:48:31,241 - root - INFO - Making RPC call to store
+2019-11-07 23:48:31,243 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:48:31,244 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:48:31,247 - root - INFO - Making request to the mapper
+2019-11-07 23:48:32,253 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-07 23:53:21,551 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:53:21,552 - root - INFO - Started from main in main.py
+2019-11-07 23:53:21,560 - root - INFO - Starting Process for store
+2019-11-07 23:53:21,575 - root - INFO - Client channel established with the store
+2019-11-07 23:53:21,576 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:53:22,166 - root - INFO - Initializing  data store
+2019-11-07 23:53:22,171 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:53:24,156 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:53:24,158 - root - INFO - Starting map
+2019-11-07 23:53:24,160 - root - INFO - Number of mappers we have 3
+2019-11-07 23:53:24,161 - root - INFO - Number of Reducers 2
+2019-11-07 23:53:24,161 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:53:24,161 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:53:24,162 - root - INFO - Making RPC call to store
+2019-11-07 23:53:24,164 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:53:24,171 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:53:24,172 - root - INFO - Making request to the mapper
+2019-11-07 23:53:25,179 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-07 23:53:58,180 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:53:58,181 - root - INFO - Started from main in main.py
+2019-11-07 23:53:58,186 - root - INFO - Starting Process for store
+2019-11-07 23:53:58,196 - root - INFO - Client channel established with the store
+2019-11-07 23:53:58,196 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:53:58,781 - root - INFO - Initializing  data store
+2019-11-07 23:53:58,786 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:53:59,660 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:53:59,662 - root - INFO - Starting map
+2019-11-07 23:53:59,665 - root - INFO - Number of mappers we have 3
+2019-11-07 23:53:59,665 - root - INFO - Number of Reducers 2
+2019-11-07 23:53:59,666 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:53:59,666 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:53:59,666 - root - INFO - Making RPC call to store
+2019-11-07 23:53:59,669 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:53:59,669 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:53:59,673 - root - INFO - Making request to the mapper
+2019-11-07 23:54:00,678 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-07 23:54:15,509 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-07 23:54:15,510 - root - INFO - Started from main in main.py
+2019-11-07 23:54:15,515 - root - INFO - Starting Process for store
+2019-11-07 23:54:15,525 - root - INFO - Client channel established with the store
+2019-11-07 23:54:15,525 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-07 23:54:16,106 - root - INFO - Initializing  data store
+2019-11-07 23:54:16,114 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-07 23:54:19,215 - root - INFO - Cluster Initialized with id 0
+2019-11-07 23:54:19,217 - root - INFO - Starting map
+2019-11-07 23:54:19,220 - root - INFO - Number of mappers we have 3
+2019-11-07 23:54:19,220 - root - INFO - Number of Reducers 2
+2019-11-07 23:54:19,221 - root - INFO - Data divided among mapper1 mappers
+2019-11-07 23:54:19,221 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-07 23:54:19,222 - root - INFO - Making RPC call to store
+2019-11-07 23:54:19,224 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-07 23:54:19,226 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-07 23:54:19,229 - root - INFO - Making request to the mapper
+2019-11-07 23:54:20,235 - grpc._server - ERROR - Exception calling application: name 'map_func' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 13, in worker_map
+    result = map_func(request.file_name, request.lines)
+NameError: name 'map_func' is not defined
+2019-11-08 00:03:33,695 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:03:33,696 - root - INFO - Started from main in main.py
+2019-11-08 00:03:33,701 - root - INFO - Starting Process for store
+2019-11-08 00:03:33,711 - root - INFO - Client channel established with the store
+2019-11-08 00:03:33,711 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:03:34,299 - root - INFO - Initializing  data store
+2019-11-08 00:03:34,304 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:03:35,795 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:03:35,798 - root - INFO - Starting map
+2019-11-08 00:03:35,800 - root - INFO - Number of mappers we have 3
+2019-11-08 00:03:35,801 - root - INFO - Number of Reducers 2
+2019-11-08 00:03:35,801 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:03:35,802 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:03:35,802 - root - INFO - Making RPC call to store
+2019-11-08 00:03:35,805 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:03:35,805 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:03:35,809 - root - INFO - Making request to the mapper
+2019-11-08 00:03:36,820 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:03:36,821 - root - INFO - Making RPC call to store
+2019-11-08 00:03:36,831 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:03:36,834 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:03:36,836 - root - INFO - Making request to the mapper
+2019-11-08 00:03:36,849 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:03:36,857 - root - INFO - Making RPC call to store
+2019-11-08 00:03:36,861 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:03:36,864 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:03:36,866 - root - INFO - Making request to the mapper
+2019-11-08 00:03:36,900 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:16:52,451 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:16:52,451 - root - INFO - Started from main in main.py
+2019-11-08 00:16:52,457 - root - INFO - Starting Process for store
+2019-11-08 00:16:52,475 - root - INFO - Client channel established with the store
+2019-11-08 00:16:52,475 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:16:53,071 - root - INFO - Initializing  data store
+2019-11-08 00:16:53,078 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:16:54,365 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:16:54,368 - root - INFO - Starting map
+2019-11-08 00:16:54,370 - root - INFO - Number of mappers we have 3
+2019-11-08 00:16:54,370 - root - INFO - Number of Reducers 2
+2019-11-08 00:16:54,371 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:16:54,375 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:16:54,375 - root - INFO - Making RPC call to store
+2019-11-08 00:16:54,379 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:16:54,381 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:16:54,382 - root - INFO - Making request to the mapper
+2019-11-08 00:16:55,397 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:16:55,398 - root - INFO - Making RPC call to store
+2019-11-08 00:16:55,408 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:16:55,412 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:16:55,414 - root - INFO - Making request to the mapper
+2019-11-08 00:16:55,428 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:16:55,430 - root - INFO - Making RPC call to store
+2019-11-08 00:16:55,439 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:16:55,442 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:16:55,443 - root - INFO - Making request to the mapper
+2019-11-08 00:17:27,774 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:17:27,775 - root - INFO - Started from main in main.py
+2019-11-08 00:17:27,780 - root - INFO - Starting Process for store
+2019-11-08 00:17:27,790 - root - INFO - Client channel established with the store
+2019-11-08 00:17:27,790 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:17:28,380 - root - INFO - Initializing  data store
+2019-11-08 00:17:28,390 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:17:29,764 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:17:29,768 - root - INFO - Starting map
+2019-11-08 00:17:29,769 - root - INFO - Number of mappers we have 3
+2019-11-08 00:17:29,771 - root - INFO - Number of Reducers 2
+2019-11-08 00:17:29,771 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:17:29,772 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:17:29,772 - root - INFO - Making RPC call to store
+2019-11-08 00:17:29,774 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:17:29,780 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:17:29,781 - root - INFO - Making request to the mapper
+2019-11-08 00:17:30,795 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:17:30,797 - root - INFO - Making RPC call to store
+2019-11-08 00:17:30,805 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:17:30,809 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:17:30,810 - root - INFO - Making request to the mapper
+2019-11-08 00:17:30,813 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:17:30,813 - root - INFO - Making RPC call to store
+2019-11-08 00:17:30,818 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:17:30,823 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:17:30,823 - root - INFO - Making request to the mapper
+2019-11-08 00:20:26,145 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:20:26,149 - root - INFO - Started from main in main.py
+2019-11-08 00:20:26,151 - root - INFO - Starting Process for store
+2019-11-08 00:20:26,160 - root - INFO - Client channel established with the store
+2019-11-08 00:20:26,164 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:20:26,746 - root - INFO - Initializing  data store
+2019-11-08 00:20:26,751 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:20:28,258 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:20:28,262 - root - INFO - Starting map
+2019-11-08 00:20:28,263 - root - INFO - Number of mappers we have 3
+2019-11-08 00:20:28,264 - root - INFO - Number of Reducers 2
+2019-11-08 00:20:28,265 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:20:28,265 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:20:28,266 - root - INFO - Making RPC call to store
+2019-11-08 00:20:28,268 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:20:28,274 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:20:28,274 - root - INFO - Making request to the mapper
+2019-11-08 00:20:29,282 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:20:29,283 - root - INFO - Making RPC call to store
+2019-11-08 00:20:29,284 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:20:29,285 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:20:29,286 - root - INFO - Making request to the mapper
+2019-11-08 00:20:29,294 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:20:29,294 - root - INFO - Making RPC call to store
+2019-11-08 00:20:29,297 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:20:29,298 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:20:29,298 - root - INFO - Making request to the mapper
+2019-11-08 00:21:51,213 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:21:51,214 - root - INFO - Started from main in main.py
+2019-11-08 00:21:51,220 - root - INFO - Starting Process for store
+2019-11-08 00:21:51,237 - root - INFO - Client channel established with the store
+2019-11-08 00:21:51,237 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:21:51,819 - root - INFO - Initializing  data store
+2019-11-08 00:21:51,824 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:21:52,651 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:21:52,653 - root - INFO - Starting map
+2019-11-08 00:21:52,656 - root - INFO - Number of mappers we have 3
+2019-11-08 00:21:52,656 - root - INFO - Number of Reducers 2
+2019-11-08 00:21:52,657 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:21:52,657 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:21:52,658 - root - INFO - Making RPC call to store
+2019-11-08 00:21:52,660 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:21:52,661 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:21:52,664 - root - INFO - Making request to the mapper
+2019-11-08 00:21:53,682 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:21:53,683 - root - INFO - Making RPC call to store
+2019-11-08 00:21:53,694 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:21:53,695 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:21:53,695 - root - INFO - Making request to the mapper
+2019-11-08 00:21:53,699 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:21:53,705 - root - INFO - Making RPC call to store
+2019-11-08 00:21:53,706 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:21:53,707 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:21:53,708 - root - INFO - Making request to the mapper
+2019-11-08 00:21:53,719 - grpc._common - ERROR - Exception deserializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+google.protobuf.message.DecodeError: Error parsing message
+2019-11-08 00:30:11,568 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:30:11,569 - root - INFO - Started from main in main.py
+2019-11-08 00:30:11,574 - root - INFO - Starting Process for store
+2019-11-08 00:30:11,583 - root - INFO - Client channel established with the store
+2019-11-08 00:30:11,584 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:30:12,174 - root - INFO - Initializing  data store
+2019-11-08 00:30:12,184 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:30:12,807 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:30:12,807 - root - INFO - Starting map
+2019-11-08 00:30:12,810 - root - INFO - Number of mappers we have 3
+2019-11-08 00:30:12,810 - root - INFO - Number of Reducers 2
+2019-11-08 00:30:12,812 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:30:12,813 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:30:12,813 - root - INFO - Making RPC call to store
+2019-11-08 00:30:12,816 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:30:12,817 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:30:12,818 - root - INFO - Making request to the mapper
+2019-11-08 00:30:13,824 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:30:13,824 - root - INFO - Making RPC call to store
+2019-11-08 00:30:13,826 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:30:13,826 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:30:13,827 - root - INFO - Making request to the mapper
+2019-11-08 00:30:13,830 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:30:13,834 - root - INFO - Making RPC call to store
+2019-11-08 00:30:13,838 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:30:13,841 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:30:13,842 - root - INFO - Making request to the mapper
+2019-11-08 00:30:13,850 - grpc._common - ERROR - Exception deserializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+google.protobuf.message.DecodeError: Error parsing message
+2019-11-08 00:33:49,037 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:33:49,038 - root - INFO - Started from main in main.py
+2019-11-08 00:33:49,039 - root - INFO - Starting Process for store
+2019-11-08 00:33:49,049 - root - INFO - Client channel established with the store
+2019-11-08 00:33:49,050 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:33:49,638 - root - INFO - Initializing  data store
+2019-11-08 00:33:49,643 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:33:50,509 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:33:50,511 - root - INFO - Starting map
+2019-11-08 00:33:50,512 - root - INFO - Number of mappers we have 3
+2019-11-08 00:33:50,512 - root - INFO - Number of Reducers 2
+2019-11-08 00:33:50,512 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:33:50,513 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:33:50,513 - root - INFO - Making RPC call to store
+2019-11-08 00:33:50,516 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:33:50,517 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:33:50,517 - root - INFO - Making request to the mapper
+2019-11-08 00:33:51,523 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:33:51,523 - root - INFO - Making RPC call to store
+2019-11-08 00:33:51,525 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:33:51,527 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:33:51,528 - root - INFO - Making request to the mapper
+2019-11-08 00:33:51,536 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:33:51,536 - root - INFO - Making RPC call to store
+2019-11-08 00:33:51,538 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:33:51,539 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:33:51,540 - root - INFO - Making request to the mapper
+2019-11-08 00:33:51,553 - grpc._common - ERROR - Exception deserializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+google.protobuf.message.DecodeError: Error parsing message
+2019-11-08 00:34:13,542 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:34:13,542 - root - INFO - Started from main in main.py
+2019-11-08 00:34:13,543 - root - INFO - Starting Process for store
+2019-11-08 00:34:13,553 - root - INFO - Client channel established with the store
+2019-11-08 00:34:13,554 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:34:14,141 - root - INFO - Initializing  data store
+2019-11-08 00:34:14,146 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:34:14,742 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:34:14,745 - root - INFO - Starting map
+2019-11-08 00:34:14,746 - root - INFO - Number of mappers we have 3
+2019-11-08 00:34:14,746 - root - INFO - Number of Reducers 2
+2019-11-08 00:34:14,747 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:34:14,748 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:34:14,748 - root - INFO - Making RPC call to store
+2019-11-08 00:34:14,750 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:34:14,751 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:34:14,752 - root - INFO - Making request to the mapper
+2019-11-08 00:34:15,767 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:34:15,769 - root - INFO - Making RPC call to store
+2019-11-08 00:34:15,777 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:34:15,779 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:34:15,780 - root - INFO - Making request to the mapper
+2019-11-08 00:34:15,784 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:34:15,784 - root - INFO - Making RPC call to store
+2019-11-08 00:34:15,784 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:34:15,790 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:34:15,791 - root - INFO - Making request to the mapper
+2019-11-08 00:34:15,801 - grpc._common - ERROR - Exception deserializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+google.protobuf.message.DecodeError: Error parsing message
+2019-11-08 00:35:15,265 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:35:15,265 - root - INFO - Started from main in main.py
+2019-11-08 00:35:15,271 - root - INFO - Starting Process for store
+2019-11-08 00:35:15,281 - root - INFO - Client channel established with the store
+2019-11-08 00:35:15,282 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:35:15,907 - root - INFO - Initializing  data store
+2019-11-08 00:35:15,917 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:35:16,617 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:35:16,619 - root - INFO - Starting map
+2019-11-08 00:35:16,622 - root - INFO - Number of mappers we have 3
+2019-11-08 00:35:16,622 - root - INFO - Number of Reducers 2
+2019-11-08 00:35:16,623 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:35:16,623 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:35:16,624 - root - INFO - Making RPC call to store
+2019-11-08 00:35:16,626 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:35:16,627 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:35:16,630 - root - INFO - Making request to the mapper
+2019-11-08 00:35:17,645 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:35:17,647 - root - INFO - Making RPC call to store
+2019-11-08 00:35:17,658 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:35:17,660 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:35:17,661 - root - INFO - Making request to the mapper
+2019-11-08 00:35:17,676 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:35:17,678 - root - INFO - Making RPC call to store
+2019-11-08 00:35:17,683 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:35:17,690 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:35:17,691 - root - INFO - Making request to the mapper
+2019-11-08 00:35:17,698 - grpc._common - ERROR - Exception deserializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+google.protobuf.message.DecodeError: Error parsing message
+2019-11-08 00:40:01,762 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:40:01,763 - root - INFO - Started from main in main.py
+2019-11-08 00:40:01,769 - root - INFO - Starting Process for store
+2019-11-08 00:40:01,779 - root - INFO - Client channel established with the store
+2019-11-08 00:40:01,779 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:40:02,376 - root - INFO - Initializing  data store
+2019-11-08 00:40:02,386 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:40:03,659 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:40:03,662 - root - INFO - Starting map
+2019-11-08 00:40:03,662 - root - INFO - Number of mappers we have 3
+2019-11-08 00:40:03,667 - root - INFO - Number of Reducers 2
+2019-11-08 00:40:03,668 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:40:03,668 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:40:03,669 - root - INFO - Making RPC call to store
+2019-11-08 00:40:03,674 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:40:03,676 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:40:03,677 - root - INFO - Making request to the mapper
+2019-11-08 00:40:04,688 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:40:04,689 - root - INFO - Making RPC call to store
+2019-11-08 00:40:04,699 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:40:04,702 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:40:04,703 - root - INFO - Making request to the mapper
+2019-11-08 00:40:04,709 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:40:04,713 - root - INFO - Making RPC call to store
+2019-11-08 00:40:04,714 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:40:04,717 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:40:04,718 - root - INFO - Making request to the mapper
+2019-11-08 00:41:48,287 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:41:48,288 - root - INFO - Started from main in main.py
+2019-11-08 00:41:48,288 - root - INFO - Starting Process for store
+2019-11-08 00:41:48,298 - root - INFO - Client channel established with the store
+2019-11-08 00:41:48,298 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:41:48,935 - root - INFO - Initializing  data store
+2019-11-08 00:41:48,946 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:41:49,930 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:41:49,933 - root - INFO - Starting map
+2019-11-08 00:41:49,933 - root - INFO - Number of mappers we have 3
+2019-11-08 00:41:49,933 - root - INFO - Number of Reducers 2
+2019-11-08 00:41:49,934 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:41:49,934 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:41:49,935 - root - INFO - Making RPC call to store
+2019-11-08 00:41:49,938 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:41:49,939 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:41:49,940 - root - INFO - Making request to the mapper
+2019-11-08 00:41:50,959 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:41:50,960 - root - INFO - Making RPC call to store
+2019-11-08 00:41:50,963 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:41:50,964 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:41:50,965 - root - INFO - Making request to the mapper
+2019-11-08 00:41:50,968 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:41:50,968 - root - INFO - Making RPC call to store
+2019-11-08 00:41:50,969 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:41:50,970 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:41:50,971 - root - INFO - Making request to the mapper
+2019-11-08 00:42:06,763 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:42:06,764 - root - INFO - Started from main in main.py
+2019-11-08 00:42:06,766 - root - INFO - Starting Process for store
+2019-11-08 00:42:06,776 - root - INFO - Client channel established with the store
+2019-11-08 00:42:06,776 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:42:07,368 - root - INFO - Initializing  data store
+2019-11-08 00:42:07,379 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:42:08,714 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:42:08,717 - root - INFO - Starting map
+2019-11-08 00:42:08,719 - root - INFO - Number of mappers we have 3
+2019-11-08 00:42:08,719 - root - INFO - Number of Reducers 2
+2019-11-08 00:42:08,720 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:42:08,720 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:08,721 - root - INFO - Making RPC call to store
+2019-11-08 00:42:08,723 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:42:08,724 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:42:08,727 - root - INFO - Making request to the mapper
+2019-11-08 00:42:09,742 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:09,744 - root - INFO - Making RPC call to store
+2019-11-08 00:42:09,753 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:42:09,756 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:42:09,757 - root - INFO - Making request to the mapper
+2019-11-08 00:42:09,761 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:09,761 - root - INFO - Making RPC call to store
+2019-11-08 00:42:09,764 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:42:09,768 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:42:09,770 - root - INFO - Making request to the mapper
+2019-11-08 00:42:30,647 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:42:30,648 - root - INFO - Started from main in main.py
+2019-11-08 00:42:30,654 - root - INFO - Starting Process for store
+2019-11-08 00:42:30,671 - root - INFO - Client channel established with the store
+2019-11-08 00:42:30,671 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:42:31,265 - root - INFO - Initializing  data store
+2019-11-08 00:42:31,270 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:42:32,077 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:42:32,083 - root - INFO - Starting map
+2019-11-08 00:42:32,084 - root - INFO - Number of mappers we have 3
+2019-11-08 00:42:32,084 - root - INFO - Number of Reducers 2
+2019-11-08 00:42:32,085 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:42:32,085 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:32,086 - root - INFO - Making RPC call to store
+2019-11-08 00:42:32,090 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:42:32,093 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:42:32,094 - root - INFO - Making request to the mapper
+2019-11-08 00:42:33,109 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:33,111 - root - INFO - Making RPC call to store
+2019-11-08 00:42:33,121 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:42:33,122 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:42:33,123 - root - INFO - Making request to the mapper
+2019-11-08 00:42:33,126 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:42:33,126 - root - INFO - Making RPC call to store
+2019-11-08 00:42:33,130 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:42:33,134 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:42:33,134 - root - INFO - Making request to the mapper
+2019-11-08 00:43:00,811 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:43:00,812 - root - INFO - Started from main in main.py
+2019-11-08 00:43:00,817 - root - INFO - Starting Process for store
+2019-11-08 00:43:00,827 - root - INFO - Client channel established with the store
+2019-11-08 00:43:00,827 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:43:01,418 - root - INFO - Initializing  data store
+2019-11-08 00:43:01,423 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:43:02,715 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:43:02,717 - root - INFO - Starting map
+2019-11-08 00:43:02,718 - root - INFO - Number of mappers we have 3
+2019-11-08 00:43:02,719 - root - INFO - Number of Reducers 2
+2019-11-08 00:43:02,721 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:43:02,721 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:43:02,722 - root - INFO - Making RPC call to store
+2019-11-08 00:43:02,728 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:43:02,731 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:43:02,732 - root - INFO - Making request to the mapper
+2019-11-08 00:43:03,749 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:43:03,751 - root - INFO - Making RPC call to store
+2019-11-08 00:43:03,761 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:43:03,765 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:43:03,765 - root - INFO - Making request to the mapper
+2019-11-08 00:43:03,769 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:43:03,774 - root - INFO - Making RPC call to store
+2019-11-08 00:43:03,777 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:43:03,780 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:43:03,790 - root - INFO - Making request to the mapper
+2019-11-08 00:43:47,997 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:43:47,997 - root - INFO - Started from main in main.py
+2019-11-08 00:43:48,003 - root - INFO - Starting Process for store
+2019-11-08 00:43:48,013 - root - INFO - Client channel established with the store
+2019-11-08 00:43:48,013 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:43:48,612 - root - INFO - Initializing  data store
+2019-11-08 00:43:48,617 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:44:19,697 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:44:19,697 - root - INFO - Started from main in main.py
+2019-11-08 00:44:19,706 - root - INFO - Starting Process for store
+2019-11-08 00:44:19,715 - root - INFO - Client channel established with the store
+2019-11-08 00:44:19,717 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:44:20,301 - root - INFO - Initializing  data store
+2019-11-08 00:44:20,311 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:44:21,227 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:44:21,230 - root - INFO - Starting map
+2019-11-08 00:44:21,235 - root - INFO - Number of mappers we have 3
+2019-11-08 00:44:21,235 - root - INFO - Number of Reducers 2
+2019-11-08 00:44:21,236 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:44:21,236 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:44:21,237 - root - INFO - Making RPC call to store
+2019-11-08 00:44:21,241 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:44:21,243 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:44:21,244 - root - INFO - Making request to the mapper
+2019-11-08 00:44:22,256 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:44:22,257 - root - INFO - Making RPC call to store
+2019-11-08 00:44:22,264 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:44:22,270 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:44:22,271 - root - INFO - Making request to the mapper
+2019-11-08 00:44:22,282 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:44:22,284 - root - INFO - Making RPC call to store
+2019-11-08 00:44:22,292 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:44:22,294 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:44:22,295 - root - INFO - Making request to the mapper
+2019-11-08 00:46:36,069 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:46:36,069 - root - INFO - Started from main in main.py
+2019-11-08 00:46:36,070 - root - INFO - Starting Process for store
+2019-11-08 00:46:36,079 - root - INFO - Client channel established with the store
+2019-11-08 00:46:36,080 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:46:36,673 - root - INFO - Initializing  data store
+2019-11-08 00:46:36,683 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:46:38,323 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:46:40,150 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:46:40,153 - root - INFO - Starting map
+2019-11-08 00:46:40,154 - root - INFO - Number of mappers we have 3
+2019-11-08 00:46:40,154 - root - INFO - Number of Reducers 2
+2019-11-08 00:46:40,155 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:46:40,155 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:46:40,156 - root - INFO - Making RPC call to store
+2019-11-08 00:46:40,158 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:46:40,159 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:46:40,160 - root - INFO - Making request to the mapper
+2019-11-08 00:46:41,174 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:46:41,175 - root - INFO - Making RPC call to store
+2019-11-08 00:46:41,185 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:46:41,186 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:46:41,186 - root - INFO - Making request to the mapper
+2019-11-08 00:46:41,190 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:46:41,191 - root - INFO - Making RPC call to store
+2019-11-08 00:46:41,192 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:46:41,192 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:46:41,196 - root - INFO - Making request to the mapper
+2019-11-08 00:46:41,202 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:47:42,069 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:47:42,070 - root - INFO - Started from main in main.py
+2019-11-08 00:47:42,075 - root - INFO - Starting Process for store
+2019-11-08 00:47:42,085 - root - INFO - Client channel established with the store
+2019-11-08 00:47:42,087 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:47:42,674 - root - INFO - Initializing  data store
+2019-11-08 00:47:42,685 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:47:43,836 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:47:45,226 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:47:45,228 - root - INFO - Starting map
+2019-11-08 00:47:45,230 - root - INFO - Number of mappers we have 3
+2019-11-08 00:47:45,231 - root - INFO - Number of Reducers 2
+2019-11-08 00:47:45,231 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:47:45,232 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:47:45,232 - root - INFO - Making RPC call to store
+2019-11-08 00:47:45,234 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:47:45,235 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:47:45,238 - root - INFO - Making request to the mapper
+2019-11-08 00:47:46,255 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:47:46,256 - root - INFO - Making RPC call to store
+2019-11-08 00:47:46,267 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:47:46,270 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:47:46,271 - root - INFO - Making request to the mapper
+2019-11-08 00:47:46,275 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:47:46,278 - root - INFO - Making RPC call to store
+2019-11-08 00:47:46,282 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:47:46,283 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:47:46,283 - root - INFO - Making request to the mapper
+2019-11-08 00:47:46,292 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:48:39,673 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:48:39,673 - root - INFO - Started from main in main.py
+2019-11-08 00:48:39,679 - root - INFO - Starting Process for store
+2019-11-08 00:48:39,689 - root - INFO - Client channel established with the store
+2019-11-08 00:48:39,692 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:48:40,275 - root - INFO - Initializing  data store
+2019-11-08 00:48:40,280 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:48:41,605 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:48:41,607 - root - INFO - Starting map
+2019-11-08 00:48:41,610 - root - INFO - Number of mappers we have 3
+2019-11-08 00:48:41,610 - root - INFO - Number of Reducers 2
+2019-11-08 00:48:41,610 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:48:41,611 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:48:41,612 - root - INFO - Making RPC call to store
+2019-11-08 00:48:41,614 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:48:41,618 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:48:41,621 - root - INFO - Making request to the mapper
+2019-11-08 00:48:42,635 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:48:42,637 - root - INFO - Making RPC call to store
+2019-11-08 00:48:42,645 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:48:42,649 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:48:42,651 - root - INFO - Making request to the mapper
+2019-11-08 00:48:42,660 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:48:42,661 - root - INFO - Making RPC call to store
+2019-11-08 00:48:42,664 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:48:42,672 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:48:42,673 - root - INFO - Making request to the mapper
+2019-11-08 00:48:42,684 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:49:31,617 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:49:31,617 - root - INFO - Started from main in main.py
+2019-11-08 00:49:31,623 - root - INFO - Starting Process for store
+2019-11-08 00:49:31,632 - root - INFO - Client channel established with the store
+2019-11-08 00:49:31,634 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:49:32,223 - root - INFO - Initializing  data store
+2019-11-08 00:49:32,233 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:49:33,338 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:49:33,340 - root - INFO - Starting map
+2019-11-08 00:49:33,342 - root - INFO - Number of mappers we have 3
+2019-11-08 00:49:33,343 - root - INFO - Number of Reducers 2
+2019-11-08 00:49:33,346 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:49:33,346 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:33,346 - root - INFO - Making RPC call to store
+2019-11-08 00:49:33,351 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:49:33,354 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:49:33,355 - root - INFO - Making request to the mapper
+2019-11-08 00:49:34,370 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:34,371 - root - INFO - Making RPC call to store
+2019-11-08 00:49:34,380 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:49:34,383 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:49:34,384 - root - INFO - Making request to the mapper
+2019-11-08 00:49:34,387 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:34,387 - root - INFO - Making RPC call to store
+2019-11-08 00:49:34,391 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:49:34,394 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:49:34,396 - root - INFO - Making request to the mapper
+2019-11-08 00:49:34,408 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:49:55,207 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:49:55,212 - root - INFO - Started from main in main.py
+2019-11-08 00:49:55,212 - root - INFO - Starting Process for store
+2019-11-08 00:49:55,221 - root - INFO - Client channel established with the store
+2019-11-08 00:49:55,222 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:49:55,811 - root - INFO - Initializing  data store
+2019-11-08 00:49:55,816 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:49:56,811 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:49:56,814 - root - INFO - Starting map
+2019-11-08 00:49:56,814 - root - INFO - Number of mappers we have 3
+2019-11-08 00:49:56,817 - root - INFO - Number of Reducers 2
+2019-11-08 00:49:56,817 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:49:56,818 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:56,818 - root - INFO - Making RPC call to store
+2019-11-08 00:49:56,820 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:49:56,821 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:49:56,822 - root - INFO - Making request to the mapper
+2019-11-08 00:49:57,830 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:57,831 - root - INFO - Making RPC call to store
+2019-11-08 00:49:57,832 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:49:57,833 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:49:57,834 - root - INFO - Making request to the mapper
+2019-11-08 00:49:57,842 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:49:57,844 - root - INFO - Making RPC call to store
+2019-11-08 00:49:57,845 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:49:57,846 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:49:57,847 - root - INFO - Making request to the mapper
+2019-11-08 00:49:57,857 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:50:42,415 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:50:42,415 - root - INFO - Started from main in main.py
+2019-11-08 00:50:42,420 - root - INFO - Starting Process for store
+2019-11-08 00:50:42,430 - root - INFO - Client channel established with the store
+2019-11-08 00:50:42,431 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:50:43,020 - root - INFO - Initializing  data store
+2019-11-08 00:50:43,025 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:50:44,528 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:50:44,530 - root - INFO - Starting map
+2019-11-08 00:50:44,532 - root - INFO - Number of mappers we have 3
+2019-11-08 00:50:44,532 - root - INFO - Number of Reducers 2
+2019-11-08 00:50:44,533 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:50:44,533 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:50:44,534 - root - INFO - Making RPC call to store
+2019-11-08 00:50:44,540 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:50:44,542 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:50:44,544 - root - INFO - Making request to the mapper
+2019-11-08 00:50:45,551 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:50:45,553 - root - INFO - Making RPC call to store
+2019-11-08 00:50:45,555 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:50:45,555 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:50:45,558 - root - INFO - Making request to the mapper
+2019-11-08 00:50:45,563 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:50:45,563 - root - INFO - Making RPC call to store
+2019-11-08 00:50:45,565 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:50:45,566 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:50:45,566 - root - INFO - Making request to the mapper
+2019-11-08 00:50:45,578 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 31, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:51:03,681 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:51:03,684 - root - INFO - Started from main in main.py
+2019-11-08 00:51:03,684 - root - INFO - Starting Process for store
+2019-11-08 00:51:03,694 - root - INFO - Client channel established with the store
+2019-11-08 00:51:03,694 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:51:04,277 - root - INFO - Initializing  data store
+2019-11-08 00:51:04,288 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:51:05,079 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:51:05,085 - root - INFO - Starting map
+2019-11-08 00:51:05,085 - root - INFO - Number of mappers we have 3
+2019-11-08 00:51:05,086 - root - INFO - Number of Reducers 2
+2019-11-08 00:51:05,087 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:51:05,087 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:05,088 - root - INFO - Making RPC call to store
+2019-11-08 00:51:05,093 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:51:05,095 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:51:05,096 - root - INFO - Making request to the mapper
+2019-11-08 00:51:06,113 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:06,114 - root - INFO - Making RPC call to store
+2019-11-08 00:51:06,124 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:51:06,125 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:51:06,126 - root - INFO - Making request to the mapper
+2019-11-08 00:51:06,129 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:06,129 - root - INFO - Making RPC call to store
+2019-11-08 00:51:06,133 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:51:06,136 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:51:06,137 - root - INFO - Making request to the mapper
+2019-11-08 00:51:06,145 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:51:44,444 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:51:44,448 - root - INFO - Started from main in main.py
+2019-11-08 00:51:44,448 - root - INFO - Starting Process for store
+2019-11-08 00:51:44,458 - root - INFO - Client channel established with the store
+2019-11-08 00:51:44,459 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:51:45,046 - root - INFO - Initializing  data store
+2019-11-08 00:51:45,052 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:51:46,134 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:51:46,136 - root - INFO - Starting map
+2019-11-08 00:51:46,138 - root - INFO - Number of mappers we have 3
+2019-11-08 00:51:46,139 - root - INFO - Number of Reducers 2
+2019-11-08 00:51:46,139 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:51:46,140 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:46,141 - root - INFO - Making RPC call to store
+2019-11-08 00:51:46,146 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:51:46,149 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:51:46,150 - root - INFO - Making request to the mapper
+2019-11-08 00:51:47,166 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:47,168 - root - INFO - Making RPC call to store
+2019-11-08 00:51:47,178 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:51:47,180 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:51:47,181 - root - INFO - Making request to the mapper
+2019-11-08 00:51:47,189 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:51:47,189 - root - INFO - Making RPC call to store
+2019-11-08 00:51:47,190 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:51:47,191 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:51:47,192 - root - INFO - Making request to the mapper
+2019-11-08 00:51:47,205 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:52:19,558 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:52:19,559 - root - INFO - Started from main in main.py
+2019-11-08 00:52:19,565 - root - INFO - Starting Process for store
+2019-11-08 00:52:19,575 - root - INFO - Client channel established with the store
+2019-11-08 00:52:19,576 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:52:20,161 - root - INFO - Initializing  data store
+2019-11-08 00:52:20,166 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:52:21,041 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:52:21,044 - root - INFO - Starting map
+2019-11-08 00:52:21,046 - root - INFO - Number of mappers we have 3
+2019-11-08 00:52:21,046 - root - INFO - Number of Reducers 2
+2019-11-08 00:52:21,047 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:52:21,047 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:21,048 - root - INFO - Making RPC call to store
+2019-11-08 00:52:21,050 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:52:21,051 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:52:21,055 - root - INFO - Making request to the mapper
+2019-11-08 00:52:22,069 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:22,071 - root - INFO - Making RPC call to store
+2019-11-08 00:52:22,082 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:52:22,083 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:52:22,084 - root - INFO - Making request to the mapper
+2019-11-08 00:52:22,087 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:22,087 - root - INFO - Making RPC call to store
+2019-11-08 00:52:22,091 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:52:22,095 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:52:22,095 - root - INFO - Making request to the mapper
+2019-11-08 00:52:22,104 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode.co_consts[0], globals(), "foot")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:52:55,318 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:52:55,323 - root - INFO - Started from main in main.py
+2019-11-08 00:52:55,324 - root - INFO - Starting Process for store
+2019-11-08 00:52:55,334 - root - INFO - Client channel established with the store
+2019-11-08 00:52:55,339 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:52:55,923 - root - INFO - Initializing  data store
+2019-11-08 00:52:55,928 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:52:56,892 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:52:56,895 - root - INFO - Starting map
+2019-11-08 00:52:56,895 - root - INFO - Number of mappers we have 3
+2019-11-08 00:52:56,898 - root - INFO - Number of Reducers 2
+2019-11-08 00:52:56,898 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:52:56,899 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:56,899 - root - INFO - Making RPC call to store
+2019-11-08 00:52:56,902 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:52:56,903 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:52:56,907 - root - INFO - Making request to the mapper
+2019-11-08 00:52:57,922 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:57,924 - root - INFO - Making RPC call to store
+2019-11-08 00:52:57,933 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:52:57,937 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:52:57,939 - root - INFO - Making request to the mapper
+2019-11-08 00:52:57,947 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:52:57,948 - root - INFO - Making RPC call to store
+2019-11-08 00:52:57,949 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:52:57,950 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:52:57,951 - root - INFO - Making request to the mapper
+2019-11-08 00:52:57,962 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foot")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:53:56,791 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:53:56,792 - root - INFO - Started from main in main.py
+2019-11-08 00:53:56,797 - root - INFO - Starting Process for store
+2019-11-08 00:53:56,807 - root - INFO - Client channel established with the store
+2019-11-08 00:53:56,807 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:53:57,397 - root - INFO - Initializing  data store
+2019-11-08 00:53:57,409 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:53:58,487 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:53:58,490 - root - INFO - Starting map
+2019-11-08 00:53:58,492 - root - INFO - Number of mappers we have 3
+2019-11-08 00:53:58,492 - root - INFO - Number of Reducers 2
+2019-11-08 00:53:58,493 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:53:58,496 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:53:58,496 - root - INFO - Making RPC call to store
+2019-11-08 00:53:58,501 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:53:58,503 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:53:58,504 - root - INFO - Making request to the mapper
+2019-11-08 00:53:59,520 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:53:59,522 - root - INFO - Making RPC call to store
+2019-11-08 00:53:59,525 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:53:59,533 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:53:59,534 - root - INFO - Making request to the mapper
+2019-11-08 00:53:59,538 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:53:59,538 - root - INFO - Making RPC call to store
+2019-11-08 00:53:59,539 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:53:59,543 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:53:59,544 - root - INFO - Making request to the mapper
+2019-11-08 00:53:59,559 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foot")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:54:57,208 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:54:57,209 - root - INFO - Started from main in main.py
+2019-11-08 00:54:57,210 - root - INFO - Starting Process for store
+2019-11-08 00:54:57,219 - root - INFO - Client channel established with the store
+2019-11-08 00:54:57,220 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:54:57,842 - root - INFO - Initializing  data store
+2019-11-08 00:54:57,853 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:54:58,495 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:54:58,498 - root - INFO - Starting map
+2019-11-08 00:54:58,498 - root - INFO - Number of mappers we have 3
+2019-11-08 00:54:58,499 - root - INFO - Number of Reducers 2
+2019-11-08 00:54:58,499 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:54:58,500 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:54:58,500 - root - INFO - Making RPC call to store
+2019-11-08 00:54:58,503 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:54:58,504 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:54:58,505 - root - INFO - Making request to the mapper
+2019-11-08 00:54:59,521 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:54:59,523 - root - INFO - Making RPC call to store
+2019-11-08 00:54:59,531 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:54:59,532 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:54:59,533 - root - INFO - Making request to the mapper
+2019-11-08 00:54:59,536 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:54:59,537 - root - INFO - Making RPC call to store
+2019-11-08 00:54:59,538 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:54:59,539 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:54:59,539 - root - INFO - Making request to the mapper
+2019-11-08 00:54:59,549 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foot")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:57:50,440 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:57:50,440 - root - INFO - Started from main in main.py
+2019-11-08 00:57:50,445 - root - INFO - Starting Process for store
+2019-11-08 00:57:50,461 - root - INFO - Client channel established with the store
+2019-11-08 00:57:50,462 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:57:51,047 - root - INFO - Initializing  data store
+2019-11-08 00:57:51,067 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:57:52,460 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:57:52,462 - root - INFO - Starting map
+2019-11-08 00:57:52,465 - root - INFO - Number of mappers we have 3
+2019-11-08 00:57:52,465 - root - INFO - Number of Reducers 2
+2019-11-08 00:57:52,467 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:57:52,467 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:57:52,468 - root - INFO - Making RPC call to store
+2019-11-08 00:57:52,473 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:57:52,475 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:57:52,476 - root - INFO - Making request to the mapper
+2019-11-08 00:57:53,490 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:57:53,492 - root - INFO - Making RPC call to store
+2019-11-08 00:57:53,500 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:57:53,503 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:57:53,504 - root - INFO - Making request to the mapper
+2019-11-08 00:57:53,508 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:57:53,510 - root - INFO - Making RPC call to store
+2019-11-08 00:57:53,514 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:57:53,517 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:57:53,518 - root - INFO - Making request to the mapper
+2019-11-08 00:57:53,528 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 00:59:05,257 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 00:59:05,258 - root - INFO - Started from main in main.py
+2019-11-08 00:59:05,259 - root - INFO - Starting Process for store
+2019-11-08 00:59:05,268 - root - INFO - Client channel established with the store
+2019-11-08 00:59:05,269 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 00:59:05,855 - root - INFO - Initializing  data store
+2019-11-08 00:59:05,865 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 00:59:07,299 - root - INFO - Cluster Initialized with id 0
+2019-11-08 00:59:07,301 - root - INFO - Starting map
+2019-11-08 00:59:07,302 - root - INFO - Number of mappers we have 3
+2019-11-08 00:59:07,302 - root - INFO - Number of Reducers 2
+2019-11-08 00:59:07,302 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 00:59:07,303 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:59:07,303 - root - INFO - Making RPC call to store
+2019-11-08 00:59:07,306 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 00:59:07,307 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 00:59:07,308 - root - INFO - Making request to the mapper
+2019-11-08 00:59:08,321 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:59:08,323 - root - INFO - Making RPC call to store
+2019-11-08 00:59:08,332 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 00:59:08,333 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 00:59:08,334 - root - INFO - Making request to the mapper
+2019-11-08 00:59:08,339 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 00:59:08,339 - root - INFO - Making RPC call to store
+2019-11-08 00:59:08,343 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 00:59:08,346 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 00:59:08,347 - root - INFO - Making request to the mapper
+2019-11-08 00:59:08,359 - grpc._server - ERROR - Exception calling application: <module>() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 35, in worker_reducer
+    result = red_func(request.result)
+TypeError: <module>() takes 0 positional arguments but 1 was given
+2019-11-08 01:01:33,868 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:01:33,874 - root - INFO - Started from main in main.py
+2019-11-08 01:01:33,875 - root - INFO - Starting Process for store
+2019-11-08 01:01:33,885 - root - INFO - Client channel established with the store
+2019-11-08 01:01:33,886 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:01:34,470 - root - INFO - Initializing  data store
+2019-11-08 01:01:34,481 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:01:35,825 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:01:35,828 - root - INFO - Starting map
+2019-11-08 01:01:35,830 - root - INFO - Number of mappers we have 3
+2019-11-08 01:01:35,831 - root - INFO - Number of Reducers 2
+2019-11-08 01:01:35,831 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:01:35,832 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:01:35,832 - root - INFO - Making RPC call to store
+2019-11-08 01:01:35,835 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:01:35,841 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:01:35,842 - root - INFO - Making request to the mapper
+2019-11-08 01:01:36,859 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:01:36,860 - root - INFO - Making RPC call to store
+2019-11-08 01:01:36,871 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:01:36,874 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:01:36,875 - root - INFO - Making request to the mapper
+2019-11-08 01:01:36,881 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:01:36,882 - root - INFO - Making RPC call to store
+2019-11-08 01:01:36,884 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:01:36,884 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:01:36,885 - root - INFO - Making request to the mapper
+2019-11-08 01:01:36,902 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:02:29,659 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:02:29,660 - root - INFO - Started from main in main.py
+2019-11-08 01:02:29,663 - root - INFO - Starting Process for store
+2019-11-08 01:02:29,673 - root - INFO - Client channel established with the store
+2019-11-08 01:02:29,674 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:02:30,258 - root - INFO - Initializing  data store
+2019-11-08 01:02:30,263 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:02:31,903 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:02:31,906 - root - INFO - Starting map
+2019-11-08 01:02:31,907 - root - INFO - Number of mappers we have 3
+2019-11-08 01:02:31,908 - root - INFO - Number of Reducers 2
+2019-11-08 01:02:31,909 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:02:31,909 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:31,910 - root - INFO - Making RPC call to store
+2019-11-08 01:02:31,913 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:02:31,918 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:02:31,919 - root - INFO - Making request to the mapper
+2019-11-08 01:02:32,935 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:32,937 - root - INFO - Making RPC call to store
+2019-11-08 01:02:32,947 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:02:32,950 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:02:32,951 - root - INFO - Making request to the mapper
+2019-11-08 01:02:32,961 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:32,962 - root - INFO - Making RPC call to store
+2019-11-08 01:02:32,964 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:02:32,969 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:02:32,972 - root - INFO - Making request to the mapper
+2019-11-08 01:02:32,986 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:02:51,940 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:02:51,941 - root - INFO - Started from main in main.py
+2019-11-08 01:02:51,942 - root - INFO - Starting Process for store
+2019-11-08 01:02:51,952 - root - INFO - Client channel established with the store
+2019-11-08 01:02:51,953 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:02:52,538 - root - INFO - Initializing  data store
+2019-11-08 01:02:52,543 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:02:53,682 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:02:53,684 - root - INFO - Starting map
+2019-11-08 01:02:53,685 - root - INFO - Number of mappers we have 3
+2019-11-08 01:02:53,685 - root - INFO - Number of Reducers 2
+2019-11-08 01:02:53,685 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:02:53,686 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:53,686 - root - INFO - Making RPC call to store
+2019-11-08 01:02:53,689 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:02:53,690 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:02:53,690 - root - INFO - Making request to the mapper
+2019-11-08 01:02:54,708 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:54,710 - root - INFO - Making RPC call to store
+2019-11-08 01:02:54,718 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:02:54,719 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:02:54,720 - root - INFO - Making request to the mapper
+2019-11-08 01:02:54,723 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:02:54,723 - root - INFO - Making RPC call to store
+2019-11-08 01:02:54,724 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:02:54,725 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:02:54,725 - root - INFO - Making request to the mapper
+2019-11-08 01:02:54,736 - grpc._common - ERROR - Exception serializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+TypeError: descriptor 'SerializeToString' requires a 'google.protobuf.pyext._message.CMessage' object but received a 'int'
+2019-11-08 01:03:15,770 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:03:15,771 - root - INFO - Started from main in main.py
+2019-11-08 01:03:15,773 - root - INFO - Starting Process for store
+2019-11-08 01:03:15,783 - root - INFO - Client channel established with the store
+2019-11-08 01:03:15,783 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:03:16,367 - root - INFO - Initializing  data store
+2019-11-08 01:03:16,379 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:03:17,932 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:03:17,934 - root - INFO - Starting map
+2019-11-08 01:03:17,935 - root - INFO - Number of mappers we have 3
+2019-11-08 01:03:17,935 - root - INFO - Number of Reducers 2
+2019-11-08 01:03:17,936 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:03:17,936 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:03:17,937 - root - INFO - Making RPC call to store
+2019-11-08 01:03:17,939 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:03:17,940 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:03:17,941 - root - INFO - Making request to the mapper
+2019-11-08 01:03:18,957 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:03:18,958 - root - INFO - Making RPC call to store
+2019-11-08 01:03:18,962 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:03:18,963 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:03:18,963 - root - INFO - Making request to the mapper
+2019-11-08 01:03:18,966 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:03:18,967 - root - INFO - Making RPC call to store
+2019-11-08 01:03:18,968 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:03:18,969 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:03:18,969 - root - INFO - Making request to the mapper
+2019-11-08 01:03:18,980 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:04:30,889 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:04:30,889 - root - INFO - Started from main in main.py
+2019-11-08 01:04:30,895 - root - INFO - Starting Process for store
+2019-11-08 01:04:30,905 - root - INFO - Client channel established with the store
+2019-11-08 01:04:30,906 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:04:31,491 - root - INFO - Initializing  data store
+2019-11-08 01:04:31,496 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:04:32,197 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:04:32,200 - root - INFO - Starting map
+2019-11-08 01:04:32,202 - root - INFO - Number of mappers we have 3
+2019-11-08 01:04:32,203 - root - INFO - Number of Reducers 2
+2019-11-08 01:04:32,203 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:04:32,204 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:04:32,204 - root - INFO - Making RPC call to store
+2019-11-08 01:04:32,206 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:04:32,207 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:04:32,210 - root - INFO - Making request to the mapper
+2019-11-08 01:04:33,225 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:04:33,226 - root - INFO - Making RPC call to store
+2019-11-08 01:04:33,230 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:04:33,238 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:04:33,239 - root - INFO - Making request to the mapper
+2019-11-08 01:04:33,243 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:04:33,243 - root - INFO - Making RPC call to store
+2019-11-08 01:04:33,249 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:04:33,251 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:04:33,252 - root - INFO - Making request to the mapper
+2019-11-08 01:04:33,264 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:04:59,485 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:04:59,486 - root - INFO - Started from main in main.py
+2019-11-08 01:04:59,491 - root - INFO - Starting Process for store
+2019-11-08 01:04:59,514 - root - INFO - Client channel established with the store
+2019-11-08 01:04:59,517 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:05:00,107 - root - INFO - Initializing  data store
+2019-11-08 01:05:00,116 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:05:00,989 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:05:00,991 - root - INFO - Starting map
+2019-11-08 01:05:00,993 - root - INFO - Number of mappers we have 3
+2019-11-08 01:05:00,993 - root - INFO - Number of Reducers 2
+2019-11-08 01:05:00,994 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:05:00,994 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:00,995 - root - INFO - Making RPC call to store
+2019-11-08 01:05:01,001 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:05:01,004 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:05:01,004 - root - INFO - Making request to the mapper
+2019-11-08 01:05:02,019 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:02,021 - root - INFO - Making RPC call to store
+2019-11-08 01:05:02,029 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:05:02,033 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:05:02,034 - root - INFO - Making request to the mapper
+2019-11-08 01:05:02,038 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:02,041 - root - INFO - Making RPC call to store
+2019-11-08 01:05:02,044 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:05:02,049 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:05:02,051 - root - INFO - Making request to the mapper
+2019-11-08 01:05:02,059 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 34, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:05:27,392 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:05:27,396 - root - INFO - Started from main in main.py
+2019-11-08 01:05:27,396 - root - INFO - Starting Process for store
+2019-11-08 01:05:27,406 - root - INFO - Client channel established with the store
+2019-11-08 01:05:27,407 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:05:27,995 - root - INFO - Initializing  data store
+2019-11-08 01:05:28,005 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:05:28,896 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:05:28,899 - root - INFO - Starting map
+2019-11-08 01:05:28,901 - root - INFO - Number of mappers we have 3
+2019-11-08 01:05:28,902 - root - INFO - Number of Reducers 2
+2019-11-08 01:05:28,902 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:05:28,903 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:28,903 - root - INFO - Making RPC call to store
+2019-11-08 01:05:28,906 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:05:28,907 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:05:28,913 - root - INFO - Making request to the mapper
+2019-11-08 01:05:29,930 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:29,938 - root - INFO - Making RPC call to store
+2019-11-08 01:05:29,939 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:05:29,940 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:05:29,941 - root - INFO - Making request to the mapper
+2019-11-08 01:05:29,949 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:29,949 - root - INFO - Making RPC call to store
+2019-11-08 01:05:29,950 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:05:29,951 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:05:29,952 - root - INFO - Making request to the mapper
+2019-11-08 01:05:29,968 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not int
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 34, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")
+TypeError: function() argument 1 must be code, not int
+2019-11-08 01:05:50,986 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:05:50,986 - root - INFO - Started from main in main.py
+2019-11-08 01:05:50,992 - root - INFO - Starting Process for store
+2019-11-08 01:05:51,001 - root - INFO - Client channel established with the store
+2019-11-08 01:05:51,002 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:05:51,627 - root - INFO - Initializing  data store
+2019-11-08 01:05:51,632 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:05:52,701 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:05:52,703 - root - INFO - Starting map
+2019-11-08 01:05:52,708 - root - INFO - Number of mappers we have 3
+2019-11-08 01:05:52,708 - root - INFO - Number of Reducers 2
+2019-11-08 01:05:52,709 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:05:52,709 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:52,710 - root - INFO - Making RPC call to store
+2019-11-08 01:05:52,714 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:05:52,717 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:05:52,718 - root - INFO - Making request to the mapper
+2019-11-08 01:05:53,729 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:53,735 - root - INFO - Making RPC call to store
+2019-11-08 01:05:53,739 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:05:53,746 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:05:53,748 - root - INFO - Making request to the mapper
+2019-11-08 01:05:53,752 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:05:53,753 - root - INFO - Making RPC call to store
+2019-11-08 01:05:53,754 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:05:53,757 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:05:53,763 - root - INFO - Making request to the mapper
+2019-11-08 01:05:53,778 - grpc._common - ERROR - Exception serializing message!
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_common.py", line 85, in _transform
+    return transformer(message)
+TypeError: descriptor 'SerializeToString' requires a 'google.protobuf.pyext._message.CMessage' object but received a 'int'
+2019-11-08 01:06:13,424 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:06:13,425 - root - INFO - Started from main in main.py
+2019-11-08 01:06:13,428 - root - INFO - Starting Process for store
+2019-11-08 01:06:13,437 - root - INFO - Client channel established with the store
+2019-11-08 01:06:13,438 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:06:14,025 - root - INFO - Initializing  data store
+2019-11-08 01:06:14,035 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:06:15,618 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:06:15,621 - root - INFO - Starting map
+2019-11-08 01:06:15,622 - root - INFO - Number of mappers we have 3
+2019-11-08 01:06:15,622 - root - INFO - Number of Reducers 2
+2019-11-08 01:06:15,623 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:06:15,624 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:06:15,624 - root - INFO - Making RPC call to store
+2019-11-08 01:06:15,627 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:06:15,629 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:06:15,632 - root - INFO - Making request to the mapper
+2019-11-08 01:06:16,640 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:06:16,640 - root - INFO - Making RPC call to store
+2019-11-08 01:06:16,641 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:06:16,642 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:06:16,643 - root - INFO - Making request to the mapper
+2019-11-08 01:06:16,650 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:06:16,651 - root - INFO - Making RPC call to store
+2019-11-08 01:06:16,657 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:06:16,658 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:06:16,658 - root - INFO - Making request to the mapper
+2019-11-08 01:06:16,677 - grpc._server - ERROR - Exception calling application: name 'collections' is not defined
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 36, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 7, in word_count_reducer
+NameError: name 'collections' is not defined
+2019-11-08 01:11:35,592 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:11:35,593 - root - INFO - Started from main in main.py
+2019-11-08 01:11:35,594 - root - INFO - Starting Process for store
+2019-11-08 01:11:35,605 - root - INFO - Client channel established with the store
+2019-11-08 01:11:35,606 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:11:36,214 - root - INFO - Initializing  data store
+2019-11-08 01:11:36,224 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:11:37,186 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:11:37,188 - root - INFO - Starting map
+2019-11-08 01:11:37,189 - root - INFO - Number of mappers we have 3
+2019-11-08 01:11:37,189 - root - INFO - Number of Reducers 2
+2019-11-08 01:11:37,190 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:11:37,190 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:11:37,191 - root - INFO - Making RPC call to store
+2019-11-08 01:11:37,193 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:11:37,195 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:11:37,196 - root - INFO - Making request to the mapper
+2019-11-08 01:11:38,213 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:11:38,214 - root - INFO - Making RPC call to store
+2019-11-08 01:11:38,218 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:11:38,219 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:11:38,220 - root - INFO - Making request to the mapper
+2019-11-08 01:11:38,223 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:11:38,224 - root - INFO - Making RPC call to store
+2019-11-08 01:11:38,225 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:11:38,226 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:11:38,230 - root - INFO - Making request to the mapper
+2019-11-08 01:11:38,238 - grpc._server - ERROR - Exception calling application: function() argument 1 must be code, not None
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 34, in worker_reducer
+    red_func = FunctionType(execCode2.co_consts[2], globals(), "foo")
+TypeError: function() argument 1 must be code, not None
+2019-11-08 01:12:13,381 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:12:13,382 - root - INFO - Started from main in main.py
+2019-11-08 01:12:13,388 - root - INFO - Starting Process for store
+2019-11-08 01:12:13,403 - root - INFO - Client channel established with the store
+2019-11-08 01:12:13,404 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:12:14,002 - root - INFO - Initializing  data store
+2019-11-08 01:12:14,007 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:12:14,980 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:12:14,983 - root - INFO - Starting map
+2019-11-08 01:12:14,985 - root - INFO - Number of mappers we have 3
+2019-11-08 01:12:14,986 - root - INFO - Number of Reducers 2
+2019-11-08 01:12:14,986 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:12:14,988 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:12:14,988 - root - INFO - Making RPC call to store
+2019-11-08 01:12:14,990 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:12:14,991 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:12:14,995 - root - INFO - Making request to the mapper
+2019-11-08 01:12:16,005 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:12:16,005 - root - INFO - Making RPC call to store
+2019-11-08 01:12:16,006 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:12:16,008 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:12:16,016 - root - INFO - Making request to the mapper
+2019-11-08 01:12:16,022 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:12:16,023 - root - INFO - Making RPC call to store
+2019-11-08 01:12:16,023 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:12:16,033 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:12:16,033 - root - INFO - Making request to the mapper
+2019-11-08 01:12:16,046 - grpc._server - ERROR - Exception calling application: 'list' object has no attribute 'result'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 36, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 7, in word_count_reducer
+AttributeError: 'list' object has no attribute 'result'
+2019-11-08 01:13:14,516 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:13:14,517 - root - INFO - Started from main in main.py
+2019-11-08 01:13:14,517 - root - INFO - Starting Process for store
+2019-11-08 01:13:14,527 - root - INFO - Client channel established with the store
+2019-11-08 01:13:14,527 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:13:15,125 - root - INFO - Initializing  data store
+2019-11-08 01:13:15,135 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:13:16,343 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:13:16,345 - root - INFO - Starting map
+2019-11-08 01:13:16,346 - root - INFO - Number of mappers we have 3
+2019-11-08 01:13:16,347 - root - INFO - Number of Reducers 2
+2019-11-08 01:13:16,347 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:13:16,348 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:13:16,349 - root - INFO - Making RPC call to store
+2019-11-08 01:13:16,351 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:13:16,352 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:13:16,356 - root - INFO - Making request to the mapper
+2019-11-08 01:13:17,373 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:13:17,380 - root - INFO - Making RPC call to store
+2019-11-08 01:13:17,383 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:13:17,386 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:13:17,386 - root - INFO - Making request to the mapper
+2019-11-08 01:13:17,394 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:13:17,394 - root - INFO - Making RPC call to store
+2019-11-08 01:13:17,395 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:13:17,396 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:13:17,397 - root - INFO - Making request to the mapper
+2019-11-08 01:13:17,411 - grpc._server - ERROR - Exception calling application: 'list' object has no attribute 'result'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 36, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 7, in word_count_reducer
+AttributeError: 'list' object has no attribute 'result'
+2019-11-08 01:14:40,277 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:14:40,278 - root - INFO - Started from main in main.py
+2019-11-08 01:14:40,283 - root - INFO - Starting Process for store
+2019-11-08 01:14:40,292 - root - INFO - Client channel established with the store
+2019-11-08 01:14:40,295 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:14:40,896 - root - INFO - Initializing  data store
+2019-11-08 01:14:40,901 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:14:41,523 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:14:41,526 - root - INFO - Starting map
+2019-11-08 01:14:41,528 - root - INFO - Number of mappers we have 3
+2019-11-08 01:14:41,528 - root - INFO - Number of Reducers 2
+2019-11-08 01:14:41,529 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:14:41,529 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:14:41,530 - root - INFO - Making RPC call to store
+2019-11-08 01:14:41,533 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:14:41,534 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:14:41,539 - root - INFO - Making request to the mapper
+2019-11-08 01:14:42,555 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:14:42,571 - root - INFO - Making RPC call to store
+2019-11-08 01:14:42,578 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:14:42,581 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:14:42,582 - root - INFO - Making request to the mapper
+2019-11-08 01:14:42,586 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:14:42,590 - root - INFO - Making RPC call to store
+2019-11-08 01:14:42,600 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:14:42,604 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:14:42,605 - root - INFO - Making request to the mapper
+2019-11-08 01:14:42,632 - grpc._server - ERROR - Exception calling application: 'list' object has no attribute 'result'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 36, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 7, in word_count_reducer
+AttributeError: 'list' object has no attribute 'result'
+2019-11-08 01:15:06,511 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 01:15:06,511 - root - INFO - Started from main in main.py
+2019-11-08 01:15:06,517 - root - INFO - Starting Process for store
+2019-11-08 01:15:06,533 - root - INFO - Client channel established with the store
+2019-11-08 01:15:06,535 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:15:07,129 - root - INFO - Initializing  data store
+2019-11-08 01:15:07,134 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 01:15:08,329 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 01:15:10,221 - root - INFO - Cluster Initialized with id 0
+2019-11-08 01:15:10,223 - root - INFO - Starting map
+2019-11-08 01:15:10,224 - root - INFO - Number of mappers we have 3
+2019-11-08 01:15:10,228 - root - INFO - Number of Reducers 2
+2019-11-08 01:15:10,228 - root - INFO - Data divided among mapper1 mappers
+2019-11-08 01:15:10,229 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:15:10,229 - root - INFO - Making RPC call to store
+2019-11-08 01:15:10,234 - root - INFO - Store request data for key: set mapper2 ['this this\n', 'hello hello\n']
+2019-11-08 01:15:10,239 - root - INFO - Sucessfully Store data with key:mapper2
+
+2019-11-08 01:15:10,241 - root - INFO - Making request to the mapper
+2019-11-08 01:15:11,258 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:15:11,266 - root - INFO - Making RPC call to store
+2019-11-08 01:15:11,268 - root - INFO - Store request data for key: set mapper4 ['good good\n', 'this this this\n']
+2019-11-08 01:15:11,271 - root - INFO - Sucessfully Store data with key:mapper4
+
+2019-11-08 01:15:11,278 - root - INFO - Making request to the mapper
+2019-11-08 01:15:11,285 - root - INFO - SAVE INITIAL DATA: Trying to store initial data from mapper {key}
+2019-11-08 01:15:11,290 - root - INFO - Making RPC call to store
+2019-11-08 01:15:11,295 - root - INFO - Store request data for key: set mapper6 ['what is this\n', 'this is this']
+2019-11-08 01:15:11,296 - root - INFO - Sucessfully Store data with key:mapper6
+
+2019-11-08 01:15:11,297 - root - INFO - Making request to the mapper
+2019-11-08 01:15:11,333 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
