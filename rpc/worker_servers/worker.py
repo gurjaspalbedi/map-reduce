@@ -80,16 +80,6 @@ def destroy_cluster(cluster_id):
         log.write(f'Killing process {process}')
         process.terminate()
         
-
-
-def filter_by_keys(tup, key_sequence):
-    def seq_filter(tup):
-        if tup[0] in key_sequence:
-            return True
-        else:
-            return False
-    return seq_filter
-
 def save_initial_data(key, data):
     log.write('SAVE INITIAL DATA: Trying to store initial data from mapper {key}')
     command_to_store(f'set {key} {data}', INITIAL_STAGE)
@@ -112,14 +102,21 @@ def combined_for_reducer(data):
             combined.append((item.key, item.value))
             
     combined.sort(key = lambda x: x[0])
+    print('combined', combined)
+    print('unique keys', unique_keys)
     unique_keys = list(unique_keys)
     
     for key in unique_keys:
-        func = filter_by_keys(combined, key)
-        data_for_one_key = list(filter(func, combined))
-        print('here in reducer')
+        key_wise = []
+        for item in combined:
+            if item[0] == key:
+                key_wise.append((key, item[1]))
+        
+        print('_______________________')
+        print(key_wise)
+        print('+++++++++++++++++++++++')
         with open(f'{reducer_task_path}task{reducer_task_count}', 'wb') as task_file:    
-            pickle.dump((key, data_for_one_key), task_file)
+            pickle.dump((key, key_wise), task_file)
             reducer_task_count += 1
     return reducer_task_count
 
@@ -133,7 +130,6 @@ def convert_to_proto_format(list_of_tuples):
         tup.key = key
         tup.value = value
         response_list.append(tup)
-
     return response_list
     
 def run_map_red(cluster_id, task_type):
@@ -151,9 +147,13 @@ def run_map_red(cluster_id, task_type):
         selected_reducer = (i+1) % len(worker_list)  
         with open(f'{reducer_task_path}task{i}', 'rb') as task_file:
             current_task = pickle.load(task_file)
-            print('current_task', current_task)
+            log.write('current_task for the reducer', current_task)
             request.result.extend(convert_to_proto_format(current_task[1]))
-            print(stub_list[selected_reducer].worker_reducer(request))
+            result = stub_list[selected_reducer].worker_reducer(request)
+    
+    log.write("=====================FINAL RESULT OF MAP REDUCE========================")
+    log.write(result)
+    log.write("=======================================================================")
             
 
 
@@ -172,9 +172,8 @@ def create_mapper_data(path, task = TASK_WORD_COUNT):
             with open(file, 'r') as f:
                 not_done = True
                 while not_done:
-                    line = f.readlines(3)
+                    line = f.readlines(10)
                     if len(line) > 0:
-                        print(os.getcwd())
                         with open(f'{mapper_tasks_path}task{task_count}', 'wb') as task_file:
                             pickle.dump((file, line), task_file)
                         task_count +=1
@@ -206,8 +205,6 @@ def run_map_chunks(cluster_id, task_type = TASK_WORD_COUNT):
                 log.write('Making request to the mapper')
                 response = stub.worker_map(request)
                 result = list(response.result)
-                print('current_task', current_task)
-                print('mapper_result', result)
                 mapper_data.append(result)
     return mapper_data
     

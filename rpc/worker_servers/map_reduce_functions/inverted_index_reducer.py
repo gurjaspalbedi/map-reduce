@@ -7,6 +7,6 @@ def reduce_func(reducer_list):
     for tup in reducer_list:
         key = tup.key
         value_list = tup.value
-        
-        py_counter[key] = py_counter.get(key,[]) +  value_list
+        value = py_counter.get(key,[]) + [value_list]
+        py_counter[key] = list(set(value))
     return py_counter

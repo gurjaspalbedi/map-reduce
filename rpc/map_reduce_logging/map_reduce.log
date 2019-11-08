@@ -4096,3 +4096,1462 @@ TypeError: can only concatenate list (not "str") to list
 2019-11-08 16:57:45,488 - root - INFO - Sending mapper task to node 0
 2019-11-08 16:57:45,489 - root - INFO - Making request to the mapper
 2019-11-08 16:57:45,498 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:00:59,866 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:00:59,866 - root - INFO - Started from main in main.py
+2019-11-08 17:00:59,869 - root - INFO - Starting Process for store
+2019-11-08 17:00:59,878 - root - INFO - Client channel established with the store
+2019-11-08 17:00:59,879 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:01:00,479 - root - INFO - Initializing  data store
+2019-11-08 17:01:00,484 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:01:01,333 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:01:01,344 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:01:01,344 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,365 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:01:02,373 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,392 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:01:02,393 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,399 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:01:02,399 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,407 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:01:02,409 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,412 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:01:02,412 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,415 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:01:02,418 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,423 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:01:02,423 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,426 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:01:02,426 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,433 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:01:02,434 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,438 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:01:02,441 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,445 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:01:02,446 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,448 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:01:02,449 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,456 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:01:02,457 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,459 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:01:02,460 - root - INFO - Making request to the mapper
+2019-11-08 17:01:02,469 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:02:48,805 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:02:48,805 - root - INFO - Started from main in main.py
+2019-11-08 17:02:48,808 - root - INFO - Starting Process for store
+2019-11-08 17:02:48,817 - root - INFO - Client channel established with the store
+2019-11-08 17:02:48,818 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:02:49,417 - root - INFO - Initializing  data store
+2019-11-08 17:02:49,430 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:02:50,611 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:02:50,627 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:02:50,627 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,641 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:02:51,641 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,645 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:02:51,648 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,652 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:02:51,652 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,655 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:02:51,655 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,662 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:02:51,662 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,665 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:02:51,666 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,672 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:02:51,673 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,676 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:02:51,677 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,681 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:02:51,684 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,687 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:02:51,687 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,690 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:02:51,691 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,697 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:02:51,698 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,701 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:02:51,702 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,705 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:02:51,708 - root - INFO - Making request to the mapper
+2019-11-08 17:02:51,722 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:04:03,670 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:04:03,670 - root - INFO - Started from main in main.py
+2019-11-08 17:04:03,673 - root - INFO - Starting Process for store
+2019-11-08 17:04:03,682 - root - INFO - Client channel established with the store
+2019-11-08 17:04:03,683 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:04:04,282 - root - INFO - Initializing  data store
+2019-11-08 17:04:04,288 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:04:05,743 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:04:05,759 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:05,759 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,786 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:06,787 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,798 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:06,799 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,807 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:06,808 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,813 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:06,814 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,821 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:06,822 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,831 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:06,831 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,834 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:06,835 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,837 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:06,841 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,846 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:06,847 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,849 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:06,849 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,856 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:06,857 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,860 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:06,861 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,868 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:06,869 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,872 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:06,876 - root - INFO - Making request to the mapper
+2019-11-08 17:04:06,884 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:04:28,472 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:04:28,473 - root - INFO - Started from main in main.py
+2019-11-08 17:04:28,476 - root - INFO - Starting Process for store
+2019-11-08 17:04:28,493 - root - INFO - Client channel established with the store
+2019-11-08 17:04:28,495 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:04:29,137 - root - INFO - Initializing  data store
+2019-11-08 17:04:29,142 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:04:30,278 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:04:30,293 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:30,294 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,322 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:31,323 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,349 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:31,351 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,361 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:31,361 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,369 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:31,369 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,374 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:31,374 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,380 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:31,383 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,386 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:31,387 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,393 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:31,394 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,398 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:31,398 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,406 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:04:31,406 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,410 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:04:31,410 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,416 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:04:31,417 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,420 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:04:31,421 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,424 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:04:31,427 - root - INFO - Making request to the mapper
+2019-11-08 17:04:31,435 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:06:57,801 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:06:57,801 - root - INFO - Started from main in main.py
+2019-11-08 17:06:57,802 - root - INFO - Starting Process for store
+2019-11-08 17:06:57,812 - root - INFO - Client channel established with the store
+2019-11-08 17:06:57,812 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:06:58,406 - root - INFO - Initializing  data store
+2019-11-08 17:06:58,412 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:07:00,991 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:07:01,002 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:07:01,003 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,027 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:07:02,030 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,047 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:07:02,052 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,059 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:07:02,062 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,066 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:07:02,066 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,070 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:07:02,074 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,078 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:07:02,078 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,081 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:07:02,081 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,088 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:07:02,088 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,092 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:07:02,092 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,095 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:07:02,098 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,102 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:07:02,102 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,105 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:07:02,107 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,113 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:07:02,113 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,115 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:07:02,116 - root - INFO - Making request to the mapper
+2019-11-08 17:07:02,130 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:08:49,899 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:08:49,900 - root - INFO - Started from main in main.py
+2019-11-08 17:08:49,902 - root - INFO - Starting Process for store
+2019-11-08 17:08:49,913 - root - INFO - Client channel established with the store
+2019-11-08 17:08:49,913 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:08:50,538 - root - INFO - Initializing  data store
+2019-11-08 17:08:50,550 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:08:51,393 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:08:51,401 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:08:51,401 - root - INFO - Making request to the mapper
+2019-11-08 17:08:52,419 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:08:52,425 - root - INFO - Making request to the mapper
+2019-11-08 17:08:52,444 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:08:52,447 - root - INFO - Making request to the mapper
+2019-11-08 17:08:52,455 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:08:52,456 - root - INFO - Making request to the mapper
+2019-11-08 17:08:52,466 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:08:52,467 - root - INFO - Making request to the mapper
+2019-11-08 17:08:52,478 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:09:28,708 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:09:28,709 - root - INFO - Started from main in main.py
+2019-11-08 17:09:28,712 - root - INFO - Starting Process for store
+2019-11-08 17:09:28,722 - root - INFO - Client channel established with the store
+2019-11-08 17:09:28,723 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:09:29,318 - root - INFO - Initializing  data store
+2019-11-08 17:09:29,331 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:09:30,930 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:09:30,940 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:09:30,944 - root - INFO - Making request to the mapper
+2019-11-08 17:09:31,961 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:09:31,968 - root - INFO - Making request to the mapper
+2019-11-08 17:09:31,976 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:09:31,979 - root - INFO - Making request to the mapper
+2019-11-08 17:09:31,986 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:09:31,987 - root - INFO - Making request to the mapper
+2019-11-08 17:09:31,992 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:09:31,993 - root - INFO - Making request to the mapper
+2019-11-08 17:09:31,996 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:09:31,997 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,004 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:09:32,005 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,008 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:09:32,008 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,015 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:09:32,017 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,020 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:09:32,020 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,026 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:09:32,027 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,030 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:09:32,030 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,034 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:09:32,034 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,041 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:09:32,041 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,045 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:09:32,045 - root - INFO - Making request to the mapper
+2019-11-08 17:09:32,054 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:12:02,300 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:12:02,301 - root - INFO - Started from main in main.py
+2019-11-08 17:12:02,304 - root - INFO - Starting Process for store
+2019-11-08 17:12:02,314 - root - INFO - Client channel established with the store
+2019-11-08 17:12:02,314 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:12:02,899 - root - INFO - Initializing  data store
+2019-11-08 17:12:02,911 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:12:03,656 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:12:03,673 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:03,673 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,684 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:04,684 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,689 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:04,689 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,697 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:04,697 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,701 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:04,702 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,711 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:04,712 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,719 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:04,719 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,722 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:04,723 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,726 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:04,726 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,734 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:04,735 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,737 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:04,738 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,746 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:04,746 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,750 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:04,750 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,757 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:04,757 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,762 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:04,762 - root - INFO - Making request to the mapper
+2019-11-08 17:12:04,780 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:12:35,502 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:12:35,504 - root - INFO - Started from main in main.py
+2019-11-08 17:12:35,504 - root - INFO - Starting Process for store
+2019-11-08 17:12:35,513 - root - INFO - Client channel established with the store
+2019-11-08 17:12:35,514 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:12:36,109 - root - INFO - Initializing  data store
+2019-11-08 17:12:36,115 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:12:36,799 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:12:36,815 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:36,815 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,823 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:37,823 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,827 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:37,827 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,835 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:37,836 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,839 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:37,840 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,846 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:37,847 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,849 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:37,849 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,856 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:37,858 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,861 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:37,861 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,864 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:37,864 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,872 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:12:37,872 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,874 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:12:37,875 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,881 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:12:37,882 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,886 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:12:37,886 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,893 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:12:37,894 - root - INFO - Making request to the mapper
+2019-11-08 17:12:37,899 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:13:21,572 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:13:21,572 - root - INFO - Started from main in main.py
+2019-11-08 17:13:21,575 - root - INFO - Starting Process for store
+2019-11-08 17:13:21,586 - root - INFO - Client channel established with the store
+2019-11-08 17:13:21,588 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:13:22,187 - root - INFO - Initializing  data store
+2019-11-08 17:13:22,193 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:13:22,999 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:13:23,015 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:13:23,016 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,026 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:13:24,028 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,035 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:13:24,035 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,039 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:13:24,039 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,047 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:13:24,049 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,053 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:13:24,053 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,062 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:13:24,063 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,070 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:13:24,070 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,073 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:13:24,074 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,081 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:13:24,082 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,084 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:13:24,086 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,088 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:13:24,089 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,096 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:13:24,097 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,100 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:13:24,100 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,106 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:13:24,107 - root - INFO - Making request to the mapper
+2019-11-08 17:13:24,119 - grpc._server - ERROR - Exception calling application: can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 33, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: can only concatenate list (not "str") to list
+2019-11-08 17:14:04,150 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:14:04,151 - root - INFO - Started from main in main.py
+2019-11-08 17:14:04,154 - root - INFO - Starting Process for store
+2019-11-08 17:14:04,171 - root - INFO - Client channel established with the store
+2019-11-08 17:14:04,173 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:14:04,755 - root - INFO - Initializing  data store
+2019-11-08 17:14:04,768 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:14:05,610 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:14:05,626 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:05,626 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,644 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:06,650 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,671 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:06,673 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,682 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:06,683 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,693 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:06,695 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,703 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:06,705 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,712 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:06,713 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,716 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:06,717 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,724 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:06,725 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,728 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:06,729 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,731 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:06,735 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,738 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:06,738 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,741 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:06,741 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,744 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:06,747 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,751 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:06,751 - root - INFO - Making request to the mapper
+2019-11-08 17:14:06,769 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:14:53,125 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:14:53,125 - root - INFO - Started from main in main.py
+2019-11-08 17:14:53,128 - root - INFO - Starting Process for store
+2019-11-08 17:14:53,137 - root - INFO - Client channel established with the store
+2019-11-08 17:14:53,138 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:14:53,725 - root - INFO - Initializing  data store
+2019-11-08 17:14:53,732 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:14:54,706 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:14:54,718 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:54,722 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,735 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:55,736 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,739 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:55,739 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,744 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:55,744 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,747 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:55,747 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,750 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:55,750 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,754 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:55,755 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,756 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:55,757 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,758 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:55,759 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,760 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:55,761 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,766 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:14:55,767 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,769 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:14:55,769 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,771 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:14:55,772 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,774 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:14:55,776 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,778 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:14:55,779 - root - INFO - Making request to the mapper
+2019-11-08 17:14:55,796 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:15:26,967 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:15:26,967 - root - INFO - Started from main in main.py
+2019-11-08 17:15:26,970 - root - INFO - Starting Process for store
+2019-11-08 17:15:26,980 - root - INFO - Client channel established with the store
+2019-11-08 17:15:26,981 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:15:27,568 - root - INFO - Initializing  data store
+2019-11-08 17:15:27,574 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:15:28,870 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:15:28,885 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:15:28,886 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,893 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:15:29,893 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,896 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:15:29,896 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,899 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:15:29,900 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,904 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:15:29,905 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,907 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:15:29,908 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,909 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:15:29,909 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,911 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:15:29,913 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,916 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:15:29,917 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,918 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:15:29,919 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,920 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:15:29,920 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,924 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:15:29,925 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,926 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:15:29,927 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,928 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:15:29,928 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,930 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:15:29,930 - root - INFO - Making request to the mapper
+2019-11-08 17:15:29,946 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:15:56,543 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:15:56,543 - root - INFO - Started from main in main.py
+2019-11-08 17:15:56,546 - root - INFO - Starting Process for store
+2019-11-08 17:15:56,556 - root - INFO - Client channel established with the store
+2019-11-08 17:15:56,557 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:15:57,145 - root - INFO - Initializing  data store
+2019-11-08 17:15:57,150 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:16:07,241 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:16:07,257 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:16:07,257 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,271 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:16:08,272 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,285 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:16:08,286 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,298 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:16:08,300 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,313 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:16:08,314 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,329 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:16:08,330 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,336 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:16:08,337 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,340 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:16:08,341 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,343 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:16:08,346 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,350 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:16:08,350 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,352 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:16:08,353 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,355 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:16:08,359 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,361 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:16:08,361 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,362 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:16:08,363 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,365 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:16:08,365 - root - INFO - Making request to the mapper
+2019-11-08 17:16:08,375 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:18:38,113 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:18:38,113 - root - INFO - Started from main in main.py
+2019-11-08 17:18:38,114 - root - INFO - Starting Process for store
+2019-11-08 17:18:38,123 - root - INFO - Client channel established with the store
+2019-11-08 17:18:38,123 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:18:38,762 - root - INFO - Initializing  data store
+2019-11-08 17:18:38,773 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:18:39,438 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:18:39,443 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:18:39,443 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,446 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:18:40,447 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,449 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:18:40,449 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,451 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:18:40,452 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,454 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:18:40,457 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,460 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:18:40,460 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,462 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:18:40,462 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,464 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:18:40,464 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,466 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:18:40,468 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,471 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:18:40,471 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,472 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:18:40,473 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,474 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:18:40,475 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,476 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:18:40,479 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,482 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:18:40,482 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,483 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:18:40,484 - root - INFO - Making request to the mapper
+2019-11-08 17:18:40,513 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:20:29,846 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:20:29,846 - root - INFO - Started from main in main.py
+2019-11-08 17:20:29,850 - root - INFO - Starting Process for store
+2019-11-08 17:20:29,860 - root - INFO - Client channel established with the store
+2019-11-08 17:20:29,861 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:20:30,448 - root - INFO - Initializing  data store
+2019-11-08 17:20:30,453 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:20:31,142 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:20:31,149 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:20:31,149 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,160 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:20:32,161 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,172 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:20:32,173 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,184 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:20:32,186 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,197 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:20:32,198 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,210 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:20:32,211 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,214 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:20:32,215 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,217 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:20:32,222 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,225 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:20:32,225 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,228 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:20:32,228 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,234 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:20:32,235 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,237 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:20:32,237 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,239 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:20:32,240 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,242 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:20:32,242 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,247 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:20:32,247 - root - INFO - Making request to the mapper
+2019-11-08 17:20:32,254 - grpc._server - ERROR - Exception calling application: unsupported operand type(s) for +: 'set' and 'list'
+Traceback (most recent call last):
+  File "C:\Users\gurjaspal\Anaconda3\lib\site-packages\grpc\_server.py", line 435, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "G:\Git\map-reduce\rpc\worker_servers\worker_servicer.py", line 32, in worker_reducer
+    result = red_func(list(request.result))
+  File "string", line 11, in reduce_func
+    execCode = compile(request.map_function, "<string>", 'exec')
+TypeError: unsupported operand type(s) for +: 'set' and 'list'
+2019-11-08 17:21:50,780 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:21:50,781 - root - INFO - Started from main in main.py
+2019-11-08 17:21:50,781 - root - INFO - Starting Process for store
+2019-11-08 17:21:50,791 - root - INFO - Client channel established with the store
+2019-11-08 17:21:50,792 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:21:51,379 - root - INFO - Initializing  data store
+2019-11-08 17:21:51,385 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:21:52,552 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:21:52,559 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:21:52,559 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,568 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:21:53,570 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,581 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:21:53,582 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,594 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:21:53,595 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,603 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:21:53,608 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,615 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:21:53,620 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,623 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:21:53,624 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,627 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:21:53,628 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,634 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:21:53,635 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,637 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:21:53,638 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,640 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:21:53,641 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,646 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:21:53,647 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,649 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:21:53,650 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,652 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:21:53,653 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,658 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:21:53,658 - root - INFO - Making request to the mapper
+2019-11-08 17:21:53,682 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:23:24,780 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:23:24,780 - root - INFO - Started from main in main.py
+2019-11-08 17:23:24,781 - root - INFO - Starting Process for store
+2019-11-08 17:23:24,791 - root - INFO - Client channel established with the store
+2019-11-08 17:23:24,791 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:23:25,373 - root - INFO - Initializing  data store
+2019-11-08 17:23:25,378 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:23:26,311 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:23:26,318 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:23:26,318 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,327 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:23:27,328 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,340 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:23:27,341 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,349 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:23:27,353 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,361 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:23:27,366 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,373 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:23:27,375 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,381 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:23:27,382 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,386 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:23:27,388 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,396 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:23:27,397 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,401 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:23:27,406 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,408 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:23:27,409 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,411 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:23:27,412 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,416 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:23:27,417 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,418 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:23:27,418 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,419 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:23:27,420 - root - INFO - Making request to the mapper
+2019-11-08 17:23:27,436 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:24:20,510 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:24:20,510 - root - INFO - Started from main in main.py
+2019-11-08 17:24:20,511 - root - INFO - Starting Process for store
+2019-11-08 17:24:20,521 - root - INFO - Client channel established with the store
+2019-11-08 17:24:20,521 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:24:21,118 - root - INFO - Initializing  data store
+2019-11-08 17:24:21,124 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:24:22,235 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:24:22,242 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:24:22,242 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,250 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:24:23,251 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,257 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:24:23,262 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,269 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:24:23,270 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,278 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:24:23,279 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,288 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:24:23,289 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,293 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:24:23,294 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,301 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:24:23,302 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,306 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:24:23,307 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,314 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:24:23,315 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,319 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:24:23,320 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,328 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:24:23,329 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,332 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:24:23,333 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,339 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:24:23,340 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,343 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:24:23,344 - root - INFO - Making request to the mapper
+2019-11-08 17:24:23,372 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:25:22,390 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:25:22,390 - root - INFO - Started from main in main.py
+2019-11-08 17:25:22,390 - root - INFO - Starting Process for store
+2019-11-08 17:25:22,401 - root - INFO - Client channel established with the store
+2019-11-08 17:25:22,401 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:25:22,983 - root - INFO - Initializing  data store
+2019-11-08 17:25:22,995 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:25:24,293 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:25:24,300 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:25:24,301 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,308 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:25:25,309 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,321 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:25:25,322 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,329 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:25:25,334 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,339 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:25:25,339 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,341 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:25:25,342 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,344 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:25:25,345 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,346 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:25:25,346 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,348 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:25:25,348 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,349 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:25:25,350 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,351 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:25:25,351 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,352 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:25:25,353 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,356 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:25:25,357 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,358 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:25:25,358 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,359 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:25:25,359 - root - INFO - Making request to the mapper
+2019-11-08 17:25:25,376 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:26:12,317 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:26:12,317 - root - INFO - Started from main in main.py
+2019-11-08 17:26:12,318 - root - INFO - Starting Process for store
+2019-11-08 17:26:12,327 - root - INFO - Client channel established with the store
+2019-11-08 17:26:12,328 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:26:12,911 - root - INFO - Initializing  data store
+2019-11-08 17:26:12,916 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:26:14,533 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:26:14,540 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:26:14,540 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,552 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:26:15,553 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,564 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:26:15,566 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,577 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:26:15,578 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,589 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:26:15,591 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,602 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:26:15,603 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,607 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:26:15,609 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,616 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:26:15,617 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,621 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:26:15,623 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,632 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:26:15,633 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,636 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:26:15,637 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,642 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:26:15,642 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,644 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:26:15,645 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,647 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:26:15,647 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,651 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:26:15,652 - root - INFO - Making request to the mapper
+2019-11-08 17:26:15,673 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:28:54,019 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:28:54,019 - root - INFO - Started from main in main.py
+2019-11-08 17:28:54,019 - root - INFO - Starting Process for store
+2019-11-08 17:28:54,030 - root - INFO - Client channel established with the store
+2019-11-08 17:28:54,030 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:28:54,608 - root - INFO - Initializing  data store
+2019-11-08 17:28:54,621 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:28:55,446 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:28:55,453 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:28:55,453 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,466 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:28:56,467 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,478 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:28:56,480 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,491 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:28:56,493 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,497 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:28:56,497 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,499 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:28:56,501 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,503 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:28:56,503 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,504 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:28:56,504 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,506 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:28:56,506 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,507 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:28:56,507 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,508 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:28:56,509 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,512 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:28:56,513 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,514 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:28:56,514 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,515 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:28:56,516 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,517 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:28:56,517 - root - INFO - Making request to the mapper
+2019-11-08 17:28:56,534 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:30:31,307 - root - INFO - Cluster Initialized with id 1
+2019-11-08 17:30:31,314 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:31,314 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,316 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:31,316 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,317 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:31,323 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,324 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:31,325 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,326 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:31,327 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,328 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:31,329 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,330 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:31,330 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,332 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:31,335 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,337 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:31,337 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,339 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:31,339 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,340 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:31,341 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,342 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:31,342 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,348 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:31,348 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,349 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:31,350 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,351 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:31,352 - root - INFO - Making request to the mapper
+2019-11-08 17:30:31,377 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:30:34,535 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:30:34,535 - root - INFO - Started from main in main.py
+2019-11-08 17:30:34,535 - root - INFO - Starting Process for store
+2019-11-08 17:30:34,545 - root - INFO - Client channel established with the store
+2019-11-08 17:30:34,545 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:30:35,123 - root - INFO - Initializing  data store
+2019-11-08 17:30:35,127 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:30:36,009 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:30:36,015 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:36,016 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,024 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:37,024 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,026 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:37,027 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,029 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:37,030 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,032 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:37,035 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,038 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:37,038 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,039 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:37,039 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,041 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:37,041 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,042 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:37,043 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,047 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:37,047 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,049 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:30:37,049 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,050 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:30:37,050 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,051 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:30:37,052 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,053 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:30:37,053 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,054 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:30:37,055 - root - INFO - Making request to the mapper
+2019-11-08 17:30:37,077 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:44:32,278 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:44:32,278 - root - INFO - Started from main in main.py
+2019-11-08 17:44:32,279 - root - INFO - Starting Process for store
+2019-11-08 17:44:32,287 - root - INFO - Client channel established with the store
+2019-11-08 17:44:32,287 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:44:32,891 - root - INFO - Initializing  data store
+2019-11-08 17:44:32,904 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:44:33,977 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:44:33,985 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:44:33,985 - root - INFO - Making request to the mapper
+2019-11-08 17:44:34,998 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:44:35,000 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,006 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:44:35,006 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,012 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:44:35,013 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,018 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:44:35,018 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,024 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:44:35,025 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,027 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:44:35,028 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,030 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:44:35,031 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,036 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:44:35,037 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,039 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:44:35,040 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,042 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:44:35,043 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,049 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:44:35,050 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,052 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:44:35,052 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,054 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:44:35,055 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,060 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:44:35,060 - root - INFO - Making request to the mapper
+2019-11-08 17:44:35,651 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:45:56,709 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:45:56,710 - root - INFO - Started from main in main.py
+2019-11-08 17:45:56,710 - root - INFO - Starting Process for store
+2019-11-08 17:45:56,720 - root - INFO - Client channel established with the store
+2019-11-08 17:45:56,721 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:45:57,324 - root - INFO - Initializing  data store
+2019-11-08 17:45:57,337 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:45:58,223 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:45:58,230 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:45:58,231 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,236 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:45:59,237 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,239 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:45:59,239 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,241 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:45:59,241 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,243 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:45:59,243 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,247 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:45:59,248 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,249 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:45:59,249 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,250 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:45:59,250 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,252 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:45:59,252 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,253 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:45:59,253 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,255 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:45:59,255 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,259 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:45:59,259 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,260 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:45:59,261 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,262 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:45:59,262 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,263 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:45:59,263 - root - INFO - Making request to the mapper
+2019-11-08 17:45:59,276 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:46:30,228 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:46:30,228 - root - INFO - Started from main in main.py
+2019-11-08 17:46:30,228 - root - INFO - Starting Process for store
+2019-11-08 17:46:30,237 - root - INFO - Client channel established with the store
+2019-11-08 17:46:30,237 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:46:30,841 - root - INFO - Initializing  data store
+2019-11-08 17:46:30,854 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:46:31,755 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:46:31,762 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:46:31,762 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,773 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:46:32,774 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,786 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:46:32,787 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,798 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:46:32,799 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,807 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:46:32,812 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,819 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:46:32,820 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,824 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:46:32,825 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,827 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:46:32,827 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,829 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:46:32,830 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,832 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:46:32,832 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,838 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:46:32,838 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,840 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:46:32,841 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,843 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:46:32,843 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,848 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:46:32,849 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,851 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:46:32,852 - root - INFO - Making request to the mapper
+2019-11-08 17:46:32,874 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:47:55,642 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:47:55,642 - root - INFO - Started from main in main.py
+2019-11-08 17:47:55,642 - root - INFO - Starting Process for store
+2019-11-08 17:47:55,653 - root - INFO - Client channel established with the store
+2019-11-08 17:47:55,653 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:47:56,262 - root - INFO - Initializing  data store
+2019-11-08 17:47:56,268 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:47:58,072 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:47:58,080 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:47:58,080 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,085 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:47:59,086 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,088 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:47:59,088 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,090 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:47:59,091 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,093 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:47:59,094 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,097 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:47:59,097 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,098 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:47:59,099 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,100 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:47:59,100 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,101 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:47:59,101 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,103 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:47:59,103 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,104 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:47:59,107 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,108 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:47:59,109 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,110 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:47:59,110 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,111 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:47:59,111 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,112 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:47:59,112 - root - INFO - Making request to the mapper
+2019-11-08 17:47:59,130 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:50:00,645 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:50:00,645 - root - INFO - Started from main in main.py
+2019-11-08 17:50:00,646 - root - INFO - Starting Process for store
+2019-11-08 17:50:00,655 - root - INFO - Client channel established with the store
+2019-11-08 17:50:00,655 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:50:01,255 - root - INFO - Initializing  data store
+2019-11-08 17:50:01,267 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:50:01,967 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:50:01,975 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:50:01,975 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,981 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:50:02,981 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,983 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:50:02,984 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,986 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:50:02,986 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,988 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:50:02,989 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,993 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:50:02,994 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,995 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:50:02,995 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,996 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:50:02,996 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,997 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:50:02,998 - root - INFO - Making request to the mapper
+2019-11-08 17:50:02,998 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:50:02,999 - root - INFO - Making request to the mapper
+2019-11-08 17:50:03,000 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:50:03,000 - root - INFO - Making request to the mapper
+2019-11-08 17:50:03,019 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:51:11,634 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:51:11,634 - root - INFO - Started from main in main.py
+2019-11-08 17:51:11,634 - root - INFO - Starting Process for store
+2019-11-08 17:51:11,644 - root - INFO - Client channel established with the store
+2019-11-08 17:51:11,645 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:51:12,242 - root - INFO - Initializing  data store
+2019-11-08 17:51:12,256 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:51:13,374 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:51:13,379 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:51:13,380 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,391 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:51:14,393 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,405 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:51:14,406 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,417 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:51:14,418 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,429 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:51:14,430 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,441 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:51:14,443 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,447 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:51:14,448 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,457 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:51:14,458 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,462 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:51:14,468 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,471 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:51:14,472 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,474 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:51:14,475 - root - INFO - Making request to the mapper
+2019-11-08 17:51:14,498 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:51:30,353 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:51:30,353 - root - INFO - Started from main in main.py
+2019-11-08 17:51:30,353 - root - INFO - Starting Process for store
+2019-11-08 17:51:30,362 - root - INFO - Client channel established with the store
+2019-11-08 17:51:30,363 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:51:31,021 - root - INFO - Initializing  data store
+2019-11-08 17:51:31,035 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:51:31,990 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:51:31,994 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:51:31,995 - root - INFO - Making request to the mapper
+2019-11-08 17:51:33,004 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:51:33,005 - root - INFO - Making request to the mapper
+2019-11-08 17:51:33,014 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:51:33,014 - root - INFO - Making request to the mapper
+2019-11-08 17:51:33,017 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:51:33,018 - root - INFO - Making request to the mapper
+2019-11-08 17:51:33,020 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:51:33,021 - root - INFO - Making request to the mapper
+2019-11-08 17:51:33,027 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:53:08,458 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:53:08,458 - root - INFO - Started from main in main.py
+2019-11-08 17:53:08,458 - root - INFO - Starting Process for store
+2019-11-08 17:53:08,469 - root - INFO - Client channel established with the store
+2019-11-08 17:53:08,470 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:53:09,071 - root - INFO - Initializing  data store
+2019-11-08 17:53:09,085 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:53:10,298 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:53:10,300 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:53:10,300 - root - INFO - Making request to the mapper
+2019-11-08 17:53:11,311 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:53:11,313 - root - INFO - Making request to the mapper
+2019-11-08 17:53:11,324 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:53:11,326 - root - INFO - Making request to the mapper
+2019-11-08 17:53:11,337 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:53:11,339 - root - INFO - Making request to the mapper
+2019-11-08 17:53:11,351 - root - INFO - Sending mapper task to node 0
+2019-11-08 17:53:11,352 - root - INFO - Making request to the mapper
+2019-11-08 17:53:11,358 - root - INFO - =====================FINAL RESULT OF MAP REDUCE========================
+2019-11-08 17:53:11,359 - root - INFO - result {
+  key: "this"
+  value: "13"
+}
+
+2019-11-08 17:53:11,359 - root - INFO - =======================================================================
+2019-11-08 17:53:11,359 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:54:26,722 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:54:26,722 - root - INFO - Started from main in main.py
+2019-11-08 17:54:26,722 - root - INFO - Starting Process for store
+2019-11-08 17:54:26,733 - root - INFO - Client channel established with the store
+2019-11-08 17:54:26,733 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:54:27,330 - root - INFO - Initializing  data store
+2019-11-08 17:54:27,336 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:54:28,495 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:54:28,497 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:54:28,498 - root - INFO - Making request to the mapper
+2019-11-08 17:54:29,507 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:54:29,508 - root - INFO - Making request to the mapper
+2019-11-08 17:54:29,519 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:54:29,521 - root - INFO - Making request to the mapper
+2019-11-08 17:54:29,533 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:54:29,534 - root - INFO - Making request to the mapper
+2019-11-08 17:54:29,569 - root - INFO - =====================FINAL RESULT OF MAP REDUCE========================
+2019-11-08 17:54:29,571 - root - INFO - result {
+  key: "hot"
+  value: "1"
+}
+result {
+  key: "is"
+  value: "1"
+}
+result {
+  key: "with"
+  value: "1"
+}
+result {
+  key: "oh"
+  value: "1"
+}
+result {
+  key: "reduce"
+  value: "1"
+}
+result {
+  key: "if"
+  value: "2"
+}
+result {
+  key: "this"
+  value: "2"
+}
+result {
+  key: "checking"
+  value: "1"
+}
+result {
+  key: "owrks"
+  value: "1"
+}
+result {
+  key: "map"
+  value: "1"
+}
+result {
+  key: "done"
+  value: "1"
+}
+result {
+  key: "sipping"
+  value: "1"
+}
+result {
+  key: "cool"
+  value: "1"
+}
+result {
+  key: "love"
+  value: "1"
+}
+result {
+  key: "god"
+  value: "1"
+}
+result {
+  key: "had"
+  value: "1"
+}
+result {
+  key: "bad"
+  value: "1"
+}
+result {
+  key: "good"
+  value: "1"
+}
+result {
+  key: "my"
+  value: "1"
+}
+result {
+  key: "works"
+  value: "1"
+}
+
+2019-11-08 17:54:29,572 - root - INFO - =======================================================================
+2019-11-08 17:54:29,572 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:55:03,586 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:55:03,586 - root - INFO - Started from main in main.py
+2019-11-08 17:55:03,586 - root - INFO - Starting Process for store
+2019-11-08 17:55:03,596 - root - INFO - Client channel established with the store
+2019-11-08 17:55:03,596 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:55:04,195 - root - INFO - Initializing  data store
+2019-11-08 17:55:04,200 - root - INFO - Starting Data Store. Listening on port 50151.
+2019-11-08 17:55:05,180 - root - INFO - Cluster Initialized with id 0
+2019-11-08 17:55:05,182 - root - INFO - Sending mapper task to node 1
+2019-11-08 17:55:05,182 - root - INFO - Making request to the mapper
+2019-11-08 17:55:06,192 - root - INFO - Sending mapper task to node 2
+2019-11-08 17:55:06,193 - root - INFO - Making request to the mapper
+2019-11-08 17:55:06,204 - root - INFO - Sending mapper task to node 3
+2019-11-08 17:55:06,205 - root - INFO - Making request to the mapper
+2019-11-08 17:55:06,217 - root - INFO - Sending mapper task to node 4
+2019-11-08 17:55:06,218 - root - INFO - Making request to the mapper
+2019-11-08 17:55:06,302 - root - INFO - =====================FINAL RESULT OF MAP REDUCE========================
+2019-11-08 17:55:06,305 - root - INFO - result {
+  key: "reduce"
+  value: "1"
+}
+result {
+  key: "oh"
+  value: "1"
+}
+result {
+  key: "done"
+  value: "1"
+}
+result {
+  key: "bad"
+  value: "7"
+}
+result {
+  key: "love"
+  value: "1"
+}
+result {
+  key: "checking"
+  value: "1"
+}
+result {
+  key: "works"
+  value: "1"
+}
+result {
+  key: "map"
+  value: "1"
+}
+result {
+  key: "owrks"
+  value: "1"
+}
+result {
+  key: "is"
+  value: "1"
+}
+result {
+  key: "my"
+  value: "1"
+}
+result {
+  key: "had"
+  value: "1"
+}
+result {
+  key: "this"
+  value: "2"
+}
+result {
+  key: "hot"
+  value: "1"
+}
+result {
+  key: "cool"
+  value: "1"
+}
+result {
+  key: "with"
+  value: "1"
+}
+result {
+  key: "if"
+  value: "2"
+}
+result {
+  key: "sipping"
+  value: "1"
+}
+result {
+  key: "good"
+  value: "1"
+}
+result {
+  key: "god"
+  value: "1"
+}
+
+2019-11-08 17:55:06,305 - root - INFO - =======================================================================
+2019-11-08 17:55:06,305 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:58:01,079 - root - INFO - =====================================BEGIN MAP REDUCE =========================================
+2019-11-08 17:58:01,080 - root - INFO - Started from main in main.py
+2019-11-08 17:58:01,080 - root - INFO - Starting Process for store
+2019-11-08 17:58:01,090 - root - INFO - Client channel established with the store
+2019-11-08 17:58:01,091 - root - INFO - Nodes in cluster [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054), ('127.0.0.1', 50055)]
+2019-11-08 17:58:01,716 - root - INFO - Initializing  data store
+2019-11-08 17:58:01,721 - root - INFO - Starting Data Store. Listening on port 50151.

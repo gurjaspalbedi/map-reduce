@@ -28,8 +28,9 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
         response = worker_pb2.reducer_response()
         #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
         execCode2 = compile(request.reducer_function, "string", 'exec')
-        red_func = FunctionType(execCode2.co_consts[0], globals(), "foo")   
+        red_func = FunctionType(execCode2.co_consts[0], globals(), "foo") 
         result = red_func(list(request.result))
+        
         for value, key in result.items():
             response.result.add(key = str(value), value= str(key))
         return response
