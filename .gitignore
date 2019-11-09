@@ -1,3 +1,2 @@
 *.pyc
-rpc/worker_servers/tasks/
 *.tmp
