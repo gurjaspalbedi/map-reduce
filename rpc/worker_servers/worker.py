@@ -246,78 +246,83 @@ def print_running_cluster():
         if len(clusters[cluster]) != 0:
             log.write(f"Cluster ID:{cluster}", 'error')
 def main():
-    
-    global store_stub
-    
-    log.write('Starting Process for store', 'info')
-    store_process = Process(target = init_store, args=(0,))
-    store_process.start()
-    command_init = 'init_cluster('
-    command_destory = 'destory_cluster('
-    command_run = 'run_mapred('
-    store_stub = connect_store_client()
-    while True:
-        print_running_cluster()
-        log.write(f'Following Operations can be performed. Type given number or command', 'debug')
-        log.write(f'1. Init Default Cluster having nodes {repr(worker_list[0])}', 'debug')
-        log.write(f'2. Run Map Reduce WORD COUNT: this is same as executing run_mapred(0,0)', 'debug')
-        log.write(f'3. Run Map Reduce INVERTED INDEX: this is same as executing run_mapred(0,1)', 'debug')
-        log.write(f'4. Destroy Default Cluster', 'debug')
-        log.write(f'OR type any of the command <init_cluster(cluster_id)>, <run_mapred(cluster_id, task_id)>, <destory_cluter(cluster_id)>', 'debug')
-        log.write('============================CONFIGURATION INFO============================')
-        log.write('Master configuration file path: worker_server/configuration.py')
-        log.write('Data Store configuration file path: data_store/configuration.py ')
-        log.write(f'Location of MAP function:')
-        log.write(f'Inverted Index: {inverted_index_map}')
-        log.write(f'Word Cound: {word_count_map}')
-        log.write(f'\n\n')
-        log.write(f'Location of REDUCER function:')
-        log.write(f'Inverted Index: {inverted_index_reducer}')
-        log.write(f'Word Cound: {word_count_reducer}')
-        command = input()
-        if command == '1':
-            init_cluster(0)
-        elif command == '2':
-            run_map_red(0, TASK_WORD_COUNT)
-        elif command == '3':
-            run_map_red(0, TASK_INVERTED_INDEX)
-        elif command == '4':
-            destroy_cluster(0)
-        elif command.startswith(command_init):
-            command = command.replace(command_init,'')
-            cluster_id = ast.literal_eval(command[:-1])
+    try:
+        global store_stub
+        
+        log.write('Starting Process for store', 'info')
+        store_process = Process(target = init_store, args=(0,))
+        store_process.start()
+        command_init = 'init_cluster('
+        command_destory = 'destory_cluster('
+        command_run = 'run_mapred('
+        store_stub = connect_store_client()
+        while True:
+            print_running_cluster()
+            log.write(f'Following Operations can be performed. Type given number or command', 'debug')
+            log.write(f'1. Init Default Cluster having nodes {repr(worker_list[0])}', 'debug')
+            log.write(f'2. Run Map Reduce WORD COUNT: this is same as executing run_mapred(0,0)', 'debug')
+            log.write(f'3. Run Map Reduce INVERTED INDEX: this is same as executing run_mapred(0,1)', 'debug')
+            log.write(f'4. Destroy Default Cluster', 'debug')
+            log.write(f'OR type any of the command <init_cluster(cluster_id)>, <run_mapred(cluster_id, task_id)>, <destory_cluter(cluster_id)>', 'debug')
+            log.write('============================CONFIGURATION INFO============================')
+            log.write('Master configuration file path: worker_server/configuration.py')
+            log.write('Data Store configuration file path: data_store/configuration.py ')
+            log.write(f'Location of MAP function:')
+            log.write(f'Inverted Index: {inverted_index_map}')
+            log.write(f'Word Cound: {word_count_map}')
+            log.write(f'\n\n')
+            log.write(f'Location of REDUCER function:')
+            log.write(f'Inverted Index: {inverted_index_reducer}')
+            log.write(f'Word Cound: {word_count_reducer}')
+            command = input()
+            if command == '1':
+                init_cluster(0)
+            elif command == '2':
+                run_map_red(0, TASK_WORD_COUNT)
+            elif command == '3':
+                run_map_red(0, TASK_INVERTED_INDEX)
+            elif command == '4':
+                destroy_cluster(0)
+            elif command.startswith(command_init):
+                command = command.replace(command_init,'')
+                cluster_id = ast.literal_eval(command[:-1])
+                
+                try:
+                    init_cluster(cluster_id)
+                except:
+                    log.write('Unable to initialize cluster', 'error')
+                    log.write('Correct example input:')
+                    log.write('init_cluster([("127.0.0.1", 50053), ("127.0.0.1", 50054 )])', 'debug')
             
-            try:
-                init_cluster(cluster_id)
-            except:
-                log.write('Unable to initialize cluster', 'error')
-                log.write('Correct example input:')
-                log.write('init_cluster([("127.0.0.1", 50053), ("127.0.0.1", 50054 )])', 'debug')
+            elif command.startswith(command_destory):
+                command = command.replace(command_destory, '')
+                cluster_id = command[:-1]
+                try:
+                    destroy_cluster(int(cluster_id))
+                except:
+                    log.write('Unable to destory cluster', 'error')
+                    log.write('Correct example for destory:')
+                    log.write('destory_cluster(0)')
+            
+            elif  command.startswith(command_run):
+    
+                command = command.replace(command_run, '')
+                cluster_id, task_id = command[:-1].split(",")
+                task = TASK_WORD_COUNT if task_id == '0' else TASK_INVERTED_INDEX
+                try:
+                    run_map_red(int(cluster_id), task)
+                except:
+                    log.write('Unable to run map reduce', 'error')
+                    log.write('Correct example for run map reduce:', 'error')
+                    log.write('run_mapred(0, 0) <first_argument: cluster_id> <second_argument: task_id>', 'error')
+                    log.write('task should be 0 for WORD_COUNT  and 1 for Inverted Index', 'error')
+            else:
+                log.write("Command didn't match anything", 'critical')
+    except KeyboardInterrupt:
+        for key in clusters:
+            destroy_cluster(key)
         
-        elif command.startswith(command_destory):
-            command = command.replace(command_destory, '')
-            cluster_id = command[:-1]
-            try:
-                destroy_cluster(int(cluster_id))
-            except:
-                log.write('Unable to destory cluster', 'error')
-                log.write('Correct example for destory:')
-                log.write('destory_cluster(0)')
         
-        elif  command.startswith(command_run):
-
-            command = command.replace(command_run, '')
-            cluster_id, task_id = command[:-1].split(",")
-            task = TASK_WORD_COUNT if task_id == '0' else TASK_INVERTED_INDEX
-            try:
-                run_map_red(int(cluster_id), task)
-            except:
-                log.write('Unable to run map reduce', 'error')
-                log.write('Correct example for run map reduce:', 'error')
-                log.write('run_mapred(0, 0) <first_argument: cluster_id> <second_argument: task_id>', 'error')
-                log.write('task should be 0 for WORD_COUNT  and 1 for Inverted Index', 'error')
-        else:
-            log.write("Command didn't match anything", 'critical')
                 
             
 
