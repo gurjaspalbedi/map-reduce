@@ -36,7 +36,6 @@ def command_to_store(value, stage):
     log.write('Making RPC call to store')
     global stub
     request = store_pb2.Request()
-    print(value, stage)
     request.operation = value
     request.stage = stage 
     response = stub.operation(request)
