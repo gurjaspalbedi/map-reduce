@@ -25,11 +25,12 @@ clusters = collections.defaultdict(list)
 processes = collections.defaultdict(list)
 stubs = collections.defaultdict(list)
 store_stub = None
+servers = []
 
 
 def serve(port, cluster_id):
     
-    global clusters
+    global clusters, servers
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=1))
     worker_pb2_grpc.add_WorkerServicer_to_server(WokerServicer(), server)
 
@@ -43,7 +44,7 @@ def serve(port, cluster_id):
         log.write(f"Failed to start server at port: {port}", 'error')
         log.write(f"Make sure it is not already running, use destroy command to destory the cluster", 'critical')
 
-    
+    servers.append(server)
     try:
         while True:
             time.sleep(86400)
@@ -247,7 +248,7 @@ def print_running_cluster():
             log.write(f"Cluster ID:{cluster}", 'error')
 def main():
     try:
-        global store_stub
+        global store_stub, servers
         
         log.write('Starting Process for store', 'info')
         store_process = Process(target = init_store, args=(0,))
@@ -319,8 +320,13 @@ def main():
             else:
                 log.write("Command didn't match anything", 'critical')
     except KeyboardInterrupt:
-        for key in clusters:
+        keys = list(clusters.keys())
+        print(keys)
+        for key in keys:
             destroy_cluster(key)
+        
+        for server in servers:
+            server.stop(0)
         
         
                 
