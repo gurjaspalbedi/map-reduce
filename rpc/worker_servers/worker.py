@@ -12,7 +12,7 @@ from worker_servers.client import run
 from worker_servers.worker_servicer import WokerServicer 
 from worker_servers.configuration import worker_list, inverted_index_path, word_count_path,\
 word_count_map, word_count_reducer, inverted_index_map, inverted_index_reducer, mapper_tasks_path, \
-reducer_task_path, configuration_path, output_path
+reducer_task_path, configuration_path
 import os
 import pickle
 from data_store.server import init_data_store, connect_datastore, command_to_store
