@@ -16,7 +16,7 @@ class logger:
             print(colored(message, 'green'))
             logging.debug(message)
         elif level == "info":
-            print(colored(message, 'blue'))
+            print(colored(message, 'white'))
             logging.info(message)
         elif level == "warning":
             print(colored(message, 'yellow'))

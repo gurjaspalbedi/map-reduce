@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 
-reducer_count = 2
-worker_list = [('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054),('127.0.0.1', 50055)]
+configuration_path = 'worker_servers/configuration.py'
+worker_list = [[('127.0.0.1', 50051), ('127.0.0.1', 50052), ('127.0.0.1', 50053), ('127.0.0.1', 50054),('127.0.0.1', 50055)], \
+                [('127.0.0.1', 50056), ('127.0.0.1', 50057), ('127.0.0.1', 50058), ('127.0.0.1', 50059),('127.0.0.1', 50060)]]
 word_count_path = 'worker_servers/dummy.txt'
 inverted_index_path = 'worker_servers/dummy'
 mapper_tasks_path = "worker_servers/tasks/mapper/"
 reducer_task_path = "worker_servers/tasks/reducer/"
+output_path = "worker_servers/output"
 
 
 

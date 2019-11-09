@@ -9,7 +9,6 @@ class WokerServicer(worker_pb2_grpc.WorkerServicer):
         
         #https://philip-trauner.me/blog/post/python-tips-dynamic-function-definition
         execCode = compile(request.map_function, "<string>", 'exec')
-        print(execCode.co_consts[0])
         map_func = FunctionType(execCode.co_consts[0], globals(), "foo")
         result = map_func(request.file_name, request.lines)
         response = worker_pb2.mapper_response()

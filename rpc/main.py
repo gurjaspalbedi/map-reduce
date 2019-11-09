@@ -9,6 +9,6 @@ os.system('color')
 
 if __name__ == '__main__':
     log.write("=====================================BEGIN MAP REDUCE =========================================")
-    log.write('Started from main in main.py')
+    log.write('Started from main in main.py', 'info')
     main()
 
