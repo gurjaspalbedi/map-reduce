@@ -1,3 +1,4 @@
 *.pyc
 *.tmp
 rpc/api/key/
+rpc/.mypy_cache/
