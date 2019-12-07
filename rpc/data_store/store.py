@@ -2,8 +2,9 @@
 
 from data_store import rpc_constants
 from data_store.database import Database
-from map_reduce_logging.logger import log
+from data_store.dependency_manager import Dependencies
 
+log = Dependencies.log()
 db = Database()
 
 def store_data(key, value, stage):

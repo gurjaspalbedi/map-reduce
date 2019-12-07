@@ -13,10 +13,10 @@ from .store_packages import store_pb2
 from .store_packages import store_pb2_grpc
 from data_store import store
 from data_store.configuration import data_store_address
-from map_reduce_logging.logger import log
+from data_store.dependency_manager import Dependencies
 stub = None
 
-
+log = Dependencies.log()
 class KeyValueService(store_pb2_grpc.GetSetServicer):
 
     def operation(self, request, context):

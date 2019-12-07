@@ -3,12 +3,12 @@
 
 import os
 from worker_servers.worker import main
-from map_reduce_logging.logger import log
+from dependency_manager import Dependencies
 os.system('color')
 
+log = Dependencies.log()
 
 if __name__ == '__main__':
-    log.write("=====================================BEGIN MAP REDUCE =========================================")
+    log.write("===================================== BEGIN MAP REDUCE =========================================")
     log.write('Started from main in main.py', 'info')
     main()
-

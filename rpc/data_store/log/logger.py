@@ -5,10 +5,10 @@
 import logging
 from termcolor import colored
 
-class logger:
+class DataStoreLogger:
     
     def __init__(self):
-        logging.basicConfig(level=logging.INFO,filename='./map_reduce_logging/map_reduce.log', filemode='a', format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+        logging.basicConfig(level=logging.INFO,filename='data_store.log', filemode='a', format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
         
     def write(self, message, level="warning"):
         
@@ -27,9 +27,6 @@ class logger:
         elif level == "critical":
             print(colored(message, 'red'))
             logging.critical(message)
-            
-
-log = logger()
         
         
         
